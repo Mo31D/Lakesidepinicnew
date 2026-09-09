@@ -1,0 +1,47 @@
+name: Refresh website package manifest
+
+on:
+  push:
+    paths:
+      - '.github/workflows/refresh-package-manifest.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recalculate package hashes and verify completeness
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          root = pathlib.Path('.')
+          manifest_path = root / 'PACKAGE-CONTENTS.json'
+          manifest = json.loads(manifest_path.read_text())
+          missing = []
+          for item in manifest['files']:
+              p = root / item['path']
+              if not p.is_file():
+                  missing.append(item['path'])
+                  continue
+              item['sha256'] = hashlib.sha256(p.read_bytes()).hexdigest()
+          if missing:
+              print('Missing:', *missing, sep='\n')
+              raise SystemExit(2)
+          manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')
+          print(f"Verified {len(manifest['files'])} package files")
+          PY
+      - name: Commit refreshed manifest
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add PACKAGE-CONTENTS.json
+          if git diff --cached --quiet; then
+            echo 'Manifest already current.'
+          else
+            git commit -m 'Refresh package hashes after logo fix'
+            git push
+          fi
