@@ -1,0 +1,78 @@
+name: Fix exact header logo
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-header-logo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Rebuild verified header logo
+        run: |
+          cat .github/logo-fix/part-1.txt .github/logo-fix/part-2.txt .github/logo-fix/part-3.txt .github/logo-fix/part-4.txt | base64 --decode > brand/identity-board.jpeg
+          python - <<'PY'
+          import hashlib, pathlib, subprocess
+          p = pathlib.Path('brand/identity-board.jpeg')
+          expected_size = 10349
+          expected_sha256 = 'f770a194cddc0103810e29e7e7fac035afeb021d2e2a85d1a0081f99da56e7c1'
+          expected_git = 'a9c422c3ae55a3530d4f29b4fa5200bb755cef3b'
+          assert p.stat().st_size == expected_size, (p.stat().st_size, expected_size)
+          assert hashlib.sha256(p.read_bytes()).hexdigest() == expected_sha256
+          assert subprocess.check_output(['git','hash-object',str(p)], text=True).strip() == expected_git
+          print('HEADER_LOGO_BINARY=VERIFIED')
+          PY
+
+      - name: Make header use the exact rendered logo
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('site.css')
+          css=p.read_text()
+          marker='/* LP_HEADER_LOGO_EXACT_V1 */'
+          rule='''\n/* LP_HEADER_LOGO_EXACT_V1 */\n.wordmark .board-logo>img,.site-header .wordmark .board-logo>img{content:url("brand/identity-board.jpeg?v=2")!important;position:static!important;inset:auto!important;top:auto!important;left:auto!important;transform:none!important;width:100%!important;height:100%!important;max-width:100%!important;object-fit:contain!important;display:block!important}\n'''
+          if marker not in css:
+              p.write_text(css+rule)
+          PY
+
+      - name: Refresh package manifest and verify every packaged file exists
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          root=pathlib.Path('.')
+          mp=root/'PACKAGE-CONTENTS.json'
+          manifest=json.loads(mp.read_text())
+          missing=[]
+          for item in manifest['files']:
+              p=root/item['path']
+              if not p.is_file():
+                  missing.append(item['path'])
+              else:
+                  item['sha256']=hashlib.sha256(p.read_bytes()).hexdigest()
+          if missing:
+              raise SystemExit('Missing files: '+', '.join(missing))
+          manifest['headerLogoFix']='verified-direct-render-v1'
+          mp.write_text(json.dumps(manifest,indent=2)+'\n')
+          print('PACKAGE_FILES_VERIFIED='+str(len(manifest['files'])))
+          PY
+
+      - name: Commit verified logo fix
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add brand/identity-board.jpeg site.css PACKAGE-CONTENTS.json
+          if git diff --cached --quiet; then
+            echo 'Already fixed.'
+          else
+            git commit -m 'Fix header logo to match local website'
+            git push
+          fi
