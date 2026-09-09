@@ -473,7 +473,7 @@
     },
     {
       "path": "brand/identity-board.jpeg",
-      "sha256": "80a600736a1c408d9dabac43a26bffbd2ff9e46b23826ed74e59b248be9577bb"
+      "sha256": "f770a194cddc0103810e29e7e7fac035afeb021d2e2a85d1a0081f99da56e7c1"
     },
     {
       "path": "brand/single-scoop.png",
@@ -581,103 +581,103 @@
     },
     {
       "path": "images/After-flood.jpeg",
-      "sha256": "8659d11b2c981262f447bc5c82c31eb21bc91df4acda1a8a0547e7771619a06c"
+      "sha256": "6ff5a2e8e7efe2fce08f7d3aebbf0a1dd40bc422e4d63cdd4edfb44e0c7afe3f"
     },
     {
       "path": "images/Cadb.png",
-      "sha256": "f03fa5e51533adb85b3dc26d26a61385145e8b2cdc120ba1fbf09f7fbd95c690"
+      "sha256": "849bc2370ebee360f8c902917d4b6f1a5f7328d8a07acf7d36c19c4581646e4f"
     },
     {
       "path": "images/Flood-day.jpeg",
-      "sha256": "65154049b4f722c2eaf456b12d386c999fda80166e77c43adf41ad6b8a507277"
+      "sha256": "fb264532666579ff65f75ae7ae3a3a3855837b20246f9e410c5e4d7c1806e164"
     },
     {
       "path": "images/Flood-next-day.jpeg",
-      "sha256": "b71a5806e35aed9cad0c5b287205659608734b12718ecc53e413db582e84ec57"
+      "sha256": "c2e046432a4d08634140f59a5a72e0e13a80a8f0254029a12fd56a3a914cdc37"
     },
     {
       "path": "images/Flood-night.jpeg",
-      "sha256": "14a37f9697931b4af3147689270b40ac1f83e0f8fab0b3e82f318944a25d4712"
+      "sha256": "972f8a4a9025054aa1044487787dcf2b503ab1883a70c03dd29848920e18960a"
     },
     {
       "path": "images/Maps.png",
-      "sha256": "5d8c48b9541aaa8a449ca43e426e4cbdf92a94d54c2d8fcd3fdf951dccbbe8c5"
+      "sha256": "3270f17973b79ce426b9f687357c642b9ebf3afd415cbbf19d3d3f518188c200"
     },
     {
       "path": "images/Pr.png",
-      "sha256": "e8bb6b447b452c1fde563660cdbd83bdcfa58f851d03d706a0bae3a50d816e39"
+      "sha256": "c981b125f13d7e5248ce66a454a7fc0b94c7dc5fa3dbb26c670645f346ca1940"
     },
     {
       "path": "images/Souvenir.png",
-      "sha256": "adb0d3927e73f3dee4c6ef148bc881efeb2f9daa2e66909f601fcd1e72103b21"
+      "sha256": "05ccfddd34cf77ffa5c9e56dd0b733097a890b5521bb2c1d13df5a2a26f7b979"
     },
     {
       "path": "images/Start1.jpeg",
-      "sha256": "1340f7d71db6bdcb979cf203404b874dbd0dbeb96bb5c1b81ccc909b868971d2"
+      "sha256": "9ac4aa91fe2e5cf2be51281df352b5c2f3206ec2219ea11ed8cc9fbf69f85c30"
     },
     {
       "path": "images/Start2.jpeg",
-      "sha256": "de5de22a374ff5aee98372132c4c121f7a875d948a6a464614fcff594dafdf1c"
+      "sha256": "bca30a3cbf8516d93ce8ccaeea56f0b4899da4e597d16f10a0a7c58866a51fb5"
     },
     {
       "path": "images/Start3.jpeg",
-      "sha256": "ed61f927e0c78134a66e3e120aed7d15cb302704225d8fbcb2ee3f433eaafee7"
+      "sha256": "310c3d3ea3cfe99dbf3a8362078c2c0aafa85155b06a06797210cf17e8c47018"
     },
     {
       "path": "images/Today.jpeg",
-      "sha256": "ec62eebc2738521bdcd0a00c107c239a37f082587091eac2e72e5b38da29c82e"
+      "sha256": "9cbf71e908e9ac375556a2a6140aae4a2933f5011dd169b76d0ff650d8ee58d6"
     },
     {
       "path": "images/about-img.png",
-      "sha256": "4a0c76158a5f5b47258c5196ba69d2c06961eb3c5aad726fbe03ee1513db1e5c"
+      "sha256": "789464dd66163b374433479e33b586b3f95403e2cdfcaaa2a74726916fa3373a"
     },
     {
       "path": "images/awards.png",
-      "sha256": "3cb37909f2b6024366b4878be66dfeef30a502fa071dff534e6772a838ec243d"
+      "sha256": "97baf039d06583658f1a494aa4cf8b01e9ac316e312e1a7322b58ba60d53e106"
     },
     {
       "path": "images/banner-bg.png",
-      "sha256": "7692f830dd34148aa159e5ccb3d671f0d585783a0f844923b6a5f34de711f58c"
+      "sha256": "e9f98288d8687972b63ff2ca7eaebfd155798233967b8ecd9ab8453be6b0b5fa"
     },
     {
       "path": "images/banner-img-coffee.png",
-      "sha256": "0ab8a738053d8deb3844788a58c661302fb6d0ebeecb445de3ddcb0b8fee7b1c"
+      "sha256": "1e69d37b193138e3ae02aa6cf2eaee5ef2921b0018b6ef018dd8c60d06af20e0"
     },
     {
       "path": "images/banner-img-romneys.png",
-      "sha256": "feaea3df46b05a6354d4ea7a8c91a708dac03530b98d296f42ec07efa6034286"
+      "sha256": "b99d2ce8c89155263b6f1e842f4893957e7fafde348b38a6d062c10163ec1119"
     },
     {
       "path": "images/banner-img.png",
-      "sha256": "b13060ccd04160e71f0a1e01402124708c14b6655ad02e941b7caf289d1d12af"
+      "sha256": "9c484732077b5ce2f35666f8265efd5a5e9f07b15f8957c1914a10faac0c67db"
     },
     {
       "path": "images/cocacola.png",
-      "sha256": "ef9b8a2885c57374c40a758f17e9e3e4cc7492f67c91d01c1034bc7a3befe9a7"
+      "sha256": "6a855268c27a0dd44fd9cc9d7a40e7a4a2629c72240902dced426e39deee5123"
     },
     {
       "path": "images/cola.png",
-      "sha256": "d373d976ac3a05be2ba646a6638edb0f3914d741edac92a236a2ff50aab8507c"
+      "sha256": "cb344f1c4f44189b937338345e31e315631d1b201e864c0e7d2c7fb1dc5306ec"
     },
     {
       "path": "images/jersey.png",
-      "sha256": "00f9d0f13570f3c88bf78572e03ce85512dc88a1646ba888f792b9f158ca300b"
+      "sha256": "3f40c8f70a9e5dfb81df46b5b8633b738fae7798b2a336ce24c0c0c942482e13"
     },
     {
       "path": "images/lakes-icon.png",
-      "sha256": "f9bf6ac011a60d6537f0146fdbb9d9a5a3fabe47e4cd1478141b6c96f4cb85e7"
+      "sha256": "30e450fec1a44a288c451dbbc74064e822a76fa1212a915c6ad409f77d0c1ac5"
     },
     {
       "path": "images/quick-icon.png",
-      "sha256": "3a58cf3601c84b50c748cfa409a80895b1ebd0b950732931c2e86aa99ea4fdf3"
+      "sha256": "ab2a31eab50b6d1f16eb982660d63f704a08d088de413ead7b7f380bb08923a4"
     },
     {
       "path": "images/romneys.png",
-      "sha256": "b3c00b9ccc9f04c5bbf51571e3b7cbd977bc696b9a3874d245b50544fdc9872e"
+      "sha256": "fb5320fff2bb32f840a57393d747f3cc3d6e66100aa6be68c36be064a725b7f2"
     },
     {
       "path": "images/toys.png",
-      "sha256": "b209abcb9a13e937fe83aa6afc0973a753d447c79a093cb70974a74803661b93"
+      "sha256": "a8ce53b170aae7990eb169324ae96b24c50630e03ccab5c70a7aa3a13084fbf7"
     },
     {
       "path": "index.html",
@@ -1897,7 +1897,7 @@
     },
     {
       "path": "site.css",
-      "sha256": "2c98a7b7b80bd951d0fdbf669468a09c55d55e9c1390791a59725b86a4fd0384"
+      "sha256": "6e530cfe943417b356f42669f1491b92c23c7330d5f10a0514ec376cfaa1cbba"
     },
     {
       "path": "site.js",
@@ -2000,5 +2000,6 @@
       "sha256": "a1028b8b1139436a9eed109bbdbcd9eff5b86f628e2ddc1c460af43f393c6a20"
     }
   ],
-  "completedFromLegacyAssets": true
+  "completedFromLegacyAssets": true,
+  "headerLogoFix": "verified-direct-render-v1"
 }
