@@ -1,0 +1,22 @@
+name: Probe source availability
+
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/probe-source.yml']
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe current preview and legacy repo
+        run: |
+          set +e
+          echo 'PREVIEW_ROOT:'
+          curl -sS -L -o /tmp/root.html -w 'HTTP=%{http_code} SIZE=%{size_download}\n' 'https://lakeside-picnic-waterhead.elasrag.chatgpt.site/'
+          head -c 120 /tmp/root.html | tr '\n' ' '; echo
+          echo 'PREVIEW_PRODUCT:'
+          curl -sS -L -o /tmp/product.html -w 'HTTP=%{http_code} SIZE=%{size_download}\n' 'https://lakeside-picnic-waterhead.elasrag.chatgpt.site/products/coca-cola-cherry-500ml/'
+          head -c 120 /tmp/product.html | tr '\n' ' '; echo
+          echo 'LEGACY_RAW:'
+          curl -sS -L -o /tmp/legacy.png -w 'HTTP=%{http_code} SIZE=%{size_download}\n' 'https://raw.githubusercontent.com/Mo31D/Lakesidepicnic/main/images/After-flood.jpeg'
