@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /my-list.html
+Sitemap: https://www.lakesidepicnic.co.uk/sitemap.xml
