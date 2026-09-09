@@ -1,0 +1,71 @@
+name: Restore exact Lakeside brand assets
+
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-exact-brand.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Fetch verified original brand assets
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Mo31D/Lakeside-App-Prototype.git /tmp/lakeside-app
+          git -C /tmp/lakeside-app sparse-checkout set assets/brand
+          mkdir -p brand
+          cp /tmp/lakeside-app/assets/brand/identity-board.jpeg brand/identity-board.jpeg
+          cp /tmp/lakeside-app/assets/brand/single-scoop.png brand/single-scoop.png
+          cp /tmp/lakeside-app/assets/brand/single-tub.png brand/single-tub.png
+
+      - name: Verify exact source blobs and refresh package hashes
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib, subprocess
+
+          root = pathlib.Path('.')
+          expected_git = {
+              'brand/identity-board.jpeg': '58240f1478ecb929efd6412f9c7988b0035c5176',
+              'brand/single-scoop.png': 'b3ff5f74ba4cf8ba98571bb92c1893cc9e182492',
+              'brand/single-tub.png': '9d739e2d1de8a8e44b5e2007a0fcaf604958bc00',
+          }
+          for rel, expected in expected_git.items():
+              actual = subprocess.check_output(['git', 'hash-object', rel], text=True).strip()
+              print(f'{rel}: {actual}')
+              if actual != expected:
+                  raise SystemExit(f'Unexpected source blob for {rel}: {actual}')
+
+          manifest_path = root / 'PACKAGE-CONTENTS.json'
+          manifest = json.loads(manifest_path.read_text())
+          missing = []
+          for item in manifest['files']:
+              p = root / item['path']
+              if not p.is_file():
+                  missing.append(item['path'])
+                  continue
+              item['sha256'] = hashlib.sha256(p.read_bytes()).hexdigest()
+          if missing:
+              raise SystemExit('Missing manifest files: ' + ', '.join(missing))
+          manifest['brandAssetsRestoredFrom'] = 'Mo31D/Lakeside-App-Prototype@main'
+          manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')
+          PY
+
+      - name: Commit restored brand assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add brand PACKAGE-CONTENTS.json
+          if git diff --cached --quiet; then
+            echo 'Brand assets already exact.'
+          else
+            git commit -m 'Restore exact Lakeside Picnic brand assets'
+            git push
+          fi
