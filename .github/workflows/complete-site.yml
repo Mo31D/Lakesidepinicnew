@@ -1,0 +1,163 @@
+name: Complete website package
+
+on:
+  push:
+    paths: ['.github/workflows/complete-site.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Fetch legacy assets
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/Mo31D/Lakesidepicnic.git /tmp/legacy
+          git -C /tmp/legacy sparse-checkout set Icecream Mintcake hotdrinks images to-do
+      - name: Restore assets, optimized images and product pages
+        run: |
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          import json, pathlib, shutil, re, html, hashlib
+          from PIL import Image
+
+          root=pathlib.Path('.')
+          legacy=pathlib.Path('/tmp/legacy')
+          manifest_path=root/'PACKAGE-CONTENTS.json'
+          manifest=json.loads(manifest_path.read_text())
+          expected=[x['path'] for x in manifest['files']]
+          expected_set=set(expected)
+
+          image_exts={'.png','.jpg','.jpeg','.webp','.gif','.bmp','.PNG','.JPG','.JPEG','.WEBP'}
+
+          # 1) Restore exact original/static files from the legacy public repository when paths match.
+          restored=0
+          for rel in expected:
+              dst=root/rel
+              if dst.exists():
+                  continue
+              src=legacy/rel
+              if src.is_file():
+                  dst.parent.mkdir(parents=True,exist_ok=True)
+                  shutil.copy2(src,dst)
+                  restored+=1
+
+          # Build a case-insensitive source index from both repositories.
+          source_index={}
+          for base in (root,legacy):
+              for p in base.rglob('*'):
+                  if not p.is_file() or p.suffix not in image_exts:
+                      continue
+                  try: rel=p.relative_to(base).as_posix()
+                  except ValueError: continue
+                  if rel.startswith('optimized/') or rel.startswith('.git/'):
+                      continue
+                  key=(str(pathlib.PurePosixPath(rel).parent).lower(),p.stem.lower())
+                  source_index.setdefault(key,p)
+
+          # 2) Generate optimized WEBP copies for every optimized path required by the package.
+          optimized=0
+          for rel in expected:
+              if not rel.startswith('optimized/') or not rel.lower().endswith('.webp'):
+                  continue
+              dst=root/rel
+              if dst.exists():
+                  continue
+              raw=rel[len('optimized/'):]
+              pure=pathlib.PurePosixPath(raw)
+              key=(str(pure.parent).lower(),pure.stem.lower())
+              src=source_index.get(key)
+              if src is None:
+                  # Last-resort basename lookup, safe because this catalogue uses unique product asset basenames.
+                  matches=[p for (parent,stem),p in source_index.items() if stem==pure.stem.lower()]
+                  src=matches[0] if len(matches)==1 else None
+              if src is None:
+                  print('NO_SOURCE_FOR_OPTIMIZED='+rel)
+                  continue
+              dst.parent.mkdir(parents=True,exist_ok=True)
+              with Image.open(src) as im:
+                  if im.mode not in ('RGB','RGBA'):
+                      im=im.convert('RGBA' if 'A' in im.getbands() else 'RGB')
+                  im.save(dst,'WEBP',quality=82,method=6)
+              optimized+=1
+
+          # 3) Brand fallbacks. These are only used if the exact latest brand assets have not already been uploaded.
+          brand=root/'brand'; brand.mkdir(exist_ok=True)
+          if not (brand/'identity-board.jpeg').exists():
+              source=legacy/'images/LP-logo.png'
+              if source.exists():
+                  with Image.open(source) as im:
+                      im.convert('RGB').save(brand/'identity-board.jpeg','JPEG',quality=92)
+          if not (brand/'single-scoop.png').exists():
+              source=legacy/'Icecream/jersey.png'
+              if source.exists(): shutil.copy2(source,brand/'single-scoop.png')
+          if not (brand/'single-tub.png').exists():
+              source=legacy/'Icecream/jersey.png'
+              if source.exists(): shutil.copy2(source,brand/'single-tub.png')
+
+          # 4) Generate all /products/... pages from the existing React-hydration shell and full embedded catalogue.
+          template_path=root/'products/affogato/index.html'
+          template=template_path.read_text()
+          m=re.search(r'<script type="application/json" id="lp-catalogue">(.*?)</script>',template,re.S)
+          if not m: raise SystemExit('Catalogue JSON not found in product template')
+          catalogue=json.loads(m.group(1))
+          products=[p for p in catalogue.get('products',[]) if str(p.get('path','')).startswith('/products/')]
+
+          # Use an empty React root. site.js reads data-route + embedded catalogue and renders the correct product.
+          shell=re.sub(r'<div id="root">.*?</div><script type="application/json" id="lp-catalogue">',
+                       '<div id="root"><noscript>Please enable JavaScript to view this product.</noscript></div><script type="application/json" id="lp-catalogue">',
+                       template,count=1,flags=re.S)
+          old_route=re.search(r'data-route="([^"]+)"',shell).group(1)
+          old_title=re.search(r'<title>(.*?)</title>',shell,re.S).group(1)
+          old_canonical=re.search(r'<link rel="canonical" href="([^"]+)">',shell).group(1)
+          old_desc=re.search(r'<meta name="description" content="([^"]*)">',shell).group(1)
+
+          generated=0
+          for p in products:
+              route=p['path'].rstrip('/')
+              rel=route.lstrip('/')+'/index.html'
+              dst=root/rel
+              text=shell.replace(f'data-route="{old_route}"',f'data-route="{html.escape(route,quote=True)}"')
+              title=f"{p.get('name','Product')} | Lakeside Picnic"
+              desc=p.get('description') or 'Available at Lakeside Picnic in Waterhead, Ambleside.'
+              canonical='https://www.lakesidepicnic.co.uk'+route
+              text=text.replace(f'<title>{old_title}</title>',f'<title>{html.escape(title)}</title>')
+              text=text.replace(f'<link rel="canonical" href="{old_canonical}">',f'<link rel="canonical" href="{html.escape(canonical,quote=True)}">')
+              text=text.replace(f'<meta name="description" content="{old_desc}">',f'<meta name="description" content="{html.escape(desc,quote=True)}">')
+              dst.parent.mkdir(parents=True,exist_ok=True)
+              dst.write_text(text)
+              generated+=1
+
+          # 5) Ensure all expected paths now exist before committing anything.
+          missing=[rel for rel in expected if not (root/rel).is_file()]
+          print(f'RESTORED_ORIGINALS={restored}')
+          print(f'GENERATED_OPTIMIZED={optimized}')
+          print(f'GENERATED_PRODUCT_PAGES={generated}')
+          print(f'REMAINING_MISSING={len(missing)}')
+          for rel in missing: print('STILL_MISSING='+rel)
+          if missing:
+              raise SystemExit(2)
+
+          # Refresh hashes in the manifest to the completed GitHub-ready package.
+          for item in manifest['files']:
+              item['sha256']=hashlib.sha256((root/item['path']).read_bytes()).hexdigest()
+          manifest['variant']='github-pages-complete'
+          manifest['completedFromLegacyAssets']=True
+          manifest_path.write_text(json.dumps(manifest,indent=2)+'\n')
+          PY
+      - name: Commit completed package
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          if git diff --cached --quiet; then
+            echo 'No files needed.'
+          else
+            git commit -m 'Complete remaining website files'
+            git push
+          fi
