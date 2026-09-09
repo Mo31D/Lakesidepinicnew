@@ -1,0 +1,23 @@
+name: Probe client renderer
+
+on:
+  push:
+    paths: ['.github/workflows/probe-client.yml']
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect bundled client
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('site.js').read_text(errors='ignore')
+          print('SITE_JS_BYTES=',len(s))
+          for needle in ['hydrateRoot','createRoot','location.pathname','window.location','popstate','lp-catalogue','Storefront']:
+              i=s.find(needle)
+              print('NEEDLE',needle,'INDEX',i)
+              if i>=0: print(s[max(0,i-300):i+500])
+          PY
