@@ -1,0 +1,38 @@
+name: Verify website package
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare repository with package manifest
+        run: |
+          python - <<'PY'
+          import json, pathlib, hashlib
+          manifest=json.loads(pathlib.Path('PACKAGE-CONTENTS.json').read_text())
+          expected={x['path']:x['sha256'] for x in manifest['files']}
+          actual={p.as_posix() for p in pathlib.Path('.').rglob('*') if p.is_file() and '.git' not in p.parts and not p.as_posix().startswith('.github/')}
+          allowed_extra={'PACKAGE-CONTENTS.json','START-HERE.txt','README.md'}
+          missing=sorted(set(expected)-actual)
+          mismatched=[]
+          for path,sha in expected.items():
+              p=pathlib.Path(path)
+              if p.is_file() and hashlib.sha256(p.read_bytes()).hexdigest()!=sha:
+                  mismatched.append(path)
+          extras=sorted(actual-set(expected)-allowed_extra)
+          print(f'EXPECTED={len(expected)}')
+          print(f'ACTUAL={len(actual)}')
+          print(f'MISSING={len(missing)}')
+          for x in missing: print('MISSING_FILE='+x)
+          print(f'MISMATCHED={len(mismatched)}')
+          for x in mismatched: print('MISMATCHED_FILE='+x)
+          print(f'EXTRAS={len(extras)}')
+          for x in extras: print('EXTRA_FILE='+x)
+          if missing or mismatched:
+              raise SystemExit(1)
+          PY
