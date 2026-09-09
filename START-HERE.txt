@@ -1,0 +1,20 @@
+Lakeside Picnic — النسخة المصححة للمشاهدة المحلية وGitHub Pages
+
+1. فك ضغط الملف بالكامل، مع الاحتفاظ بكل الفولدرات والصور.
+2. للمشاهدة المحلية افتح index.html في تطبيق يسمح بعرض HTML وتشغيل JavaScript.
+3. لـ GitHub Pages: ارفع محتويات هذا المجلد إلى جذر الريبو Lakesidepinicnew؛ يجب أن يكون index.html بجوار site.css وsite.js مباشرة، وليس داخل فولدر website إضافي.
+4. تأكد من تفعيل Pages على الفرع والمجلد الصحيحين. رفع الملفات وحده لا يفعّل النشر.
+
+تم تحويل روابط الصفحات والصور والتصميم إلى مسارات نسبية، وتضمين JavaScript في ملف عادي بدل module، مع الحفاظ على الشكل والمحتوى.
+تم فحص جميع روابط الملفات المحلية، ومطابقة الصور مع النسخة الأصلية.
+
+الواجهة العامة مناسبة لـ GitHub Pages؛ لوحة الإدارة تتطلب Backend وليست ضمن HTML الثابت.
+المعاينة داخل بعض تطبيقات iOS قد تمنع JavaScript أو حفظ القائمة بين الملفات. على GitHub Pages يستخدم الموقع مصدرًا واحدًا لحفظ القائمة بين الصفحات. لم يتم اختبار تطبيق العرض الموجود على جهازك مباشرة.
+
+ENGLISH
+Extract everything together. Open index.html using an HTML viewer with JavaScript enabled.
+For GitHub Pages, upload this folder's CONTENTS to the publication root: index.html,
+site.css, site.js and the image folders must be siblings. Enable Pages separately.
+All internal paths are relative, including nested product pages. Images are unchanged.
+Local file viewers may restrict JavaScript or localStorage across separate files.
+The admin backend requires separate hosting; this is the complete public storefront.

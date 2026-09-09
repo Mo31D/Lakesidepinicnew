@@ -1,0 +1,2003 @@
+{
+  "version": 4,
+  "variant": "portable-relative-paths",
+  "sourceCommit": "c1eff49e1c8b7770b94d8897acbdd05d61553fa9",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "404.html",
+      "sha256": "e3436ea7f9b20ff8ba33b1244201dcb5844df2e3a1885b3463db1653ed4c9ba1"
+    },
+    {
+      "path": "Icecream/2019-1star.png",
+      "sha256": "df5b0453fb4f3cd7f4cc19dbc1af875b666a86c9aab3fe7eee3e671c97703764"
+    },
+    {
+      "path": "Icecream/2019-2star.png",
+      "sha256": "f2dd31140a39a23fedd1faebf46a544512f26a69e46c296b38b8db8349abf3aa"
+    },
+    {
+      "path": "Icecream/2021-1star.png",
+      "sha256": "6b397c921ab020d0420ee3436dc1bd8cad3255d4f6c2967c20d338bd92fb6078"
+    },
+    {
+      "path": "Icecream/2023-1star.png",
+      "sha256": "b5b2bc474b05f5ccc7bfb21bb26561bf47665ab5c41d4093bbb95455a2a63c7e"
+    },
+    {
+      "path": "Icecream/2023-2star.png",
+      "sha256": "2e761710a307189d0d7f5fda0b020e06e757fedc76fba56e45282b56559af946"
+    },
+    {
+      "path": "Icecream/Biscoff.jpeg",
+      "sha256": "1a4c3780cba8a0d9b630210231bfebd7a0be4a120be9ccaf2c128dadecaba207"
+    },
+    {
+      "path": "Icecream/Biscoff.png",
+      "sha256": "df4d3f8bac76584d6316799e21c1a747a8e9c9fbbaf31739f3e8b4dd14d7e18a"
+    },
+    {
+      "path": "Icecream/Blackcurrant.jpeg",
+      "sha256": "a9c83b3ad0fa03c301161d811f01c2c8d3a57cfccfb3b5f2356c831473f9b889"
+    },
+    {
+      "path": "Icecream/Blackcurrant.png",
+      "sha256": "bb2f4ebf648b51b203bb87cf47c8b1b2d6ba8d3ba602218194873f8da7d06e88"
+    },
+    {
+      "path": "Icecream/Choc.jpeg",
+      "sha256": "9da9c41fc6f8477363064d9d80c25dc2f4c30006d5e3d7e25d99a684ea5378c0"
+    },
+    {
+      "path": "Icecream/Choc.png",
+      "sha256": "42ba7c25826df8a16a87962ab6cd9f886edf43c3ea56d9b6162ab9ccaa63d1ea"
+    },
+    {
+      "path": "Icecream/Cookies.jpeg",
+      "sha256": "74046b994f4d132014d968c32f5655d63a4428d7e9ad6db155e5721e3b9463ab"
+    },
+    {
+      "path": "Icecream/Cookies.png",
+      "sha256": "47aeb310ed55c5d0a4613fe07213753492bcc35aa4f07126282346b5710672cd"
+    },
+    {
+      "path": "Icecream/Crushed.jpeg",
+      "sha256": "539254c34cd9f4d9754118f69b853055777221db4dcc57cd06ecaddf272a7c75"
+    },
+    {
+      "path": "Icecream/Crushed.png",
+      "sha256": "2dc06c84725cc26bffde8be5b12a887d27a2e084052ed001dcf568849c3d9bc8"
+    },
+    {
+      "path": "Icecream/Mint.jpeg",
+      "sha256": "f9e036cc81784c23f5b3de3e71bd7b9d4c8aa408fc45ca2a196e5589d8bfe63c"
+    },
+    {
+      "path": "Icecream/Mint.png",
+      "sha256": "09fab6ab5ed9031722adce4c3e53b1d0ccfa8701b2648861e2cc4e6dcc08e0d0"
+    },
+    {
+      "path": "Icecream/Pistachio.jpeg",
+      "sha256": "86704ec267b7fa20b16f359c8b90387333ffb79291029aaee747cd2f12e70838"
+    },
+    {
+      "path": "Icecream/Pistachio.png",
+      "sha256": "d59c64173819e0e628ca0b9d82b18f7ed717b405ab3679ad3043a3311ec890e9"
+    },
+    {
+      "path": "Icecream/Raspberry.jpeg",
+      "sha256": "329eb4c8a6e90b408d9cf913ee70595c6cbf70931f6f3b638203ac559e2c129c"
+    },
+    {
+      "path": "Icecream/Raspberry.png",
+      "sha256": "2710a23d64ce2edb7f2dd283d941d10c95b772ee3a4c5b978f62450338745615"
+    },
+    {
+      "path": "Icecream/Rum.jpeg",
+      "sha256": "f14e0502dba512cead21d2c980b61869a032c6b829be68ae54c1ff32572420b5"
+    },
+    {
+      "path": "Icecream/Rum.png",
+      "sha256": "0b417fad8af7b23abfe93b125b5317a257fcc86d1e277714703c946607a4f214"
+    },
+    {
+      "path": "Icecream/Sticky.jpeg",
+      "sha256": "7d5984fcaf93b6bb590c95535ae5cd9b3a90a74d10ea6383e76798cb52dcef70"
+    },
+    {
+      "path": "Icecream/Sticky.png",
+      "sha256": "6a4253f5116617b0008c5d81057a36ab46586d2c20b5eaf6e28571586aa5de99"
+    },
+    {
+      "path": "Icecream/Thunder.jpeg",
+      "sha256": "4b68dbc774bca1d169636718299ca0714c43b008676dd78228bca3ea1d157028"
+    },
+    {
+      "path": "Icecream/Thunder.png",
+      "sha256": "39e4389fe88f0f9a7b9cf6660032840977a7b9f6fcc42349b742fd300aad14c1"
+    },
+    {
+      "path": "Icecream/biscoff.html",
+      "sha256": "89772df34fe514d42ac61974835383010b394a77ffbd55ccf1e6ba96f5751522"
+    },
+    {
+      "path": "Icecream/blackcurrant.html",
+      "sha256": "f2e9d2915e6daa46b82b83f9b75e800884569506fe5db75a0d481f3f9239dfd4"
+    },
+    {
+      "path": "Icecream/choc.html",
+      "sha256": "3f99bd19ae0a61bee5cae263e25cc6959c7d5c6b9bf2ff45afd817e3752b961c"
+    },
+    {
+      "path": "Icecream/cookies.html",
+      "sha256": "8a65ca0e834caaf9e623511b7440e2fa6afcf0587d085f12b3f79d2fa585de4a"
+    },
+    {
+      "path": "Icecream/crushed.html",
+      "sha256": "7ea5e6eb5ed4f39f0589619fbe7fda2aba7297249f6ba730148bf0319416f01c"
+    },
+    {
+      "path": "Icecream/jersey.html",
+      "sha256": "0c7e07af63e9f5c023aa10a855482d6f1574c826a63fda57c64a96521631539f"
+    },
+    {
+      "path": "Icecream/jersey.jpeg",
+      "sha256": "2d8f29f26544ed71d222386dc4c924208cf10719e00b9c7151d2e33342df823c"
+    },
+    {
+      "path": "Icecream/mint.html",
+      "sha256": "18ba950413b1128ea9b9337b3477d6b12d171dc62caee79a9caa2e44fea67698"
+    },
+    {
+      "path": "Icecream/pistachio.html",
+      "sha256": "495acc0a8acf3049d9a65cb529921afad4ae2765768baa9f22a5f29c4c6a2fae"
+    },
+    {
+      "path": "Icecream/raspberry.html",
+      "sha256": "cbae29528ec23458d0ff497c0155c2b503fe52f9c380941566f7d7ad647da4c1"
+    },
+    {
+      "path": "Icecream/rum.html",
+      "sha256": "f2192863d1ebed2930a0450188f014ffac61048097a763847d055d052b9fb879"
+    },
+    {
+      "path": "Icecream/sticky.html",
+      "sha256": "ad18042004229a40b3abbf1ffb051e7c0062187c941fd6b5333fab9588396ee3"
+    },
+    {
+      "path": "Icecream/thunder.html",
+      "sha256": "afe37b2632c28096ea25b50541611c19917c8b1721c89ec1af5a699d17b9cc2b"
+    },
+    {
+      "path": "Mintcake/170g.png",
+      "sha256": "f516804d9cbcf5924326b17df007f097d43426317eb48b1cdf1dade9459f3f81"
+    },
+    {
+      "path": "Mintcake/170gred.PNG",
+      "sha256": "950e5b5574324b2d053dcd85eb9629b3c9029fc3b7c722efae445a255b8b2bde"
+    },
+    {
+      "path": "Mintcake/170gtwin.png",
+      "sha256": "41e88444ebd7324835453b24d7853208ca1b8af47b9fe9f541b5751c8302895d"
+    },
+    {
+      "path": "Mintcake/480g.png",
+      "sha256": "b54f9f83926118ee24e96ade246ba7d032ab14fba3e6c9345ce3425556e7922e"
+    },
+    {
+      "path": "Mintcake/480gred.png",
+      "sha256": "6fc36f96d565a5bc16951867960f37901d764b5b77e50248ad6544849626c064"
+    },
+    {
+      "path": "Mintcake/AF.PNG",
+      "sha256": "db205b8b86e30e79a06122b27b8546781504c1b244461d0f299f4569f95ca7ce"
+    },
+    {
+      "path": "Mintcake/AT.PNG",
+      "sha256": "f64d0299dc85bf79afae880b5b1825de04b2b33b7deb95409160e922714a24fc"
+    },
+    {
+      "path": "Mintcake/Afterdinner.png",
+      "sha256": "7b8e2bc670982465f730b5f13af9a00d20b9b7b0bb550dfa0f1b59dbb11f3b4a"
+    },
+    {
+      "path": "Mintcake/Belg.png",
+      "sha256": "913722c4564ccc90512041ba30a345a62f155fab570b3a72bca6a0b1b74d7c50"
+    },
+    {
+      "path": "Mintcake/Bluerasp.png",
+      "sha256": "1b27522653c01299b3bce4f194eb8aa7f2df5e9fb8515fd2dbd2c7862a917b61"
+    },
+    {
+      "path": "Mintcake/CC.PNG",
+      "sha256": "4d56f13347917fba4caa8cd0a988a7065d85d31f58ffb993a0aa54aa0df34177"
+    },
+    {
+      "path": "Mintcake/CS.PNG",
+      "sha256": "853119f89f461c91b29c4b517f0e4a60b1f15313f3be0f20258fdf92107ee4ed"
+    },
+    {
+      "path": "Mintcake/Cappuccino.jpeg",
+      "sha256": "c26c178ddabf2d6715085d2d1dbed298143fe65cc83f10190af070f455a8c7fd"
+    },
+    {
+      "path": "Mintcake/Cbutter.png",
+      "sha256": "fcd2d64af03bd4b05b1c3964b8679ab7f20840a84959da3e14c43efee53c0e0a"
+    },
+    {
+      "path": "Mintcake/Cherry.png",
+      "sha256": "333999574b2f3cf0907b1e16cbd3377f9b90c8d12a7886a17632fd40890cde28"
+    },
+    {
+      "path": "Mintcake/Cherryb.png",
+      "sha256": "925e4e08db349089cc7e50c2c46a7ca71c437c820ac4670aca6176858d73ddcc"
+    },
+    {
+      "path": "Mintcake/Choc-cov.jpeg",
+      "sha256": "0306481270c593ec44a7570c045a65e5f9dc4e9ccb1e30989a65188ec7931eef"
+    },
+    {
+      "path": "Mintcake/Choc.png",
+      "sha256": "469ac52d77eb5ad8b91ebab7946e340a0a7eef370fc15461527d980d2ebb81c6"
+    },
+    {
+      "path": "Mintcake/Chocchip.png",
+      "sha256": "b982dfae903fd2bf9e993d6987f38a7bdc9a4015f70b3c90d7fc7d1c9c48a4ab"
+    },
+    {
+      "path": "Mintcake/Choccovered.jpeg",
+      "sha256": "cb9a2c4c5dc7db164b27b80c21b3d8bd71546198edb890a68d4c511bd815207e"
+    },
+    {
+      "path": "Mintcake/Chocorange.png",
+      "sha256": "89a817e6d66f8ed475e16152b9e9f536e656a11e2a580c3909cc0ba980395895"
+    },
+    {
+      "path": "Mintcake/Chocorangeb.png",
+      "sha256": "3a6a097b6fd7a614cc39f36d0769de9eea19d9295da40d4f108536fa9b1c1e69"
+    },
+    {
+      "path": "Mintcake/Cindert.jpeg",
+      "sha256": "7ea8eba0a21a6bb4da8db105eef8279c5716ae76fede3c57a7c801fa83983d52"
+    },
+    {
+      "path": "Mintcake/Clotted.png",
+      "sha256": "d178cfcca3eef4d6da0d6bf3f741dae10c18ba6dd020fd26e92160f7a7c5d82f"
+    },
+    {
+      "path": "Mintcake/Coatedcinder.jpeg",
+      "sha256": "8aa040fac3ca1a31b63617b0032170bf739b93025c20106a671023fcb1c6561c"
+    },
+    {
+      "path": "Mintcake/Cola.png",
+      "sha256": "5d6002a12c017e80b43009f379ce91e3208ce8fcc9693ac19308a19212fd34ce"
+    },
+    {
+      "path": "Mintcake/Con.png",
+      "sha256": "10e516deb2ca3721fb0d924e85b76dfd1d219852ac562411000f3f5f1d059e13"
+    },
+    {
+      "path": "Mintcake/Dollym.png",
+      "sha256": "c901bc04d579a2c2c5d37f62edd7471c9893ccd8ec59527e94b15ade857bea98"
+    },
+    {
+      "path": "Mintcake/Farmh.png",
+      "sha256": "785037945d8b45df6fd4abc015758d0147c8e68c4f93b7d850d240c1c4e24733"
+    },
+    {
+      "path": "Mintcake/Fizzy.png",
+      "sha256": "0796229a3f1cf3fd92ab4f24b1b2e7239c268b9b0b1b37ff32517a2b210ed2f9"
+    },
+    {
+      "path": "Mintcake/Fryer.png",
+      "sha256": "b2ada067b465c2de9f3bf74686119a7cd2e670e93cd993a6b060584ae9f802e0"
+    },
+    {
+      "path": "Mintcake/Giant-Choc.png",
+      "sha256": "acc1db8fea4536c2494a036666cc49f75746264162a888d54c0a0988781f7688"
+    },
+    {
+      "path": "Mintcake/Giant-ging.png",
+      "sha256": "18158130439ff68d0c6f1783d42e775f263496f15240196efe6e67a17fc11b09"
+    },
+    {
+      "path": "Mintcake/Ginger.jpeg",
+      "sha256": "2ee3294f83deb810fc9948c75a15195c45e59f0d5b07f9ff05d8a1cf3879fc77"
+    },
+    {
+      "path": "Mintcake/Honey.png",
+      "sha256": "129bd9e14ec2e1225a822d5958359ebd6c7deb4cc947520781453d27b5bc0400"
+    },
+    {
+      "path": "Mintcake/Honeyc.png",
+      "sha256": "b771a28f4893f5d359f8922f43ab865d6cc6f71122cd5f1d24096d389ce1b271"
+    },
+    {
+      "path": "Mintcake/Jellyb.png",
+      "sha256": "40ccbf724777c93bec6872ec53c416f822cf08930e925eaa5ddc7648ed725fa7"
+    },
+    {
+      "path": "Mintcake/Jellybeans.png",
+      "sha256": "cc8b4c271f5fb4277da085f0aeca819c41dd1cd7181aba9cd70739e138985971"
+    },
+    {
+      "path": "Mintcake/LT.PNG",
+      "sha256": "ce5a8b9d45bc4acadd48b29fc243090042e50dd04c038ffb3e0890d7e963d9cf"
+    },
+    {
+      "path": "Mintcake/LT2.PNG",
+      "sha256": "22c9f629368b2064054c969aae6c6290a90cb08151a2077efb5f56d438e28c85"
+    },
+    {
+      "path": "Mintcake/Lemonbon.png",
+      "sha256": "76fdca690f5a1ce9c79e67b8ab2082030289e9acf7bc97e3854db467b93a6d4d"
+    },
+    {
+      "path": "Mintcake/MP.PNG",
+      "sha256": "c0e2f5c85ee5d3cc884c20157cf855cb7764724131d34646f1e259e44f83df82"
+    },
+    {
+      "path": "Mintcake/Milkchoc.png",
+      "sha256": "618e004802e4a30f71b34d6ecdd54f91006b33e9e6cdbd95f3aa43e976ccdcbb"
+    },
+    {
+      "path": "Mintcake/Peanut.jpeg",
+      "sha256": "e2cd7cce362ac6dd8061bbbd4de74692a436ea5833915cd95b648c6cebd6ec66"
+    },
+    {
+      "path": "Mintcake/Pink.jpeg",
+      "sha256": "f427e29faaafdfe414f579aed89450e762744640ecc84e90ce4366122347ad28"
+    },
+    {
+      "path": "Mintcake/RumF.png",
+      "sha256": "7900b8da5c282a914598613e383b59ad11533f3f1bf2571d9661c80a603661b5"
+    },
+    {
+      "path": "Mintcake/Salted.png",
+      "sha256": "e1dd69c4a1bd12dfd180b7c02f092b59c89fa17f22300027679e1cc5d5530591"
+    },
+    {
+      "path": "Mintcake/Shortcake.png",
+      "sha256": "d340723b2de6b0d7b710d09f87015e72503553bc6d887b41318c1a698856bc5c"
+    },
+    {
+      "path": "Mintcake/Strawberrybon.png",
+      "sha256": "6c7fcc115e147ae1a159063f60394e46ef3d665ce2371979ba67ef912e2abd54"
+    },
+    {
+      "path": "Mintcake/Sweetbags.jpeg",
+      "sha256": "5897bfe4140ead202825e0059e1d867e8448adcad4a559fc5960cbb5cb8855a2"
+    },
+    {
+      "path": "Mintcake/Tedybear.png",
+      "sha256": "bce158fd155683ec2f9e678ab8fb56a92bebf6e9ebb0f58d9d3d37fe67db1959"
+    },
+    {
+      "path": "Mintcake/Thankcat.png",
+      "sha256": "16ce9ca605ddbf05cdea91676724ad5a44bd603fb817db6bf08a198d5f050e46"
+    },
+    {
+      "path": "Mintcake/Thankdog.png",
+      "sha256": "1a1fe7d52715187d76b30e0ccfb0aa23f5b3ae1f6edf8954e312b17e99fd2d4e"
+    },
+    {
+      "path": "Mintcake/Thankewe.png",
+      "sha256": "76d10179e294da32ec1251551e156cb746df48e529b6bdc69e05f1728fa93a1b"
+    },
+    {
+      "path": "Mintcake/TripleF.png",
+      "sha256": "3855d824154791b1a8a2a1d806f095a32fbd348a3d6c2ab2680d18f67a68d73e"
+    },
+    {
+      "path": "Mintcake/Triplemint.png",
+      "sha256": "42ec01de3adb32805de084552d0cfd26b505e9b2958c186f4fed0c10934a799b"
+    },
+    {
+      "path": "Mintcake/VF.PNG",
+      "sha256": "ae8c7ef424f267ced4ba4fa532455965244b5d6b703fa26174e781823a83070e"
+    },
+    {
+      "path": "Mintcake/Vanilla.png",
+      "sha256": "f6f6fb67c42b339ebc5c63fc9abfec9c6ebd26f9a6424663766e786d5ede28d9"
+    },
+    {
+      "path": "Mintcake/banof-fud.png",
+      "sha256": "2dae978e973fea0ced14a9337e883f765bd22ebb1aa20765b9c27efce7ffe3c8"
+    },
+    {
+      "path": "Mintcake/butter-tablet.png",
+      "sha256": "51777c81f9db572cb43020cbfdb9dbbd9023d4fe5167c2881ec41bf3dc5aff1b"
+    },
+    {
+      "path": "Mintcake/buttershort.png",
+      "sha256": "1fd25448cf75539e74e50ce4cc5ab885734474c36fec11df8bdf47ac317d372c"
+    },
+    {
+      "path": "Mintcake/choc-orange.png",
+      "sha256": "9313ba0c52cbd3bcca9ffea403b64fa298113c03634a276b28798963bac5cda7"
+    },
+    {
+      "path": "Mintcake/dubai.png",
+      "sha256": "eff297f6eed68ddf98a8a310f4ad8fdf4d33f3d04ac770e383014da4a1467283"
+    },
+    {
+      "path": "Mintcake/extrast.png",
+      "sha256": "ad6b73b2614fa092c1354320a5a91ab475fec787858435f360001b7947ee73a9"
+    },
+    {
+      "path": "Mintcake/gingerb.png",
+      "sha256": "519f44f292a705cfa8398d1487af8eb4477046d510cf26dc9ff801622daab7e8"
+    },
+    {
+      "path": "Mintcake/goldenc.png",
+      "sha256": "a424f8c4db10c553894f9c10943a59e6929cde147405a3c4bbce232c63929e3a"
+    },
+    {
+      "path": "Mintcake/lakelandr.png",
+      "sha256": "0d7334fe8b448cce0dabe92e784b50ac8cc0427c66f6b5a22431818cf0cc5ee6"
+    },
+    {
+      "path": "Mintcake/mintcake.html",
+      "sha256": "5708b1b198dee8344e4f73b885eec699762d048490a2f6255db298fbfe4490df"
+    },
+    {
+      "path": "Mintcake/mintcake_brown.jpeg",
+      "sha256": "f0e3b2d2e08d55d38b970612e5ee88201b522d6b8103e34bd2965be0c062f2aa"
+    },
+    {
+      "path": "Mintcake/mintcake_white.jpeg",
+      "sha256": "7dd462bdd483287c51c42a351dafdbb0549fad7e8c5204eaf8d62fe886593a54"
+    },
+    {
+      "path": "Mintcake/triple.png",
+      "sha256": "4f6cd1f06e87c2488d2e3642103471fde5de0b4660defebc98d37c79c9c0c731"
+    },
+    {
+      "path": "about.html",
+      "sha256": "311059fa783b233f4ca29ff14f79359b5d5fd37be575075fd35f0767b189491e"
+    },
+    {
+      "path": "allergens.html",
+      "sha256": "989193341db90e5fa4536cff2349bae604c367524609f94b013f2d9a87c1dc37"
+    },
+    {
+      "path": "ambleside_guide.html",
+      "sha256": "7b0b1d3c2574d85f589949f47df2c79c7985e0796e8b731efc62f3c61abfc0da"
+    },
+    {
+      "path": "blog.html",
+      "sha256": "d4f1cdfa83e96f4060295a3cc8f81dd90923c1b89eafa645f04869900a18dd6c"
+    },
+    {
+      "path": "brand/identity-board.jpeg",
+      "sha256": "dbfc561bb941f4898738e7929ffb16eb7916fe1d36100a3dd2c66a58e39c1b9c"
+    },
+    {
+      "path": "brand/single-scoop.png",
+      "sha256": "848ec0f9048e084a055fbe02ae2c4cb1da37521560dc8c072c574e228a9690f2"
+    },
+    {
+      "path": "brand/single-tub.png",
+      "sha256": "b47eed7e39d00e76516a062a58e28d235ce8b6f000be308c90696580c1042feb"
+    },
+    {
+      "path": "coca-cola.html",
+      "sha256": "a6e24adf3d6b125635bcdae68218b529830923450ec53b591d384b28fdb9ffc3"
+    },
+    {
+      "path": "contact.html",
+      "sha256": "a5f74abec5b85aa0395bd432b4e3e0783b212920da8645af5853d9a388fabb01"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "338e39dee870cf437a012ed85c2d7e5be5cb7425a56944f1bef5e85aff3c6c7a"
+    },
+    {
+      "path": "hotdrinks/Americano.html",
+      "sha256": "d697faa292e41452e694c923521abe29ae833daed52225b679e206380cee5148"
+    },
+    {
+      "path": "hotdrinks/Cappuccino.html",
+      "sha256": "b0e4af16ae07024ecf7ab11dc97a7e81e711d86df92785d20e806fd4ea8b34fc"
+    },
+    {
+      "path": "hotdrinks/Decaf.html",
+      "sha256": "ef88bbf8f8f3c8f83f76f5bcd3ece4099c3c824cd1d961410bb07967be1d0c11"
+    },
+    {
+      "path": "hotdrinks/Espresso.html",
+      "sha256": "11f2432da3f490f2610c359857badaec855504ee3736e7f7ee56178263c30cc5"
+    },
+    {
+      "path": "hotdrinks/Flatwhite.html",
+      "sha256": "e7c04d545bdd182d745815ccf3e958221b92b170d58fff415bef5213ab80ed31"
+    },
+    {
+      "path": "hotdrinks/Flavoured.html",
+      "sha256": "978b2529c84891b3b4ba6869617c63b6d09ec42cd16aa50d861645ec547ec58a"
+    },
+    {
+      "path": "hotdrinks/Hot-Chocolate.html",
+      "sha256": "0220c1d92e488ecbf4f37fc673f5e791b18fa3abd78ec232fc5bf7015fd99ea1"
+    },
+    {
+      "path": "hotdrinks/Latte.html",
+      "sha256": "7813f97f0b6fd32d88028f831cd96df4a2ac597702e6cb943061bf2e3e962fea"
+    },
+    {
+      "path": "hotdrinks/Mocha.html",
+      "sha256": "96a57ba1b96e6aa236eb3710b864c77ba6334271e1efd17a9783a4a06817ce3f"
+    },
+    {
+      "path": "hotdrinks/Tea.html",
+      "sha256": "171eb2cb7c11ba5620fcbd37b053ef227d977cdea812520d80b1cac6c5b5cbb2"
+    },
+    {
+      "path": "hotdrinks/americano.png",
+      "sha256": "e62efb993ee17ab3ffe45aa2ff3ef0b5c47f246c2e7206fafe6113ec396754b5"
+    },
+    {
+      "path": "hotdrinks/cappuccino.png",
+      "sha256": "c64b40a6007ee91e99f30036393c75813d8207f7cecd3c3e3ff48dd2b0c796dd"
+    },
+    {
+      "path": "hotdrinks/decaf.png",
+      "sha256": "e395677ac3608651b371393bd8f8ac3a28a06597bfaf44fedf4e7696ecf4ff33"
+    },
+    {
+      "path": "hotdrinks/espresso.png",
+      "sha256": "5518c391c3d611ded5d22fba1c3f9ceee8d081c9480d5e10d6d13b8e8e293425"
+    },
+    {
+      "path": "hotdrinks/flatwhite.png",
+      "sha256": "e11c8e5a8b0b0030991e1066ad1586736761a3a4888d105ee5751a7812f9a2f4"
+    },
+    {
+      "path": "hotdrinks/hotchocolate.png",
+      "sha256": "192d818bb42515ab700cac4be9f5171005fda53ba56d1c173e4313293a6e88de"
+    },
+    {
+      "path": "hotdrinks/latte.png",
+      "sha256": "6953c5286ef195a0c4c2f01d424a0e6cbe01a2dc078d8b7073044ff5a0f8074b"
+    },
+    {
+      "path": "hotdrinks/mocha.png",
+      "sha256": "1221fde9f8adcd6fffc0e5ca58aa6e9eb54a929080de5c1d263d3a0ccd269fdd"
+    },
+    {
+      "path": "hotdrinks/tea.png",
+      "sha256": "502b8d7b5049132e910ec2b26e7448612c95656e868ba78f7c44f40dad5230d0"
+    },
+    {
+      "path": "hotdrinks.html",
+      "sha256": "9adaf476fce044c8a75e176f32e5b9c77b32d5ed92f37c27cd15806c966d5a4a"
+    },
+    {
+      "path": "icecream.html",
+      "sha256": "6e7755acb4e7266507f811471f24a3fce275fe0fb4c97ac47a97ddda12a475ad"
+    },
+    {
+      "path": "images/After-flood.jpeg",
+      "sha256": "6ff5a2e8e7efe2fce08f7d3aebbf0a1dd40bc422e4d63cdd4edfb44e0c7afe3f"
+    },
+    {
+      "path": "images/Cadb.png",
+      "sha256": "849bc2370ebee360f8c902917d4b6f1a5f7328d8a07acf7d36c19c4581646e4f"
+    },
+    {
+      "path": "images/Flood-day.jpeg",
+      "sha256": "fb264532666579ff65f75ae7ae3a3a3855837b20246f9e410c5e4d7c1806e164"
+    },
+    {
+      "path": "images/Flood-next-day.jpeg",
+      "sha256": "c2e046432a4d08634140f59a5a72e0e13a80a8f0254029a12fd56a3a914cdc37"
+    },
+    {
+      "path": "images/Flood-night.jpeg",
+      "sha256": "972f8a4a9025054aa1044487787dcf2b503ab1883a70c03dd29848920e18960a"
+    },
+    {
+      "path": "images/Maps.png",
+      "sha256": "3270f17973b79ce426b9f687357c642b9ebf3afd415cbbf19d3d3f518188c200"
+    },
+    {
+      "path": "images/Pr.png",
+      "sha256": "c981b125f13d7e5248ce66a454a7fc0b94c7dc5fa3dbb26c670645f346ca1940"
+    },
+    {
+      "path": "images/Souvenir.png",
+      "sha256": "05ccfddd34cf77ffa5c9e56dd0b733097a890b5521bb2c1d13df5a2a26f7b979"
+    },
+    {
+      "path": "images/Start1.jpeg",
+      "sha256": "9ac4aa91fe2e5cf2be51281df352b5c2f3206ec2219ea11ed8cc9fbf69f85c30"
+    },
+    {
+      "path": "images/Start2.jpeg",
+      "sha256": "bca30a3cbf8516d93ce8ccaeea56f0b4899da4e597d16f10a0a7c58866a51fb5"
+    },
+    {
+      "path": "images/Start3.jpeg",
+      "sha256": "310c3d3ea3cfe99dbf3a8362078c2c0aafa85155b06a06797210cf17e8c47018"
+    },
+    {
+      "path": "images/Today.jpeg",
+      "sha256": "9cbf71e908e9ac375556a2a6140aae4a2933f5011dd169b76d0ff650d8ee58d6"
+    },
+    {
+      "path": "images/about-img.png",
+      "sha256": "789464dd66163b374433479e33b586b3f95403e2cdfcaaa2a74726916fa3373a"
+    },
+    {
+      "path": "images/awards.png",
+      "sha256": "97baf039d06583658f1a494aa4cf8b01e9ac316e312e1a7322b58ba60d53e106"
+    },
+    {
+      "path": "images/banner-bg.png",
+      "sha256": "e9f98288d8687972b63ff2ca7eaebfd155798233967b8ecd9ab8453be6b0b5fa"
+    },
+    {
+      "path": "images/banner-img-coffee.png",
+      "sha256": "1e69d37b193138e3ae02aa6cf2eaee5ef2921b0018b6ef018dd8c60d06af20e0"
+    },
+    {
+      "path": "images/banner-img-romneys.png",
+      "sha256": "b99d2ce8c89155263b6f1e842f4893957e7fafde348b38a6d062c10163ec1119"
+    },
+    {
+      "path": "images/banner-img.png",
+      "sha256": "9c484732077b5ce2f35666f8265efd5a5e9f07b15f8957c1914a10faac0c67db"
+    },
+    {
+      "path": "images/cocacola.png",
+      "sha256": "6a855268c27a0dd44fd9cc9d7a40e7a4a2629c72240902dced426e39deee5123"
+    },
+    {
+      "path": "images/cola.png",
+      "sha256": "cb344f1c4f44189b937338345e31e315631d1b201e864c0e7d2c7fb1dc5306ec"
+    },
+    {
+      "path": "images/jersey.png",
+      "sha256": "3f40c8f70a9e5dfb81df46b5b8633b738fae7798b2a336ce24c0c0c942482e13"
+    },
+    {
+      "path": "images/lakes-icon.png",
+      "sha256": "30e450fec1a44a288c451dbbc74064e822a76fa1212a915c6ad409f77d0c1ac5"
+    },
+    {
+      "path": "images/quick-icon.png",
+      "sha256": "ab2a31eab50b6d1f16eb982660d63f704a08d088de413ead7b7f380bb08923a4"
+    },
+    {
+      "path": "images/romneys.png",
+      "sha256": "fb5320fff2bb32f840a57393d747f3cc3d6e66100aa6be68c36be064a725b7f2"
+    },
+    {
+      "path": "images/toys.png",
+      "sha256": "a8ce53b170aae7990eb169324ae96b24c50630e03ccab5c70a7aa3a13084fbf7"
+    },
+    {
+      "path": "index.html",
+      "sha256": "499ebbf8726482d47a1c6ff03a6eec4257dc8e6d99c43b3ccace18b7479b2a8f"
+    },
+    {
+      "path": "menu.html",
+      "sha256": "320b2eb7f1a643fa3c83b83dee01898fbc3d2604882e65fe4d496592079e4899"
+    },
+    {
+      "path": "my-list.html",
+      "sha256": "46cc7479cf5dd24fa21157c7efa76aab738c37c8618a0a1b5e58626f19040ff9"
+    },
+    {
+      "path": "optimized/Icecream/2019-1star.webp",
+      "sha256": "1180c3d0c1aff7bb66132c2db7c6f732028c30d91a48625f07f9c1da7ddf7126"
+    },
+    {
+      "path": "optimized/Icecream/2019-2star.webp",
+      "sha256": "ffcc81b4c3736d38b1eefbf0ae73ccaa65a68b15399ede2d2652d0be6b9deb02"
+    },
+    {
+      "path": "optimized/Icecream/2021-1star.webp",
+      "sha256": "e688996008097f50e14b6340ba58568153aedeec3d39bf19179e87b27bcd19a8"
+    },
+    {
+      "path": "optimized/Icecream/2023-1star.webp",
+      "sha256": "779b9043b885f808da192a9302a5ce68afa1d83594b8f872ba610960ea3fa418"
+    },
+    {
+      "path": "optimized/Icecream/2023-2star.webp",
+      "sha256": "0784b183e48c3f127839f18ea43c1105452a9c211a22f293c06450e6fb369c6e"
+    },
+    {
+      "path": "optimized/Icecream/Biscoff.webp",
+      "sha256": "042598f8fb0fd816025a2cf5ffdd861feceb8910ee683bcf19847e4e5f539887"
+    },
+    {
+      "path": "optimized/Icecream/Blackcurrant.webp",
+      "sha256": "496fde278016fa32156cb501cc271cd8d84519524b0e953d9b734a23270fc23d"
+    },
+    {
+      "path": "optimized/Icecream/Choc.webp",
+      "sha256": "33f2d4c09e92f33ab3d82a7c91476a78c41e00be3eda6518713a0b522cf7d0e6"
+    },
+    {
+      "path": "optimized/Icecream/Cookies.webp",
+      "sha256": "38b7c02985b94349a3eba3e8884c9055aea3126c4d26fdcf1a34099871d7181d"
+    },
+    {
+      "path": "optimized/Icecream/Crushed.webp",
+      "sha256": "53d68ea9dfa925dc1df1fc7a30e5556e7e17ebbfd173d78bc2d85d6f3cc31461"
+    },
+    {
+      "path": "optimized/Icecream/Mint.webp",
+      "sha256": "4553cf28ab5ee58c35656375d5b53d7e41c4b90f2e75410abfa7c9d554c8dbc4"
+    },
+    {
+      "path": "optimized/Icecream/Pistachio.webp",
+      "sha256": "e18d67989dd99337b50cbd3d8b4db98bc19a34e5d0f08955d331cf02a5924ba9"
+    },
+    {
+      "path": "optimized/Icecream/Raspberry.webp",
+      "sha256": "c12cba4f3690df5bc8da660aece162bcd8e74c2f80cb1e3699322dddc72db376"
+    },
+    {
+      "path": "optimized/Icecream/Rum.webp",
+      "sha256": "989ddd0205016cd069bae8e562b4ad98afaf5d89fab23b940fbc3930d45a033f"
+    },
+    {
+      "path": "optimized/Icecream/Sticky.webp",
+      "sha256": "33330a9670c329a909fdc6fd63f84c684043bfa265c2e9126634dada5d8635a6"
+    },
+    {
+      "path": "optimized/Icecream/Thunder.webp",
+      "sha256": "161b9f4d90ac23eb8d1490814073622b32d7d726ec952d3f3dd6b4734994214c"
+    },
+    {
+      "path": "optimized/Icecream/jersey.webp",
+      "sha256": "aa522527cc9c78489f4a50c2fb21b4280be1c0d13d5292f64f1c82bb2ee0d8e5"
+    },
+    {
+      "path": "optimized/Mintcake/170g.webp",
+      "sha256": "3fd5296f8b65098e0f3378e73249b8772b3fcf43091e154a2b1757e25b3ef8c4"
+    },
+    {
+      "path": "optimized/Mintcake/170gred.webp",
+      "sha256": "d49301da87816088f306c2167be05993b3ff02f12628547005ea08258cda9a6e"
+    },
+    {
+      "path": "optimized/Mintcake/170gtwin.webp",
+      "sha256": "7a2a3eafe09847873531a0a12fc0e5dd42aae5f380e239555dbaac3ff60ef747"
+    },
+    {
+      "path": "optimized/Mintcake/480g.webp",
+      "sha256": "3e129beff3a9bc74cec152e981a070f5ed85699d899bfefee31c7a9393fdb8b3"
+    },
+    {
+      "path": "optimized/Mintcake/480gred.webp",
+      "sha256": "06a51fd0b8dd701861a15bd7761c52777070d90216e69f4675fe4c627b13dc31"
+    },
+    {
+      "path": "optimized/Mintcake/AF.webp",
+      "sha256": "a2d645836f0a37946bf999b616750e05ac63457012461f2c442112e2c1035b2b"
+    },
+    {
+      "path": "optimized/Mintcake/AT.webp",
+      "sha256": "512e4ce865a902247122c10b37d72a8f1d97a157faf457cf66faae89dbe44cc3"
+    },
+    {
+      "path": "optimized/Mintcake/Afterdinner.webp",
+      "sha256": "05b2101fccf406e82134be03c09973a8b65dc1b3603ba16a3ad0baacfe7b49e0"
+    },
+    {
+      "path": "optimized/Mintcake/Belg.webp",
+      "sha256": "5cef825b5c9fe22f0c27f99246da6e5ce4fcae611861428f9ca41b8e945c9d80"
+    },
+    {
+      "path": "optimized/Mintcake/Bluerasp.webp",
+      "sha256": "c47f11ad2343d11634c336b31d0930874f9d2814e9c0a1f2139f058a6bd19322"
+    },
+    {
+      "path": "optimized/Mintcake/CC.webp",
+      "sha256": "adb176b6efcd4e407e46ec80a45dd8428a19ef7c99a30cbb762b811c50b972ab"
+    },
+    {
+      "path": "optimized/Mintcake/CS.webp",
+      "sha256": "e80f8a07631f753bf88dceba92f7926f9b5362a3497975002070b12ad7ded5d0"
+    },
+    {
+      "path": "optimized/Mintcake/Cappuccino.webp",
+      "sha256": "54d60d24aff79f067254ae42ddbf64cca013feadedb807fcf963f447c6e90294"
+    },
+    {
+      "path": "optimized/Mintcake/Cbutter.webp",
+      "sha256": "4e71846a02402c100c874e0499e232f1e31b5cdc29760c9de139257cd8c007f0"
+    },
+    {
+      "path": "optimized/Mintcake/Cherry.webp",
+      "sha256": "05fca6eb0f639b2b50659f67484438f4814c88a68d328f6b3983bfe24ae1ade3"
+    },
+    {
+      "path": "optimized/Mintcake/Cherryb.webp",
+      "sha256": "3647da498427cf8f6cfa15dd53d2ae3fd60920c654613208eeabd2be7bd0375d"
+    },
+    {
+      "path": "optimized/Mintcake/Choc-cov.webp",
+      "sha256": "2f6f951ed3872a2ce7773c4d01424d7f366c451d3e84a3b2bbaa9faf89fd4775"
+    },
+    {
+      "path": "optimized/Mintcake/Choc.webp",
+      "sha256": "163c157daf7b35424029e0833303c451f7be7bbace70b61d4a14c81cc922e846"
+    },
+    {
+      "path": "optimized/Mintcake/Chocchip.webp",
+      "sha256": "5d89ffc2939a57e20089bda7dc57b3c8a723df0f2e2e2ae89462ab4fca5241c7"
+    },
+    {
+      "path": "optimized/Mintcake/Choccovered.webp",
+      "sha256": "d5016a674d6aff99d0e4c74b3a21d6258570e77278b1842bf16523943c1fc801"
+    },
+    {
+      "path": "optimized/Mintcake/Chocorange.webp",
+      "sha256": "221737f55fa3034c4d4090ae3f2483a2a4a09b6db28291ab787b1e7ce5833980"
+    },
+    {
+      "path": "optimized/Mintcake/Chocorangeb.webp",
+      "sha256": "4fdf148813ea8c8b9b5c2e1dc6e9585c2cc89dbd543f12b352d22f4aa6820d49"
+    },
+    {
+      "path": "optimized/Mintcake/Cindert.webp",
+      "sha256": "c36e548fea80ace50a55b4859a6a8a9543ece77abc9df21179c93af627305ad4"
+    },
+    {
+      "path": "optimized/Mintcake/Clotted.webp",
+      "sha256": "5dec75bd2a2468df582a3a7e770e0e9ddffd0348444464a31fe6dd7aa97c7717"
+    },
+    {
+      "path": "optimized/Mintcake/Coatedcinder.webp",
+      "sha256": "7a743c7ed66721d627ba77948d9c6a2868662c64bd69f69e4f7cab9e3a4e9999"
+    },
+    {
+      "path": "optimized/Mintcake/Cola.webp",
+      "sha256": "f1b47a9416fa21285f9e3462a8bef6483e0bc115ef20239662daceed1ef23519"
+    },
+    {
+      "path": "optimized/Mintcake/Con.webp",
+      "sha256": "a514a055ab799814e7bed4518c1e38f61c78b030e1991b968ac6115e44d6cb4a"
+    },
+    {
+      "path": "optimized/Mintcake/Dollym.webp",
+      "sha256": "838060689c2e7b9082dd5e0624b26039cc7d0d498a90ddc6cc3b5fbdee3c38cf"
+    },
+    {
+      "path": "optimized/Mintcake/Farmh.webp",
+      "sha256": "3967997326273b638bdfc82b13e276e295d1892047f045a2c230785e270edbfa"
+    },
+    {
+      "path": "optimized/Mintcake/Fizzy.webp",
+      "sha256": "486d4fc57db23721112178715c7d28565836899292cc135de10ea8e66d73d673"
+    },
+    {
+      "path": "optimized/Mintcake/Fryer.webp",
+      "sha256": "8cc8be7c9adba5550a9cb5352e967470c5534afae2c1a3a7f8d99d84a0621a04"
+    },
+    {
+      "path": "optimized/Mintcake/Giant-Choc.webp",
+      "sha256": "e649bd8a71f5a9b1edab74a10b329852a2e34de89ecdb43357ee36e41ac1e549"
+    },
+    {
+      "path": "optimized/Mintcake/Giant-ging.webp",
+      "sha256": "8ac82f7779a77eae43294fa44d1e8a8a349c6e086ee4daad66363fe9ed11b4f8"
+    },
+    {
+      "path": "optimized/Mintcake/Ginger.webp",
+      "sha256": "02f2fc80b03259156ad6cb63b0685a574bd1a9923a6d6c12809ba6f1b4f78469"
+    },
+    {
+      "path": "optimized/Mintcake/Honey.webp",
+      "sha256": "f6e91c6a4d0a25687e213a2912dd0ba82c122c860fbeaa639ff5ed02624934d2"
+    },
+    {
+      "path": "optimized/Mintcake/Honeyc.webp",
+      "sha256": "644f509560f2b0c77138aec5f77efab387a7955e899e2aa0535bf70967b37f5e"
+    },
+    {
+      "path": "optimized/Mintcake/Jellyb.webp",
+      "sha256": "c94266ac35a400df5bf227e7dfafc237c2149ec34e475f7f38cf21f4522225e0"
+    },
+    {
+      "path": "optimized/Mintcake/Jellybeans.webp",
+      "sha256": "d34afcd79b432cfba54767e5c23fa18b5f587f69ee41da8b0b690c111d793d29"
+    },
+    {
+      "path": "optimized/Mintcake/LT.webp",
+      "sha256": "df589c5c36dfaab7eca4a17819f61e90f5568a6a21e53c744109546fd395cf61"
+    },
+    {
+      "path": "optimized/Mintcake/LT2.webp",
+      "sha256": "b8cac3216102e3d9484481f2c936ed66f75629a4dfd89f9b7715676c84972da4"
+    },
+    {
+      "path": "optimized/Mintcake/Lemonbon.webp",
+      "sha256": "80db2774e555e7c7338dfab8f4cf2ad6a900f1805f8e87d95aa1f31fda641ba2"
+    },
+    {
+      "path": "optimized/Mintcake/MP.webp",
+      "sha256": "600832ff1f4909d10ebcc4481732929be6d0c6b59069ec81ab628a7fc0486181"
+    },
+    {
+      "path": "optimized/Mintcake/Milkchoc.webp",
+      "sha256": "c3170f7edfcb7c614fedc102589a8101c4d1ee1c5e727d78c08e71902cda6e92"
+    },
+    {
+      "path": "optimized/Mintcake/Peanut.webp",
+      "sha256": "34bbbcfad942eee1c90b9065f08ae20a8f291c98377d5d6f60fd19862dd202e2"
+    },
+    {
+      "path": "optimized/Mintcake/Pink.webp",
+      "sha256": "f2d3a7412d25e5876ac4ba6c9547c6616252fc0cd3eab66cb91b0cce3302d962"
+    },
+    {
+      "path": "optimized/Mintcake/RumF.webp",
+      "sha256": "a932decb37fd59509704dcd4cade3dbb14208d6ac93f557cb1f8e3ce97f9aa1a"
+    },
+    {
+      "path": "optimized/Mintcake/Salted.webp",
+      "sha256": "d6e4dd8e7f95d9024e00e57856720b73fc11088bd4087ec97780b181e7503423"
+    },
+    {
+      "path": "optimized/Mintcake/Shortcake.webp",
+      "sha256": "3296a5f3eb976f4e071e2b5d87ddc60f8b9376d0a4220370c9edfae2e952040b"
+    },
+    {
+      "path": "optimized/Mintcake/Strawberrybon.webp",
+      "sha256": "a258122cb0d83da134b283ac6b303a6a53a7c4113b7a572383fbab3faee5b04b"
+    },
+    {
+      "path": "optimized/Mintcake/Sweetbags.webp",
+      "sha256": "4153c5f4f4a3b5e974a50672c0a444c08f997eb7e35350d606e0d491db8bd798"
+    },
+    {
+      "path": "optimized/Mintcake/Tedybear.webp",
+      "sha256": "a4bac64fc47a4443c919758e0b19338376522f4a1ccb770c94b50762ef1f877e"
+    },
+    {
+      "path": "optimized/Mintcake/Thankcat.webp",
+      "sha256": "7d4ddd102d04421ce015bec6583911e99d15fd9acde6aa1cc0826b14796d9a9c"
+    },
+    {
+      "path": "optimized/Mintcake/Thankdog.webp",
+      "sha256": "af712b080133a5e201490c04e7ab8ecbe4924350d3e1140bb93668851e37f481"
+    },
+    {
+      "path": "optimized/Mintcake/Thankewe.webp",
+      "sha256": "f11b54f6ca226c93e7fb16c2578ec88b6b2b10bf8fe5ad3e6a7245dcfd36637a"
+    },
+    {
+      "path": "optimized/Mintcake/TripleF.webp",
+      "sha256": "ea52db46e1858182f5bc0f0370c8ebe9010aeaead20ee96197826dc04c3ea490"
+    },
+    {
+      "path": "optimized/Mintcake/Triplemint.webp",
+      "sha256": "79902afdfae5fb96591a1048a718409fc98c1909ea4a63f023e6a04acd0536a9"
+    },
+    {
+      "path": "optimized/Mintcake/VF.webp",
+      "sha256": "5d7467b04eee95386241777c5cefa2e2235def3313580cb8dc6a1eab77f64cf1"
+    },
+    {
+      "path": "optimized/Mintcake/Vanilla.webp",
+      "sha256": "a495869facb13845c629f59a77bac0fbd3a69d5d8a412ca27e959c10d11682fe"
+    },
+    {
+      "path": "optimized/Mintcake/banof-fud.webp",
+      "sha256": "4d1f1cf29c1d1f2e41c38e6152ab16545c2a3ec6fed2db62fb3b988ec85b6b6d"
+    },
+    {
+      "path": "optimized/Mintcake/butter-tablet.webp",
+      "sha256": "799977251f0ed636d84bf03764fb1e25d12e75c068dfbc821df87fe9af11cc33"
+    },
+    {
+      "path": "optimized/Mintcake/buttershort.webp",
+      "sha256": "3284dd1085089f1bcebcf2511dc1196bfa2df7553b57b99dba2906da076bb02f"
+    },
+    {
+      "path": "optimized/Mintcake/choc-orange.webp",
+      "sha256": "e68fb534596ca661c82dcafa52e5d3ff6944ccfece377f7251c5945d6c50ffa7"
+    },
+    {
+      "path": "optimized/Mintcake/dubai.webp",
+      "sha256": "1650bb8534a5e00238f1b96943ccc7d7009647f893e532d3d70e6840be97aec6"
+    },
+    {
+      "path": "optimized/Mintcake/extrast.webp",
+      "sha256": "5e09827c89a340b2385c3460d16ec05e34a14aa1d86fbf76b8a61ac19247a4d5"
+    },
+    {
+      "path": "optimized/Mintcake/gingerb.webp",
+      "sha256": "10c9db69f9d269250ef117c811d3eb5a9ecf64f577d6e1a67253f5dc3f773f59"
+    },
+    {
+      "path": "optimized/Mintcake/goldenc.webp",
+      "sha256": "b292042a5d95e2bab42b48d3705d81a7c54df1bf210690fec122f7cbd9c61a16"
+    },
+    {
+      "path": "optimized/Mintcake/lakelandr.webp",
+      "sha256": "39d22604978ddc26cb472c1c13d83ef4d5b88c98b2b37632b72ded048d08caec"
+    },
+    {
+      "path": "optimized/Mintcake/mintcake_brown.webp",
+      "sha256": "2a6f0de97d70521d899e434c011c2531d2e13dc8b5c5e82461c97c5a7e35b653"
+    },
+    {
+      "path": "optimized/Mintcake/mintcake_white.webp",
+      "sha256": "437ab776f7e262356d45ca3c1b3af8debcaf2d000d9bcaa4f74d2004bf9b6d0d"
+    },
+    {
+      "path": "optimized/Mintcake/triple.webp",
+      "sha256": "de14ee1f08cd9c5bffdabdc22cd7991cf4e3391996ebbaeff77f79eb3f152a3a"
+    },
+    {
+      "path": "optimized/hotdrinks/americano.webp",
+      "sha256": "b9c9d24c300189aa512c4a8c9db3c804e6d1d9c1184783318bda2f3846fea6fc"
+    },
+    {
+      "path": "optimized/hotdrinks/cappuccino.webp",
+      "sha256": "9c7cd6711e0eb94827d05ab1803e861c3bf96465fcbfda0135cc40ace61a58c3"
+    },
+    {
+      "path": "optimized/hotdrinks/decaf.webp",
+      "sha256": "9ab3a38216c135673e3eb1f6165a554ded7660c450a55940c6255a4a302fa103"
+    },
+    {
+      "path": "optimized/hotdrinks/espresso.webp",
+      "sha256": "5967250ea094832efdfa9db065f8531715d4a42915f0d774242f1cb33ff2e3a3"
+    },
+    {
+      "path": "optimized/hotdrinks/flatwhite.webp",
+      "sha256": "b697fcbb448754e9357a8032de99113b621401c71d36962c444a0cb0e8aa2daf"
+    },
+    {
+      "path": "optimized/hotdrinks/hotchocolate.webp",
+      "sha256": "eeb98289a16342bc7966293d741c6cbe33523e3fe7e87b8e7d3d98cc105ce151"
+    },
+    {
+      "path": "optimized/hotdrinks/latte.webp",
+      "sha256": "d875ebf0301d98d64ed91d920dc2ac030f4245655ba4c23966baa9c42d7a30ca"
+    },
+    {
+      "path": "optimized/hotdrinks/mocha.webp",
+      "sha256": "d3e9316853f770edecaf7948c376abd6f0e75cef858751130afe8cc47a354292"
+    },
+    {
+      "path": "optimized/hotdrinks/tea.webp",
+      "sha256": "8aea7aaf4e1f17188c398b35d217093b1b746f9c1f6c2f81802c170bcb27c306"
+    },
+    {
+      "path": "optimized/images/After-flood.webp",
+      "sha256": "eece24da58def52cd6c928781daf1fb5adf05af145f6cb6d0f9266fb0ab85732"
+    },
+    {
+      "path": "optimized/images/Cadb.webp",
+      "sha256": "dea992b64963b1d97013ca13d51ee5aa248843ad61871b0d810838a62ae4c670"
+    },
+    {
+      "path": "optimized/images/Flood-day.webp",
+      "sha256": "1785fde74afc430a431556c0ee40d8bcf0b79ef478974712f6beb3367897b7ba"
+    },
+    {
+      "path": "optimized/images/Flood-next-day.webp",
+      "sha256": "c3d83a2418eccabbcd128b9be6982eb626d3946a8aa1ebb28d28b248394752e0"
+    },
+    {
+      "path": "optimized/images/Flood-night.webp",
+      "sha256": "396294c30a544d8daf263f54cd879193ff8a1b327450d046d4d8c4b5ccc1a310"
+    },
+    {
+      "path": "optimized/images/Maps.webp",
+      "sha256": "bdbb7782218341d2ac99051e7ceca11e41d6f04c19c2cd906f42604cc73e90ae"
+    },
+    {
+      "path": "optimized/images/Pr.webp",
+      "sha256": "6f370bdf6dec1315d78b5852c348fcabcc499b76a08e2eb412421e7d3018ac90"
+    },
+    {
+      "path": "optimized/images/Souvenir.webp",
+      "sha256": "d0ccc043b631311ac9d5864820bb0365fc3f0f7edb8e0648d74cb6954b7ef57e"
+    },
+    {
+      "path": "optimized/images/Start1.webp",
+      "sha256": "7d97e95eba3ac49f4ab7bd14985c3669dfb825e7d59c1613e69b5eaabe19053b"
+    },
+    {
+      "path": "optimized/images/Start2.webp",
+      "sha256": "e3d10e4bf0190826d5612f1bb0bd7a9c00885576391aa95cd9020acd5f1b8c94"
+    },
+    {
+      "path": "optimized/images/Start3.webp",
+      "sha256": "197f64720098afc5622f839fd83145cdbf3918f75d2d5c009e6fd252d411397a"
+    },
+    {
+      "path": "optimized/images/Today.webp",
+      "sha256": "b2b1daa23390f22c2401e7fcae7e45a5be101e78b5cc4592a3e227ab9eb30b84"
+    },
+    {
+      "path": "optimized/images/about-img.webp",
+      "sha256": "fef9577e68fb647bffdcaa1fc2046be3b298841415e020e685715174374b5906"
+    },
+    {
+      "path": "optimized/images/awards.webp",
+      "sha256": "2bd9d115f3c45cbbd8e7b114fca2699feec0ee4d48537e2f6f7300a84d0d5c78"
+    },
+    {
+      "path": "optimized/images/banner-bg.webp",
+      "sha256": "d823236822164e3fae75364c7c6894ff1bcc701563fb671c0840086f66b946ef"
+    },
+    {
+      "path": "optimized/images/banner-img-coffee.webp",
+      "sha256": "db150a480eda702dfaec42c3ef1c53099e9381bcb670dff0db7743a8c305c6aa"
+    },
+    {
+      "path": "optimized/images/banner-img-romneys.webp",
+      "sha256": "e1b6c60d2efc1ef55f99a273bcf3fbdc9b2d64f26e9f590459fd790a5d510bec"
+    },
+    {
+      "path": "optimized/images/banner-img.webp",
+      "sha256": "937a1e7e26f174367e1a67445ec0c29f5324677383973f3da2345b0abae4582e"
+    },
+    {
+      "path": "optimized/images/cocacola.webp",
+      "sha256": "c34d4f7bfb04b39d13eeadc2390de104b3dc3f790187fd7fc10fedccf2dd8a00"
+    },
+    {
+      "path": "optimized/images/cola.webp",
+      "sha256": "8e45728995420050e7a6f84992a008acec51c4b7556d27de833d075b6c3d2d7f"
+    },
+    {
+      "path": "optimized/images/jersey.webp",
+      "sha256": "02db42f4568c4d826f6476da26953c8e50395c0150ee4acebadbd2e6f0777e16"
+    },
+    {
+      "path": "optimized/images/lakes-icon.webp",
+      "sha256": "472d3f1413be462099c7c0de171db8b0cbdd5f4008d4f5192ef22589604ad6a9"
+    },
+    {
+      "path": "optimized/images/quick-icon.webp",
+      "sha256": "45bc3e46c05b586f65a187c1141a4e03fac076994b882ac8adf6fb97be0e8caa"
+    },
+    {
+      "path": "optimized/images/romneys.webp",
+      "sha256": "044ef8f3eefa87c93ce088d701db0dda3f59282f27c6836304166878e705fc71"
+    },
+    {
+      "path": "optimized/images/toys.webp",
+      "sha256": "5db41a8ebf6a6cac6f2c085c85b740bee9589841fcc14061013b1acb0ce10767"
+    },
+    {
+      "path": "optimized/to-do/Ambleside.webp",
+      "sha256": "add16171ac3a9bd1760805acf53cdf96b4e1c5fddfb5d8f5074bab827ca51d58"
+    },
+    {
+      "path": "optimized/to-do/Boat.webp",
+      "sha256": "99e307d47a6a4beba70bfd2023f5e1a8f14a3b1bdf1db819cdfcbea13e97b018"
+    },
+    {
+      "path": "optimized/to-do/Borrans.webp",
+      "sha256": "085a4ea3375e83041902ca8cc77ff32069a7ca0de3d4ec3aa3bc729d83dc535d"
+    },
+    {
+      "path": "optimized/to-do/Bridgehouse.webp",
+      "sha256": "362323dbfd0213cf8937a3a38d567b5b01b030b26fc0616deba59b69d8230532"
+    },
+    {
+      "path": "optimized/to-do/Cave.webp",
+      "sha256": "46303b8bd3c0029e80ebf2bf1d0085f9accec2a929fdf830a988ecba984dfdec"
+    },
+    {
+      "path": "optimized/to-do/Garden.webp",
+      "sha256": "494bc2a2301ec2e3bfeda389ba2e0fa4ecf7ab0e9ea6438beb17bf1526cc38e2"
+    },
+    {
+      "path": "optimized/to-do/Garden2.webp",
+      "sha256": "fe67895ac90e4fd3e0c315eddea350f893bc436de54e832f9aa013887403ae37"
+    },
+    {
+      "path": "optimized/to-do/Jenkin.webp",
+      "sha256": "08b87c57c575db543ad9730ee3a971f2066638ab59c6e488b24af411538d507c"
+    },
+    {
+      "path": "optimized/to-do/Jump.webp",
+      "sha256": "97204519c1532e738ee8de30ffe315ec2a3987f366a6fea6116f937bb0258b97"
+    },
+    {
+      "path": "optimized/to-do/Lakesidep.webp",
+      "sha256": "6f9b3f044e8067e591190a76449dddbbbf92577118da6d73ab63925304ee5aaf"
+    },
+    {
+      "path": "optimized/to-do/Loughrigg.webp",
+      "sha256": "4262e804775f51147ea21b7fb989c255c35edff8899f851c36605fe7245c6ce4"
+    },
+    {
+      "path": "optimized/to-do/Roman.webp",
+      "sha256": "4c52856bdfbcb940d49ca69e04ebcdec5b0b1e94875919010bb1c82b7c493b92"
+    },
+    {
+      "path": "optimized/to-do/Rothay.webp",
+      "sha256": "437ad257fc29c7a5e7f6761e099331706e055d0b65ecc36710222cb5bba3b541"
+    },
+    {
+      "path": "optimized/to-do/Rydal.webp",
+      "sha256": "1cf2f77dfa8838b548412997a3c9c620dc7b0e94733557e647ba469ce20aa41c"
+    },
+    {
+      "path": "optimized/to-do/Rydalw.webp",
+      "sha256": "e689f3bd9b710f359f302a4eb44b053a7300d0b18a31eea3eee4d5da55be09c6"
+    },
+    {
+      "path": "optimized/to-do/Self.webp",
+      "sha256": "b525f7c7e1b3a6832b1458831bdff125ec4195c309363f545f67438c230e0962"
+    },
+    {
+      "path": "optimized/to-do/Stockghyll.webp",
+      "sha256": "36dcb72b17cfacf89f6b67609003cd5570a66931ad41e6525ca7541f914088eb"
+    },
+    {
+      "path": "optimized/to-do/Underl.webp",
+      "sha256": "5dc4131af734f707cdb254163bf5313e1811e57737f3be6362041a516c54cac1"
+    },
+    {
+      "path": "optimized/to-do/Wansfell.webp",
+      "sha256": "60bb741160745b772f3ca03378441c7508d2224d7ba9628e4a1edb8104749b43"
+    },
+    {
+      "path": "optimized/to-do/Wray.webp",
+      "sha256": "69013f5e6b4e21cbf0fcf382da1a7501f1177329cd2051d95cebe6ca30adb65e"
+    },
+    {
+      "path": "optimized/to-do/Zip.webp",
+      "sha256": "4689b56de9fc73e5bd2ce6715dc13b4efc0df17d4050872f07aea0e6af12461f"
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "7dd98c8ece7b5c6783e2913cb5a8575d056eeb651a6d7d51815dcd6403ca097b"
+    },
+    {
+      "path": "products/affogato/index.html",
+      "sha256": "51060f5594ae109cc6d37a187604659608b8f0d7d12858d75d210f12fe301c5d"
+    },
+    {
+      "path": "products/after-dinner-mint-fudge-150g/index.html",
+      "sha256": "a6c4ccb1ed3301547900142815639fdfa96a43418f050b03b851bfac2baccc8d"
+    },
+    {
+      "path": "products/ball/index.html",
+      "sha256": "65dbf15cf8633c6f647f8f6c2cdc6eb98bad61dd51713bfb0cae75cdbb4c54ed"
+    },
+    {
+      "path": "products/banoffee-fudge-150g/index.html",
+      "sha256": "6d17d19d78f7c08976aa9cd0a7d9b78f22a87ba865052e7bde7ce6972ab80eb4"
+    },
+    {
+      "path": "products/beatrix-potter-stationery-set/index.html",
+      "sha256": "a29568fa88f50aba83505f3fa099ea55fc678dbb3e0b26c83bbcf8ab4f5cb99e"
+    },
+    {
+      "path": "products/benjamin-bunny-large/index.html",
+      "sha256": "8a7f74e47617007c3be488f98d1ab54c7ed8693bae59ceb9978dd9993e9862e4"
+    },
+    {
+      "path": "products/benjamin-bunny-plush-keyring/index.html",
+      "sha256": "fe7b5df20d63033c6f0b41ecfa5217a81b19f48e8c8c5b8037e2e2a52dac301f"
+    },
+    {
+      "path": "products/benjamin-bunny-small/index.html",
+      "sha256": "22e910deba7b02ced218929e845a72a01c315919c80d9012a773323df3f16c00"
+    },
+    {
+      "path": "products/brown-kendal-mint-cake-170g/index.html",
+      "sha256": "82dc8bfd0e0b5b875b9ad5d2598aa3d844e7f3ff23d4c09426ee832fceaa7a8c"
+    },
+    {
+      "path": "products/brown-kendal-mint-cake-85g/index.html",
+      "sha256": "d822c65f209c0960377c0aa196fc1ac8bf4ba72606add65aea18627bae3c099c"
+    },
+    {
+      "path": "products/butter-fudge-150g/index.html",
+      "sha256": "7863d1d99d88cfbfdca141dc3f0af8ff8c51d0290392ce7e3166937f4c607454"
+    },
+    {
+      "path": "products/cadbury-boost-chocolate-bar-duo-68g/index.html",
+      "sha256": "17d7ca71987c358463127e310addbe75cec2263cd54ae4ff005ec8f4437ebef9"
+    },
+    {
+      "path": "products/cadbury-double-decker-duo-chocolate-bar-80g/index.html",
+      "sha256": "7aed1bbf70fb33610afe82e64dea6ac8505d5e98f765245870dbdb2449a5b7bd"
+    },
+    {
+      "path": "products/cappuccino-fudge-150g/index.html",
+      "sha256": "ac52d62eb5aa9186cd1cd3eca0623e779bc1ff2926733a73d226b993de420509"
+    },
+    {
+      "path": "products/caps-and-hats/index.html",
+      "sha256": "81e464ce5e0d4a6ce76b5a0ff138c729e4a4fbf49ec3a5703bc247b8bd379a4f"
+    },
+    {
+      "path": "products/car-stickers/index.html",
+      "sha256": "1cf4948fd1e606aca48ecd6aa3970469058b188c82170a9fca29c1ca0e1d80c7"
+    },
+    {
+      "path": "products/cherry-almond-biscuits-200g/index.html",
+      "sha256": "f1a1afae2574701181a73740c20ac100e0478b3d8537f555d784bf243fdf76fb"
+    },
+    {
+      "path": "products/cherry-bakewell-fudge-150g/index.html",
+      "sha256": "7a0bda6f0ad1f9266630759a4bd2fa36933f12f757374ac925eaf35500405c3b"
+    },
+    {
+      "path": "products/choc-chip-orange-biscuits-200g/index.html",
+      "sha256": "54a61bf601c3895bbf490816547d36e9cd8ac379a755962984732f28a9ce4902"
+    },
+    {
+      "path": "products/chocolate-chip-biscuits-200g/index.html",
+      "sha256": "576fcab23b02d126924d50c9bc9153de478e43d0356a461bbf72376520667833"
+    },
+    {
+      "path": "products/chocolate-coated-cinder-toffee-150g/index.html",
+      "sha256": "6ab79522c18e45b9a11e217ec95d0556c04318bf2568cd08611e6e893be44713"
+    },
+    {
+      "path": "products/chocolate-covered-kendal-mint-cake-113g/index.html",
+      "sha256": "da0f07ca72d64a837c08b0e275c4c2e1dc86428de2eca670f21f072353de3653"
+    },
+    {
+      "path": "products/chocolate-fudge-150g/index.html",
+      "sha256": "700860d4a8bf4109abce88eec164745476262415ba044af04224814e65fe3019"
+    },
+    {
+      "path": "products/chocolate-orange-fudge-150g/index.html",
+      "sha256": "239386179847d8535b6d108a8dca93570ab3e47ac1b81197a049fe4f2eb92ad1"
+    },
+    {
+      "path": "products/cinder-toffee-bag-150g/index.html",
+      "sha256": "ee4ad75ab6425d2500f179bc9f77e3f202a56181b504daf8ab9db53924843557"
+    },
+    {
+      "path": "products/clotted-cream-fudge-150g/index.html",
+      "sha256": "26090aec5766ca4a712f375018ffcefaf18d516fa4b3c934229978a7e6e3321c"
+    },
+    {
+      "path": "products/coca-cola-cherry-500ml/index.html",
+      "sha256": "773ee6ba6b83b417c9bb84455821d14f6600cc2490db74e4f22145f6eba7be0e"
+    },
+    {
+      "path": "products/coca-cola-cherry-can-330ml/index.html",
+      "sha256": "f5650264d09a0cd589a6132d23d928cec64c848a9e3bcb85ee7445205a8540f2"
+    },
+    {
+      "path": "products/coca-cola-original-can-330ml/index.html",
+      "sha256": "58045e1a02f554288fa879e354d74a17cea9c17a5917d62da8c88e0def6cd0ee"
+    },
+    {
+      "path": "products/coca-cola-original-taste-500ml/index.html",
+      "sha256": "28d324cf1df1b61f9da0fbc71c85ec40bfc2011b713bae412f3d4e8318c6dced"
+    },
+    {
+      "path": "products/coca-cola-zero-500ml/index.html",
+      "sha256": "2f2c25f814d4738fa69d07ec6eeb7cc6e732c5513165b2526cd3d3cc1dc8a504"
+    },
+    {
+      "path": "products/cointreau-orange-fudge-150g/index.html",
+      "sha256": "94aba174c0ad9fe779304323e2be9d6801d3507d3ccae1dafdabd3a0417ded30"
+    },
+    {
+      "path": "products/cumberland-sausage-85g/index.html",
+      "sha256": "34ebceba44df51b0189d1247de262414fdd573c4dd1120db47cfbb3795a1707a"
+    },
+    {
+      "path": "products/diet-coke-500ml/index.html",
+      "sha256": "12355a040604b7ea7e9038fdd77ee97f0eb1f94533b4d4aa3daf48a3a062a299"
+    },
+    {
+      "path": "products/diet-coke-can-330ml/index.html",
+      "sha256": "94d95c4973f8ff56873139750016a574c11a547e9fb4718d9bc7e59c3640986a"
+    },
+    {
+      "path": "products/dr-pepper-500ml/index.html",
+      "sha256": "fca0ec97ed33f8f2acbe64cc74dbef60430f01a4bd46f4b43b469f4340742c39"
+    },
+    {
+      "path": "products/dr-pepper-can-330ml/index.html",
+      "sha256": "af745515902a11f436a452a727573f63c7a45a3cbc0ddef2ee2db3dc15f39bc2"
+    },
+    {
+      "path": "products/dubai-chocolate/index.html",
+      "sha256": "1bf934a22f4d61a6372ef74be02001d3da1e9a47926917c372dc0245985f59a5"
+    },
+    {
+      "path": "products/extra-strong-white-kendal-mint-cake-170g/index.html",
+      "sha256": "c7424dce8ee668dbdbf3fc8ad61d9bf6198157a0352a463e922dfa0450554bb6"
+    },
+    {
+      "path": "products/fanta-icy-lemon-500ml/index.html",
+      "sha256": "5259e5d0951bdad9eb3176636c7d19faebea5f7501ed9d5b3a170d4c21a7db9e"
+    },
+    {
+      "path": "products/fanta-lemon-can-gb/index.html",
+      "sha256": "fba3c574c1637d62172cc0b0ce28d01d84ac825aaced1f9e878a567f6cd7c88a"
+    },
+    {
+      "path": "products/fanta-orange-500ml/index.html",
+      "sha256": "360def1648e749d1ddcd7cc6da74e4f88d5c853b5f6094496738fb63704563e4"
+    },
+    {
+      "path": "products/fanta-orange-can-330ml/index.html",
+      "sha256": "0552f6e2125f3aa5405026ef10b53cb8a32c3d82348544c6d51da0811b3b1680"
+    },
+    {
+      "path": "products/fanta-zero-orange-500ml/index.html",
+      "sha256": "68f7e332a7d9fba3bd4de2210d5129eeb26e3f37830c2665fba126436464a0c9"
+    },
+    {
+      "path": "products/farmhouse-oaties-biscuits-200g/index.html",
+      "sha256": "4049fcdc820326f43c00e82b7e7d4a679cf5268f3f951890a97ab12f85d9e9dc"
+    },
+    {
+      "path": "products/fishing-net/index.html",
+      "sha256": "c453ab766365cd39585c3621b2f215e8b2711fd9ea8406a828df0f4d8dd3507c"
+    },
+    {
+      "path": "products/flying-ring/index.html",
+      "sha256": "270503f35efa58e3339329609d732b2f94e84dd1b149211ae4749ad1e79cfa07"
+    },
+    {
+      "path": "products/fridge-magnet/index.html",
+      "sha256": "426c6dcea34fd6be92555ccc990c64fa671c6eb08ca29c57102bf53bf295de02"
+    },
+    {
+      "path": "products/fun-kandy-mallow-sheep-35g/index.html",
+      "sha256": "0a3163688a7515f49db1d27629b359a821f0d0744a62d8c9107788ae0ab4c962"
+    },
+    {
+      "path": "products/giant-choc-chip-cookie-250g/index.html",
+      "sha256": "8ec79e5ea097dbed65f7b1da167a2d1bcd8ce5ec699fb85e75e6abdb8f7f1b22"
+    },
+    {
+      "path": "products/giant-ginger-lemon-cookie-250g/index.html",
+      "sha256": "4a90479385ed7455ce45a334ec1b8638c982dc93f10819646ba1d62d84908c96"
+    },
+    {
+      "path": "products/giant-shortbread-cookies/index.html",
+      "sha256": "7dd52bed77b80981dc07fd2b2fa84356b6df618039a8324b2825a0626cedf1dd"
+    },
+    {
+      "path": "products/gift-box-assorted-fudge-200g/index.html",
+      "sha256": "bd1186e26860daaee261ab9d06c4a7342ab29265567ed84a40317bdd15673bcc"
+    },
+    {
+      "path": "products/gift-box-assorted-toffee-200g/index.html",
+      "sha256": "cd13e9d8da08aa6e4bf6796d5513ba0f96ec0af67440d2a13edd54f542583f34"
+    },
+    {
+      "path": "products/gift-box-clotted-cream-fudge-200g/index.html",
+      "sha256": "872e6976b0f79c3ee68f55fa8b0bf367670ca44d40697a0886ac857ea2d71ee3"
+    },
+    {
+      "path": "products/gift-box-mint-cake-200g/index.html",
+      "sha256": "036b790089ba311aaf1ab7ef079a8edbce258950a07e9e353a603a294a4d48fa"
+    },
+    {
+      "path": "products/ginger-biscuits-200g/index.html",
+      "sha256": "c4f18dc844484786cdd22166b7102a9a3c3a9730fb29cd1b95fe4ac45a9962f6"
+    },
+    {
+      "path": "products/ginger-fudge-150g/index.html",
+      "sha256": "51f0493f93385ad15ae566681c42f3abb388ebe948154b0a505463c6243d046c"
+    },
+    {
+      "path": "products/golden-crunch-biscuits-200g/index.html",
+      "sha256": "341543fdbb1f34bcb4bfafe20ea228cc320fdbc237f57fbd9f939d340fa9a122"
+    },
+    {
+      "path": "products/harrogate-spring-bottled-water-500ml/index.html",
+      "sha256": "9cecc667daae7765ed681f5eaa4839e6311d09add906cb740964aea649afdfdc"
+    },
+    {
+      "path": "products/harrogate-spring-sparkling-water-500ml/index.html",
+      "sha256": "417b2824ca8836a3f70734b66f6d09f3824e9ac6c32e1d40b785a119a7c53a4a"
+    },
+    {
+      "path": "products/honey-fudge-150g/index.html",
+      "sha256": "ce5187aa46cb6f208c5b4a3bfe36ad8ddf2f59ae9a3f9bf326147c88037de8e5"
+    },
+    {
+      "path": "products/irn-bru-500ml/index.html",
+      "sha256": "b4c055ad5b2f5c8014cf4d30921dbe66832f00a1d1225c9ba0e584b6a0d80a6a"
+    },
+    {
+      "path": "products/jemima-puddle-duck-keyring/index.html",
+      "sha256": "17007776d436cb0d7643a728b6d5f8a09e060a9e87e9113bed4ddb5b3aa85059"
+    },
+    {
+      "path": "products/jemima-puddle-duck-large/index.html",
+      "sha256": "3efa7fc8fd5f03756d60bd86ffd6682e1b52701fc93f881a3fb23c803564d708"
+    },
+    {
+      "path": "products/jemima-puddle-duck-small/index.html",
+      "sha256": "938c5f3606abda516d5845c8f4786f55033edea284012b060a0f65b832eeaa5e"
+    },
+    {
+      "path": "products/kendal-mint-cake-170g/index.html",
+      "sha256": "8ee25d00f46242b0636e58cc2482cf33701977499ee1f6b6e051d5c5a14aae13"
+    },
+    {
+      "path": "products/keyrings/index.html",
+      "sha256": "7f01d6e8629bca4fa8ab9f87435ade87ad80839926369548f8a9e346d1cf3db6"
+    },
+    {
+      "path": "products/lake-district-calendar-2026/index.html",
+      "sha256": "868a1c98d6080f3ca47cc5adedbfb8b77fb34ef13effdf463ba4eff050901684"
+    },
+    {
+      "path": "products/lake-district-coaster/index.html",
+      "sha256": "4812be835b27d571361f8d487dc9bac2ed1800dc0878c329af8dc9514309534f"
+    },
+    {
+      "path": "products/lake-district-collectors-pin/index.html",
+      "sha256": "63945ab0724991bf8d9d08f061e36a05bb3dfea14e58eee27f53b20ea23b2c32"
+    },
+    {
+      "path": "products/lake-district-embroidered-badge/index.html",
+      "sha256": "95cd8ce9b48f4ab14d208aab90f66a6f5470ba0a43650e31abdd58b5c964afe2"
+    },
+    {
+      "path": "products/lake-district-mug/index.html",
+      "sha256": "11797f38fee57c89b17e0b926bea17a55ab2fbcb883ccd9d76c1f4cad81bd59c"
+    },
+    {
+      "path": "products/lake-district-notebook/index.html",
+      "sha256": "98ca82bcbfdf5c7523b9a269a3bd4547f23ea4fc1cb45cd7ee7220f3611e9c42"
+    },
+    {
+      "path": "products/lake-district-pen/index.html",
+      "sha256": "22d1286293694900eb5be52464e4e7a267dd072442f7843f151797f124a46a99"
+    },
+    {
+      "path": "products/lake-district-shot-glasses/index.html",
+      "sha256": "368c0ad113fefe782d0ea973b475837a3315193f5a34205a9d0774a121ce80a6"
+    },
+    {
+      "path": "products/lake-district-teaspoons/index.html",
+      "sha256": "d107263ec49d73cebebdfd0296b0ed3ec62e52c88c257ee2bee978130deaa0a6"
+    },
+    {
+      "path": "products/lakeland-rock/index.html",
+      "sha256": "ebbb2759ec5051286d731545b4f09debb0b48c2ff1397175ca49bdfc8e3840b7"
+    },
+    {
+      "path": "products/lovely-liquorice-walker-s-nonsuch-toffee-bar-50g/index.html",
+      "sha256": "33bf799868461b2b9c902065f425fb6a554fe1f2ff0c4dc7aea0f68a02bcbd49"
+    },
+    {
+      "path": "products/lucozade-sport-orange-500ml/index.html",
+      "sha256": "de08e96597f8d74c22130b81076439be0e201db9444a19754f9ba449ef4adb8c"
+    },
+    {
+      "path": "products/lucozade-sport-raspberry-500ml/index.html",
+      "sha256": "3d4c729e2c8bf0cd0f67042e1e435dc814482b07a9326ad7650f9a78ed6ec418"
+    },
+    {
+      "path": "products/lying-peter-rabbit-large/index.html",
+      "sha256": "b2beeb624d713c55f8d0d52a834dbd90b23c135330ac7ad88eeddccbd8794b28"
+    },
+    {
+      "path": "products/mars-duo-chocolate-bar-78-8g/index.html",
+      "sha256": "6dcdff8145743695053f627c1b3e9d6ecf09dea758c66cd516db6b9937a3608f"
+    },
+    {
+      "path": "products/mrs-rabbit-peter-bauble/index.html",
+      "sha256": "4077eb07f1592d1ddc36f2b05a92b34598d7019d4b2607ce85eee6611b67569f"
+    },
+    {
+      "path": "products/oasis-citrus-punch-500ml/index.html",
+      "sha256": "2d97b930ff665567bbff0a0bdef7ef14a26debf2f2b93e17fbbd34980f62b0ba"
+    },
+    {
+      "path": "products/oasis-summer-fruits-500ml/index.html",
+      "sha256": "c96164b7e0135d2568075cccfb47cf5096db954d01f9cb593eee5e4147175c68"
+    },
+    {
+      "path": "products/os-ol6-map/index.html",
+      "sha256": "91fed8a590bd4b55077b473237e9e78fea921430db3136d4a35ea07cf3bd6dcc"
+    },
+    {
+      "path": "products/os-ol7-map/index.html",
+      "sha256": "d895dc32745d70ffe6e1d036e9c2d8638485e38151cdda84d8984322bd946b08"
+    },
+    {
+      "path": "products/peanut-brittle-bar-100g/index.html",
+      "sha256": "d90b53e3bd8fc620b51d2bea004908bc62d02ac6f76d536816ab1f3a7522f497"
+    },
+    {
+      "path": "products/peter-and-flopsy-bauble/index.html",
+      "sha256": "852ff05dacf78863482b9f3e135dff436115fceac0b03549519915b4dfd11bcd"
+    },
+    {
+      "path": "products/peter-my-1st-christmas-bauble/index.html",
+      "sha256": "e1037197fe54c677efa5d1703dd0cb23c35252167e057dae8d4e1f89f4cd8b15"
+    },
+    {
+      "path": "products/peter-rabbit/index.html",
+      "sha256": "9a3ea6c8014cf6b4ceb7ff8dc43291f4cc3d4b39c8e69e62746295d961e3598e"
+    },
+    {
+      "path": "products/peter-rabbit-christmas-bauble/index.html",
+      "sha256": "85ac602ca27227509476fc9b780e12fa21846d94df807053e56fcf9868eca2ac"
+    },
+    {
+      "path": "products/peter-rabbit-double-oven-glove/index.html",
+      "sha256": "4681abd83780f88113412ea7c33d4db06c3f67ea109a752644d81b2756f83d9c"
+    },
+    {
+      "path": "products/peter-rabbit-ho-set-of-4/index.html",
+      "sha256": "a27dd5b39056232c712f90baaff2d815b7dfe05ba7f85f2e0b17695041f981fc"
+    },
+    {
+      "path": "products/peter-rabbit-image-tray/index.html",
+      "sha256": "f6543168ea78aa52c4abd47b7113b581de3d99e1b292d18adc294aa3fd9fd383"
+    },
+    {
+      "path": "products/peter-rabbit-in-gift-bag/index.html",
+      "sha256": "ed5c28f79001adb8966e49b315ae298364356e23000410bfd8eded95b030e5e5"
+    },
+    {
+      "path": "products/peter-rabbit-keyring/index.html",
+      "sha256": "a025e49e7b929d028ef7a22f11a54651afdd1bbea455785b46b6b8ebe8436d6c"
+    },
+    {
+      "path": "products/peter-rabbit-large/index.html",
+      "sha256": "b5cf37ac975415fab3e0acfced3182fdfa1e81bd2e83f7f028594b32c5304f40"
+    },
+    {
+      "path": "products/peter-rabbit-medium/index.html",
+      "sha256": "f0305a7c1509183645b5541e3ebcb57f193a56d7304941c8c1afe1d569d331a9"
+    },
+    {
+      "path": "products/peter-rabbit-mug/index.html",
+      "sha256": "aa8216306f907cb2f4c65f116c8e8c9ea9e27b835250d30f20077bc8d03157c4"
+    },
+    {
+      "path": "products/peter-rabbit-mugs/index.html",
+      "sha256": "8e4e966946cb05feb486b1391fbb74d29076350a8ae6a1a691062a2a1364d752"
+    },
+    {
+      "path": "products/peter-rabbit-notepad-set/index.html",
+      "sha256": "0a6782528f76c6b89b83e6b65861132ef115d29896cf2367a4dda07132f09351"
+    },
+    {
+      "path": "products/peter-rabbit-playing-cards/index.html",
+      "sha256": "f40d0e79b42bd7987e8ca693e664682c47066145af17bbe3e2f00a49f1f50890"
+    },
+    {
+      "path": "products/peter-rabbit-small/index.html",
+      "sha256": "88bb52dc423e04ba994e2948e454d3ba6231b67ded8fd600a5edde4868331af7"
+    },
+    {
+      "path": "products/peter-rabbit-spatulas/index.html",
+      "sha256": "01d637bcb6b4af073333c62c8e32f329e4ac6f0ab0b75d4f687f15b44e8fb2d1"
+    },
+    {
+      "path": "products/peter-rabbit-tea-tray/index.html",
+      "sha256": "30a94ff8078c4c74b7ebaf9999f1974daf34b8108e5ccd64148419c818da1c78"
+    },
+    {
+      "path": "products/pink-white-nougat-bar-120g/index.html",
+      "sha256": "2bf61c4021240f854a368ec27cb2bf985d4194f5046759bf4f6af3a778914810"
+    },
+    {
+      "path": "products/plush-soft-toys/index.html",
+      "sha256": "ce21d023c53bf07245e2bd520b269f5192d5c0ffdbea75a6e3920980ea0799f7"
+    },
+    {
+      "path": "products/pocket-money-toys/index.html",
+      "sha256": "c8e177f93cb9d22bc63a2a7f7468a562d554f6c2b660791f50d525c81ba372da"
+    },
+    {
+      "path": "products/postcard/index.html",
+      "sha256": "fd82a8c60b283895af6e40fd28ec9cd91cf56b0eeef61299269a3b80021406b3"
+    },
+    {
+      "path": "products/r-whites-lemonade-cans/index.html",
+      "sha256": "5571261b6b98c76932db199de278beab981856d4fc6268eb0c5cd39bdc947179"
+    },
+    {
+      "path": "products/red-bull-energy-drink-250ml/index.html",
+      "sha256": "7a63ca9a4407165bb950b90f2a176cc9420100fd3e24c09ff935c939d139727f"
+    },
+    {
+      "path": "products/reduced-books-sale/index.html",
+      "sha256": "a14dc59bfd1c1646b7f44072d7201670a10e12e825548b522c44f4c967b98838"
+    },
+    {
+      "path": "products/ribena-blackcurrant-500ml/index.html",
+      "sha256": "6bf93007d1db9330f7788eab0249a931ad7a32271e7679c5b6918cb9900ae192"
+    },
+    {
+      "path": "products/robinsons-fruit-shoot-apple-blackcurrant-275ml/index.html",
+      "sha256": "dadcc943217bbc190528c629f347b1559ceb3b5b7ee4f84c8f4772c9adf20210"
+    },
+    {
+      "path": "products/robinsons-fruit-shoot-orange-juice-275ml/index.html",
+      "sha256": "ca27d4690c36cf6c1b7e361d15da842c8ee6eceb78d53b8fc1833524ff9ccde5"
+    },
+    {
+      "path": "products/romney-s-kendal-mint-cake-85g-bar/index.html",
+      "sha256": "f3c15d34969204edc638c1fc0ab52f71f790cdda55b82a21a8cf454f03317ed5"
+    },
+    {
+      "path": "products/romney-s-sherbet-flyer-75g/index.html",
+      "sha256": "f1452ff1629bc641519efd0c824fee485d5a520a96952c06b8025151d65bb79e"
+    },
+    {
+      "path": "products/romney-s-strawberry-bon-bons/index.html",
+      "sha256": "e67ae08299fe08699e465dc9f15a52084a182ea4d2b288f70f52c0b2b1c78c13"
+    },
+    {
+      "path": "products/romney-s-sweet-bag/index.html",
+      "sha256": "5a794d05b736ca38438386f20a64e3f0447d45ae619901283d9cc9ccb2bc078f"
+    },
+    {
+      "path": "products/romneys-kendal-mint-cake-giant-white-480g/index.html",
+      "sha256": "8ef5256b36996ccc0071af546014e50eef82a269aed4e1de84352fe013d3f544"
+    },
+    {
+      "path": "products/rum-raisin-fudge-150g/index.html",
+      "sha256": "ad931833e34af819afa2b4a7eb131759bb02a57fb21492a9ed8ea99896e05569"
+    },
+    {
+      "path": "products/salted-caramel-fudge-150g/index.html",
+      "sha256": "1a3158707eaabc415020a654cbfe14130af998c13b2690b101919aad0ae55f0d"
+    },
+    {
+      "path": "products/self-adhesive-stickers/index.html",
+      "sha256": "5187526d15144757b29a5b40f711431b8229607580e05171c1a09512b5cce1a5"
+    },
+    {
+      "path": "products/set-of-4-hanging-ornaments/index.html",
+      "sha256": "809a13c41f251054f97dc03121638d0647d620ff4e25ccb6da17559d98eaa5e8"
+    },
+    {
+      "path": "products/shortcake-biscuits-200g/index.html",
+      "sha256": "8814c7afa925739934cd7373b86e5d4987db802ef9f7bfdf1956f43b75b357b3"
+    },
+    {
+      "path": "products/snickers-duo-bar-83-4g/index.html",
+      "sha256": "ef3996f64529f3b3d47fb53c2ec86dbfb869e1c60a7569de4c2c2554deebf7f0"
+    },
+    {
+      "path": "products/soft-toy/index.html",
+      "sha256": "422f48f3dd06a6fd40c84b17be3eda003044ae890707d2ba7296948a719f91c2"
+    },
+    {
+      "path": "products/sprite-original-500ml/index.html",
+      "sha256": "ff9fe9e1a3480f17b32187b7f86b58fe219acc0f43ad7d557ae68966435caa84"
+    },
+    {
+      "path": "products/squares-cheese-onion-crisps-72g/index.html",
+      "sha256": "2fd5d4e9b61f73f7974db49a241ed69074c258821072536d6540aaf0e9e5d461"
+    },
+    {
+      "path": "products/sun-cream/index.html",
+      "sha256": "c85ed2822444f1445fa80b569cb8f111c78b77f247e5e87c19b9ea01bb2ba2c7"
+    },
+    {
+      "path": "products/sunglasses/index.html",
+      "sha256": "d74dc346b90ee5a956d639b78864b6fa25d2272ffd52ddffc0973269dc185935"
+    },
+    {
+      "path": "products/tango-orange-500ml/index.html",
+      "sha256": "39bff096de2a8fd8e4dbb9428b0f712aae17fe817486c6d352c83b99b223fa4e"
+    },
+    {
+      "path": "products/tea-towel/index.html",
+      "sha256": "e11d92f9081ff3aaa7fca784b63a033fd877ae740b19e7d82ece20f2f1eb97b2"
+    },
+    {
+      "path": "products/tennis-ball/index.html",
+      "sha256": "2641be8d0f75b064246e6c4449dde0faffad9cea4b71bac7aef93a861ac9169c"
+    },
+    {
+      "path": "products/thank-ewe-novelty-box-300g/index.html",
+      "sha256": "da2c2df5b672957dcb49cccf0b56d76d1ee6ab7da7818ccdc7d160dea91cc254"
+    },
+    {
+      "path": "products/thank-you-cat-novelty-box-300g/index.html",
+      "sha256": "fd0226ae3b0d8828a533b59bc8a3390129a72888de6121c2b30da9a4cce88c0f"
+    },
+    {
+      "path": "products/thank-you-dog-novelty-box-300g/index.html",
+      "sha256": "9b779133378be9b613eedf01bf798d2c78497935cf30a4b07716f0c5ade4f946"
+    },
+    {
+      "path": "products/the-lake-district-notepad-pen-set/index.html",
+      "sha256": "69895a3ffc5d4f644a3c58bcdb93635c4b07e9d7a7ed3e3bb6e0e35a48171984"
+    },
+    {
+      "path": "products/top-10-walks/index.html",
+      "sha256": "358ba4f6bd8e5f7eecba718ae608642f47ed41481c5198b365d8fe4246f7e8c3"
+    },
+    {
+      "path": "products/tote-bag/index.html",
+      "sha256": "be50c8b5a06f98db55518408b9c13b47fe88deaa0ff68f5a76dcb4bb2d4fbf45"
+    },
+    {
+      "path": "products/triple-choc-fudge-150g/index.html",
+      "sha256": "a95c7e57aac0dfdf65e284abdbaaba4bb7b3c70e131bd81cd241e7804ea5059e"
+    },
+    {
+      "path": "products/triple-pack-kendal-mint-cake-227g/index.html",
+      "sha256": "f9a22f044f7eb741a82d03db49a03cabd40e8391135d97d9cc7af6f20d8d66a6"
+    },
+    {
+      "path": "products/vanilla-fudge-150g/index.html",
+      "sha256": "9631f422150a76f33ace68353f2d6fca8807df00ea2354bdc25aa229d0ca715c"
+    },
+    {
+      "path": "products/vanilla-fudge-bar-110g/index.html",
+      "sha256": "ab516d0e40ff16a0b4cca5534732d2540a469513f0e4424650636472d964a859"
+    },
+    {
+      "path": "products/vimto-fizzy-500ml/index.html",
+      "sha256": "b824881f7c2bb0d38e48e56561df047b78026301414c2d6b93699103040e32d5"
+    },
+    {
+      "path": "products/walkers-cheese-onion-32-5g/index.html",
+      "sha256": "31afd0f1760505dac0f4a8780ce944cbb0df0d85d020cf49c30abe22a3289c8f"
+    },
+    {
+      "path": "products/walkers-original-dreamy-creamy-toffee-50g/index.html",
+      "sha256": "66001cc0fc54425149c6e112fd633241316bcdb28143d21ee20449eca0812205"
+    },
+    {
+      "path": "products/walkers-ready-salted-32-5g/index.html",
+      "sha256": "67249d49ae3e0f06a5fed0bcb1ea9a8295007f5cf66029d2096c64321e3d4599"
+    },
+    {
+      "path": "products/walkers-roast-chicken-32-5g/index.html",
+      "sha256": "b93131de9e7cb0f3a6d64290e1cfb25b3fc70c7b087e708cc6d80deafa24c24d"
+    },
+    {
+      "path": "products/walkers-salt-vinegar-32-5g/index.html",
+      "sha256": "64339b41306194e75da8d9cab6e770794aaf6a98789f72ef3c9fbe12a53a5394"
+    },
+    {
+      "path": "products/walkers-tomato-ketchup-32-5g/index.html",
+      "sha256": "8be16640c779a952710c9a515e033207e9fcf27b85c10313c25cca5bfd1bb83b"
+    },
+    {
+      "path": "products/walks-around-ambleside/index.html",
+      "sha256": "7a9f2bfea4b9eeed71fe26cf935423ab2765c2d29d09ed6ab57dbd9cd0ebb9a4"
+    },
+    {
+      "path": "products/white-choc-fudge-150g/index.html",
+      "sha256": "609b16a27a4d71d33283b472a5bf718e610b15394a0318e29f558d89db368eea"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "8090c8b862140adcb49a0cbce8fb61ac204b4bc60aeba33326146b270bc15667"
+    },
+    {
+      "path": "romneys.html",
+      "sha256": "8c694022fcffd30281b8550f09a1955eeb90710d9e7209d7122b2c68efe9afe4"
+    },
+    {
+      "path": "services.html",
+      "sha256": "2a3dfac9750069cc4796026737a242cb1701ac9118f4ba2f347f76008d9310bd"
+    },
+    {
+      "path": "site.css",
+      "sha256": "2c98a7b7b80bd951d0fdbf669468a09c55d55e9c1390791a59725b86a4fd0384"
+    },
+    {
+      "path": "site.js",
+      "sha256": "2bd6a5d6dff205c6cccf6f740d37f115cbf8ac701c943b1f2b9e337960c7106b"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "4f347c91ce87afff68db032433dd3e5a01a7b720aa54bf7249b192d8856157e6"
+    },
+    {
+      "path": "souvenirs.html",
+      "sha256": "dc5c5ce86a4a50379aebde1f66db5bc78a6aa989b86500b0595f802cadc4455f"
+    },
+    {
+      "path": "to-do/Ambleside.jpeg",
+      "sha256": "2a4b24204bbad38f692d7f90e11a06e80930fc0d13bef8821831e880d8f9bd46"
+    },
+    {
+      "path": "to-do/Boat.jpeg",
+      "sha256": "286eae12a17e83c294731eab5d308b9b13b9312389f807dad261b69fbee75886"
+    },
+    {
+      "path": "to-do/Borrans.jpeg",
+      "sha256": "ae0253495e0093186c5c808c879fafa60a4e37e16c0b6f4d0d067c2001b857e2"
+    },
+    {
+      "path": "to-do/Bridgehouse.jpeg",
+      "sha256": "f84b157f4b13b140da6c714edfae7782a58a3d736ea8f460979b85e3cba046be"
+    },
+    {
+      "path": "to-do/Cave.jpeg",
+      "sha256": "23925082bc49b308fb034675616aec3bcffeeff631a99ea6f6f906925e709ea4"
+    },
+    {
+      "path": "to-do/Garden.jpeg",
+      "sha256": "5bae4693239637eb3e627d4076fcc1d3ce7ceb532f01572f593705e5f9c061e8"
+    },
+    {
+      "path": "to-do/Garden2.jpeg",
+      "sha256": "7eb225307fd327c1aad04bcea24cef19270bf31a7f0dbcc43fddf00839a087fd"
+    },
+    {
+      "path": "to-do/Jenkin.jpeg",
+      "sha256": "94134152af4786b03e9353cedac5501716a734d0bb7239279d674473733a8959"
+    },
+    {
+      "path": "to-do/Jump.jpeg",
+      "sha256": "c4a28f5ec9b1e94354f55531616d8104f77ba471ac54d0d7833d7b1e8f22e238"
+    },
+    {
+      "path": "to-do/Lakesidep.jpeg",
+      "sha256": "c357aaaf28d576c34e16168715eff90ae8bf3a944622fe5dab59a425f7740dfd"
+    },
+    {
+      "path": "to-do/Loughrigg.jpeg",
+      "sha256": "f3a675dd837417e717903577b1b2c54c9d9824ba569f1df9cb80044672031dda"
+    },
+    {
+      "path": "to-do/Roman.jpeg",
+      "sha256": "4e812e338cf50ea0538aabd372ced364f715c2aa1b70540c8bc00735fb072b0c"
+    },
+    {
+      "path": "to-do/Rothay.jpeg",
+      "sha256": "6af27d133e17696e27c82ba9f2dc180d797b11f99bbc191163d239ff0714b9e0"
+    },
+    {
+      "path": "to-do/Rydal.jpeg",
+      "sha256": "98b89fd3e271cb95fd404a76a28ca2ea10860ceda7fa44cd4406c8c6895187a9"
+    },
+    {
+      "path": "to-do/Rydalw.jpeg",
+      "sha256": "517a9dea3bc65aed4d163e001a0f64dcff510c2cf63b5c727107958a9e29cd10"
+    },
+    {
+      "path": "to-do/Self.jpeg",
+      "sha256": "3a743512c625c29c93954214f3b44236b75644c9fc3dfee2c4a1c77a73c5daff"
+    },
+    {
+      "path": "to-do/Stockghyll.jpeg",
+      "sha256": "8d08a4cf5d17ea278a166f86e200a247917350bcfc3b17f87c33fb9c20785905"
+    },
+    {
+      "path": "to-do/Underl.jpeg",
+      "sha256": "c35064285879c713e7d2bd2df3d398f6091124cd88af3c335e02198147a22969"
+    },
+    {
+      "path": "to-do/Wansfell.jpeg",
+      "sha256": "5bca75cde8e2c154bd3f337ff160a152744f2eea7831d6e987371ffeec88274c"
+    },
+    {
+      "path": "to-do/Wray.jpeg",
+      "sha256": "ead70c150b84747fb8058a9f0166019a6eb95c12ca1d5f8621e1ce838892ae08"
+    },
+    {
+      "path": "to-do/Zip.jpeg",
+      "sha256": "b127c09ac0250782c13c241a8c587068a8853378103e6e19c2e150c64be83aab"
+    },
+    {
+      "path": "to-do.html",
+      "sha256": "a1028b8b1139436a9eed109bbdbcd9eff5b86f628e2ddc1c460af43f393c6a20"
+    }
+  ]
+}
