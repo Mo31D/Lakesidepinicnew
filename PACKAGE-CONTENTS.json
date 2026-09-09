@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "variant": "portable-relative-paths",
+  "variant": "github-pages-complete",
   "sourceCommit": "c1eff49e1c8b7770b94d8897acbdd05d61553fa9",
   "files": [
     {
@@ -473,15 +473,15 @@
     },
     {
       "path": "brand/identity-board.jpeg",
-      "sha256": "dbfc561bb941f4898738e7929ffb16eb7916fe1d36100a3dd2c66a58e39c1b9c"
+      "sha256": "c19c93957b5faccbf083333722935573545cd9ae00c0b55284b8e027a27ea984"
     },
     {
       "path": "brand/single-scoop.png",
-      "sha256": "848ec0f9048e084a055fbe02ae2c4cb1da37521560dc8c072c574e228a9690f2"
+      "sha256": "060673f235755d3594f618653ccc3062783fd89edf11272930f73f10f3a2cf1a"
     },
     {
       "path": "brand/single-tub.png",
-      "sha256": "b47eed7e39d00e76516a062a58e28d235ce8b6f000be308c90696580c1042feb"
+      "sha256": "060673f235755d3594f618653ccc3062783fd89edf11272930f73f10f3a2cf1a"
     },
     {
       "path": "coca-cola.html",
@@ -581,103 +581,103 @@
     },
     {
       "path": "images/After-flood.jpeg",
-      "sha256": "6ff5a2e8e7efe2fce08f7d3aebbf0a1dd40bc422e4d63cdd4edfb44e0c7afe3f"
+      "sha256": "8659d11b2c981262f447bc5c82c31eb21bc91df4acda1a8a0547e7771619a06c"
     },
     {
       "path": "images/Cadb.png",
-      "sha256": "849bc2370ebee360f8c902917d4b6f1a5f7328d8a07acf7d36c19c4581646e4f"
+      "sha256": "f03fa5e51533adb85b3dc26d26a61385145e8b2cdc120ba1fbf09f7fbd95c690"
     },
     {
       "path": "images/Flood-day.jpeg",
-      "sha256": "fb264532666579ff65f75ae7ae3a3a3855837b20246f9e410c5e4d7c1806e164"
+      "sha256": "65154049b4f722c2eaf456b12d386c999fda80166e77c43adf41ad6b8a507277"
     },
     {
       "path": "images/Flood-next-day.jpeg",
-      "sha256": "c2e046432a4d08634140f59a5a72e0e13a80a8f0254029a12fd56a3a914cdc37"
+      "sha256": "b71a5806e35aed9cad0c5b287205659608734b12718ecc53e413db582e84ec57"
     },
     {
       "path": "images/Flood-night.jpeg",
-      "sha256": "972f8a4a9025054aa1044487787dcf2b503ab1883a70c03dd29848920e18960a"
+      "sha256": "14a37f9697931b4af3147689270b40ac1f83e0f8fab0b3e82f318944a25d4712"
     },
     {
       "path": "images/Maps.png",
-      "sha256": "3270f17973b79ce426b9f687357c642b9ebf3afd415cbbf19d3d3f518188c200"
+      "sha256": "5d8c48b9541aaa8a449ca43e426e4cbdf92a94d54c2d8fcd3fdf951dccbbe8c5"
     },
     {
       "path": "images/Pr.png",
-      "sha256": "c981b125f13d7e5248ce66a454a7fc0b94c7dc5fa3dbb26c670645f346ca1940"
+      "sha256": "e8bb6b447b452c1fde563660cdbd83bdcfa58f851d03d706a0bae3a50d816e39"
     },
     {
       "path": "images/Souvenir.png",
-      "sha256": "05ccfddd34cf77ffa5c9e56dd0b733097a890b5521bb2c1d13df5a2a26f7b979"
+      "sha256": "adb0d3927e73f3dee4c6ef148bc881efeb2f9daa2e66909f601fcd1e72103b21"
     },
     {
       "path": "images/Start1.jpeg",
-      "sha256": "9ac4aa91fe2e5cf2be51281df352b5c2f3206ec2219ea11ed8cc9fbf69f85c30"
+      "sha256": "1340f7d71db6bdcb979cf203404b874dbd0dbeb96bb5c1b81ccc909b868971d2"
     },
     {
       "path": "images/Start2.jpeg",
-      "sha256": "bca30a3cbf8516d93ce8ccaeea56f0b4899da4e597d16f10a0a7c58866a51fb5"
+      "sha256": "de5de22a374ff5aee98372132c4c121f7a875d948a6a464614fcff594dafdf1c"
     },
     {
       "path": "images/Start3.jpeg",
-      "sha256": "310c3d3ea3cfe99dbf3a8362078c2c0aafa85155b06a06797210cf17e8c47018"
+      "sha256": "ed61f927e0c78134a66e3e120aed7d15cb302704225d8fbcb2ee3f433eaafee7"
     },
     {
       "path": "images/Today.jpeg",
-      "sha256": "9cbf71e908e9ac375556a2a6140aae4a2933f5011dd169b76d0ff650d8ee58d6"
+      "sha256": "ec62eebc2738521bdcd0a00c107c239a37f082587091eac2e72e5b38da29c82e"
     },
     {
       "path": "images/about-img.png",
-      "sha256": "789464dd66163b374433479e33b586b3f95403e2cdfcaaa2a74726916fa3373a"
+      "sha256": "4a0c76158a5f5b47258c5196ba69d2c06961eb3c5aad726fbe03ee1513db1e5c"
     },
     {
       "path": "images/awards.png",
-      "sha256": "97baf039d06583658f1a494aa4cf8b01e9ac316e312e1a7322b58ba60d53e106"
+      "sha256": "3cb37909f2b6024366b4878be66dfeef30a502fa071dff534e6772a838ec243d"
     },
     {
       "path": "images/banner-bg.png",
-      "sha256": "e9f98288d8687972b63ff2ca7eaebfd155798233967b8ecd9ab8453be6b0b5fa"
+      "sha256": "7692f830dd34148aa159e5ccb3d671f0d585783a0f844923b6a5f34de711f58c"
     },
     {
       "path": "images/banner-img-coffee.png",
-      "sha256": "1e69d37b193138e3ae02aa6cf2eaee5ef2921b0018b6ef018dd8c60d06af20e0"
+      "sha256": "0ab8a738053d8deb3844788a58c661302fb6d0ebeecb445de3ddcb0b8fee7b1c"
     },
     {
       "path": "images/banner-img-romneys.png",
-      "sha256": "b99d2ce8c89155263b6f1e842f4893957e7fafde348b38a6d062c10163ec1119"
+      "sha256": "feaea3df46b05a6354d4ea7a8c91a708dac03530b98d296f42ec07efa6034286"
     },
     {
       "path": "images/banner-img.png",
-      "sha256": "9c484732077b5ce2f35666f8265efd5a5e9f07b15f8957c1914a10faac0c67db"
+      "sha256": "b13060ccd04160e71f0a1e01402124708c14b6655ad02e941b7caf289d1d12af"
     },
     {
       "path": "images/cocacola.png",
-      "sha256": "6a855268c27a0dd44fd9cc9d7a40e7a4a2629c72240902dced426e39deee5123"
+      "sha256": "ef9b8a2885c57374c40a758f17e9e3e4cc7492f67c91d01c1034bc7a3befe9a7"
     },
     {
       "path": "images/cola.png",
-      "sha256": "cb344f1c4f44189b937338345e31e315631d1b201e864c0e7d2c7fb1dc5306ec"
+      "sha256": "d373d976ac3a05be2ba646a6638edb0f3914d741edac92a236a2ff50aab8507c"
     },
     {
       "path": "images/jersey.png",
-      "sha256": "3f40c8f70a9e5dfb81df46b5b8633b738fae7798b2a336ce24c0c0c942482e13"
+      "sha256": "00f9d0f13570f3c88bf78572e03ce85512dc88a1646ba888f792b9f158ca300b"
     },
     {
       "path": "images/lakes-icon.png",
-      "sha256": "30e450fec1a44a288c451dbbc74064e822a76fa1212a915c6ad409f77d0c1ac5"
+      "sha256": "f9bf6ac011a60d6537f0146fdbb9d9a5a3fabe47e4cd1478141b6c96f4cb85e7"
     },
     {
       "path": "images/quick-icon.png",
-      "sha256": "ab2a31eab50b6d1f16eb982660d63f704a08d088de413ead7b7f380bb08923a4"
+      "sha256": "3a58cf3601c84b50c748cfa409a80895b1ebd0b950732931c2e86aa99ea4fdf3"
     },
     {
       "path": "images/romneys.png",
-      "sha256": "fb5320fff2bb32f840a57393d747f3cc3d6e66100aa6be68c36be064a725b7f2"
+      "sha256": "b3c00b9ccc9f04c5bbf51571e3b7cbd977bc696b9a3874d245b50544fdc9872e"
     },
     {
       "path": "images/toys.png",
-      "sha256": "a8ce53b170aae7990eb169324ae96b24c50630e03ccab5c70a7aa3a13084fbf7"
+      "sha256": "b209abcb9a13e937fe83aa6afc0973a753d447c79a093cb70974a74803661b93"
     },
     {
       "path": "index.html",
@@ -693,571 +693,571 @@
     },
     {
       "path": "optimized/Icecream/2019-1star.webp",
-      "sha256": "1180c3d0c1aff7bb66132c2db7c6f732028c30d91a48625f07f9c1da7ddf7126"
+      "sha256": "0c2753d5765c80b1a3a906d667b909abd4adfa6f17e49b611e08540edcb724b6"
     },
     {
       "path": "optimized/Icecream/2019-2star.webp",
-      "sha256": "ffcc81b4c3736d38b1eefbf0ae73ccaa65a68b15399ede2d2652d0be6b9deb02"
+      "sha256": "846d2ac457683a82a20eeab4b4a7d67f53c38376da0da1eaf1b483a3509f2ecb"
     },
     {
       "path": "optimized/Icecream/2021-1star.webp",
-      "sha256": "e688996008097f50e14b6340ba58568153aedeec3d39bf19179e87b27bcd19a8"
+      "sha256": "b5977e48dfacf15f18aed5e33ea24deda18307ae2e99d0cf159cc6d253f3cb1f"
     },
     {
       "path": "optimized/Icecream/2023-1star.webp",
-      "sha256": "779b9043b885f808da192a9302a5ce68afa1d83594b8f872ba610960ea3fa418"
+      "sha256": "cfe30a23b46ab552399a92ca05096c013c0f59108322431add4afe514198d972"
     },
     {
       "path": "optimized/Icecream/2023-2star.webp",
-      "sha256": "0784b183e48c3f127839f18ea43c1105452a9c211a22f293c06450e6fb369c6e"
+      "sha256": "cd69d49d87fa14ee38055fd7490b7eaea4339e0f41245d7479bc987cec7fea06"
     },
     {
       "path": "optimized/Icecream/Biscoff.webp",
-      "sha256": "042598f8fb0fd816025a2cf5ffdd861feceb8910ee683bcf19847e4e5f539887"
+      "sha256": "fc17997cee989c1d6a0f28c8da65c672ebeaaad917259997da07e9ca46d98afd"
     },
     {
       "path": "optimized/Icecream/Blackcurrant.webp",
-      "sha256": "496fde278016fa32156cb501cc271cd8d84519524b0e953d9b734a23270fc23d"
+      "sha256": "42e53acbf04d2f8f4239c2d4e1c58acf38c6eb34beb661fc66ad71670d6e367b"
     },
     {
       "path": "optimized/Icecream/Choc.webp",
-      "sha256": "33f2d4c09e92f33ab3d82a7c91476a78c41e00be3eda6518713a0b522cf7d0e6"
+      "sha256": "d1e97c44f8fd75f9a9f793cff811e874ac565d382157c902dbbdc3df16383f17"
     },
     {
       "path": "optimized/Icecream/Cookies.webp",
-      "sha256": "38b7c02985b94349a3eba3e8884c9055aea3126c4d26fdcf1a34099871d7181d"
+      "sha256": "f686c387882d29162e72008ebe1d9359a65be164d4ed733c3d56ee57b5a16ac4"
     },
     {
       "path": "optimized/Icecream/Crushed.webp",
-      "sha256": "53d68ea9dfa925dc1df1fc7a30e5556e7e17ebbfd173d78bc2d85d6f3cc31461"
+      "sha256": "97d462fdcd985828d98b2c4a925534c2fb030d3048003c70d54c712db3d34dd0"
     },
     {
       "path": "optimized/Icecream/Mint.webp",
-      "sha256": "4553cf28ab5ee58c35656375d5b53d7e41c4b90f2e75410abfa7c9d554c8dbc4"
+      "sha256": "5ea4fd3c2931ebf5763cd2f509814a5ac9aa192d9f4f43c9d754ee8f0fe590dd"
     },
     {
       "path": "optimized/Icecream/Pistachio.webp",
-      "sha256": "e18d67989dd99337b50cbd3d8b4db98bc19a34e5d0f08955d331cf02a5924ba9"
+      "sha256": "27bd0e7134f0cf89f07c04e283ea9c555409577c0237aefa7dd45adbda312022"
     },
     {
       "path": "optimized/Icecream/Raspberry.webp",
-      "sha256": "c12cba4f3690df5bc8da660aece162bcd8e74c2f80cb1e3699322dddc72db376"
+      "sha256": "6bb8f798b777966801db152ad5c7afe892e42ae250e34c423ced34cd277a1b4f"
     },
     {
       "path": "optimized/Icecream/Rum.webp",
-      "sha256": "989ddd0205016cd069bae8e562b4ad98afaf5d89fab23b940fbc3930d45a033f"
+      "sha256": "166eab591443147095e7ea20a53d1e2eb5dd8ceebe5ad1a740e3e25055c59449"
     },
     {
       "path": "optimized/Icecream/Sticky.webp",
-      "sha256": "33330a9670c329a909fdc6fd63f84c684043bfa265c2e9126634dada5d8635a6"
+      "sha256": "a58b87561e857c068178af0d8b94ef8830d422ad8f5e42dc446a6f73f0c3dde9"
     },
     {
       "path": "optimized/Icecream/Thunder.webp",
-      "sha256": "161b9f4d90ac23eb8d1490814073622b32d7d726ec952d3f3dd6b4734994214c"
+      "sha256": "e576cb43ee80e9816f7edec325858b000caa732b392fb91a3e35cfb029325a61"
     },
     {
       "path": "optimized/Icecream/jersey.webp",
-      "sha256": "aa522527cc9c78489f4a50c2fb21b4280be1c0d13d5292f64f1c82bb2ee0d8e5"
+      "sha256": "5ca5fff3288777fb8bedfe7b5357dea16c0200881722cab03de598e918e164eb"
     },
     {
       "path": "optimized/Mintcake/170g.webp",
-      "sha256": "3fd5296f8b65098e0f3378e73249b8772b3fcf43091e154a2b1757e25b3ef8c4"
+      "sha256": "723d1f0018e896f49b78466eff22b48b0877027e0524b8427dca841d015e1d9e"
     },
     {
       "path": "optimized/Mintcake/170gred.webp",
-      "sha256": "d49301da87816088f306c2167be05993b3ff02f12628547005ea08258cda9a6e"
+      "sha256": "dd19537d2a08e270d0d2fde2794b89e0af921cc9512fc4a86cd4350370c98a67"
     },
     {
       "path": "optimized/Mintcake/170gtwin.webp",
-      "sha256": "7a2a3eafe09847873531a0a12fc0e5dd42aae5f380e239555dbaac3ff60ef747"
+      "sha256": "6f50a875c56a4f71ba58d5fb58a04b3a31cb3316898b9e7783f1139bd4a774bd"
     },
     {
       "path": "optimized/Mintcake/480g.webp",
-      "sha256": "3e129beff3a9bc74cec152e981a070f5ed85699d899bfefee31c7a9393fdb8b3"
+      "sha256": "ebf27c2b8330d4692ba55dc07b1578d24800aa28a01f0b2c07d2f6995cf58351"
     },
     {
       "path": "optimized/Mintcake/480gred.webp",
-      "sha256": "06a51fd0b8dd701861a15bd7761c52777070d90216e69f4675fe4c627b13dc31"
+      "sha256": "b73fb3549959ea49948ca0804d37f12e7acdf36b3e9d979a7cc723b873703ea2"
     },
     {
       "path": "optimized/Mintcake/AF.webp",
-      "sha256": "a2d645836f0a37946bf999b616750e05ac63457012461f2c442112e2c1035b2b"
+      "sha256": "fb70dbf9066d4321c1e80954507448dcc315b7c7918fda39dadfb64e10eb1e0a"
     },
     {
       "path": "optimized/Mintcake/AT.webp",
-      "sha256": "512e4ce865a902247122c10b37d72a8f1d97a157faf457cf66faae89dbe44cc3"
+      "sha256": "7a1dd2000d72ac8b3120f52b18ec1ed5dc056ee4411e69b4beb9bebac2f1a3f6"
     },
     {
       "path": "optimized/Mintcake/Afterdinner.webp",
-      "sha256": "05b2101fccf406e82134be03c09973a8b65dc1b3603ba16a3ad0baacfe7b49e0"
+      "sha256": "203ed87aff512cac246111840e10dfc29135e7a374f61e950cc333a2412f5075"
     },
     {
       "path": "optimized/Mintcake/Belg.webp",
-      "sha256": "5cef825b5c9fe22f0c27f99246da6e5ce4fcae611861428f9ca41b8e945c9d80"
+      "sha256": "41c1f37aaece5319d3db77a13b16ae842062f26bda66387709b940d63298a70f"
     },
     {
       "path": "optimized/Mintcake/Bluerasp.webp",
-      "sha256": "c47f11ad2343d11634c336b31d0930874f9d2814e9c0a1f2139f058a6bd19322"
+      "sha256": "c952f828e8fb8f35afd1b81a6c49bc00a26d6fe83ca2b430b3eb69e00ac90e4f"
     },
     {
       "path": "optimized/Mintcake/CC.webp",
-      "sha256": "adb176b6efcd4e407e46ec80a45dd8428a19ef7c99a30cbb762b811c50b972ab"
+      "sha256": "4d07fe921712fcb6bad946b75d8c4caa0e7485a20c696caf6457b0723dc91f36"
     },
     {
       "path": "optimized/Mintcake/CS.webp",
-      "sha256": "e80f8a07631f753bf88dceba92f7926f9b5362a3497975002070b12ad7ded5d0"
+      "sha256": "39201ea280a2e4e6d91de5f34934ce9359a2e9a9a48a673ec5f1b2d17924e3ee"
     },
     {
       "path": "optimized/Mintcake/Cappuccino.webp",
-      "sha256": "54d60d24aff79f067254ae42ddbf64cca013feadedb807fcf963f447c6e90294"
+      "sha256": "8978c8488f7cb10e51944166d63dff0d650e42fb68f38d873e225b1670f317b2"
     },
     {
       "path": "optimized/Mintcake/Cbutter.webp",
-      "sha256": "4e71846a02402c100c874e0499e232f1e31b5cdc29760c9de139257cd8c007f0"
+      "sha256": "76e7c8301cb05ede3d0930f5b61084ea79c6a05a9fa317f76e78977a0bf8aa28"
     },
     {
       "path": "optimized/Mintcake/Cherry.webp",
-      "sha256": "05fca6eb0f639b2b50659f67484438f4814c88a68d328f6b3983bfe24ae1ade3"
+      "sha256": "c12566e9e5c627c25b545d4c35da69af78a0d9acae76ba82ef726941c4229f27"
     },
     {
       "path": "optimized/Mintcake/Cherryb.webp",
-      "sha256": "3647da498427cf8f6cfa15dd53d2ae3fd60920c654613208eeabd2be7bd0375d"
+      "sha256": "c820b3c321d5cfebbf190131e53b35800042d6cab8cf5921fcd305f358f66bd7"
     },
     {
       "path": "optimized/Mintcake/Choc-cov.webp",
-      "sha256": "2f6f951ed3872a2ce7773c4d01424d7f366c451d3e84a3b2bbaa9faf89fd4775"
+      "sha256": "d93902d5ef09326830d9d85c38d97639b40633c8861e809bfc26fde2da9ab100"
     },
     {
       "path": "optimized/Mintcake/Choc.webp",
-      "sha256": "163c157daf7b35424029e0833303c451f7be7bbace70b61d4a14c81cc922e846"
+      "sha256": "67bb5c0b5277f6fc330da250f5c608c546b9ce67c6cf85860a9422caced04af2"
     },
     {
       "path": "optimized/Mintcake/Chocchip.webp",
-      "sha256": "5d89ffc2939a57e20089bda7dc57b3c8a723df0f2e2e2ae89462ab4fca5241c7"
+      "sha256": "917decff8a953283d377e1294418e4ba239a5483b5e9400ed9444965a171f602"
     },
     {
       "path": "optimized/Mintcake/Choccovered.webp",
-      "sha256": "d5016a674d6aff99d0e4c74b3a21d6258570e77278b1842bf16523943c1fc801"
+      "sha256": "e416a3183e2d44862096502dd915f6f9806e01e8bd9eb6cf1b64f3248584cbbb"
     },
     {
       "path": "optimized/Mintcake/Chocorange.webp",
-      "sha256": "221737f55fa3034c4d4090ae3f2483a2a4a09b6db28291ab787b1e7ce5833980"
+      "sha256": "7d69d80ef8d09b288276f70ef281cdf03f491fd1cab301d3758bb1fe6a4e3033"
     },
     {
       "path": "optimized/Mintcake/Chocorangeb.webp",
-      "sha256": "4fdf148813ea8c8b9b5c2e1dc6e9585c2cc89dbd543f12b352d22f4aa6820d49"
+      "sha256": "39f0ee5245a5cb745d0484d92fe3b89b041afa8e81da2a2d19815b58e2cd2c79"
     },
     {
       "path": "optimized/Mintcake/Cindert.webp",
-      "sha256": "c36e548fea80ace50a55b4859a6a8a9543ece77abc9df21179c93af627305ad4"
+      "sha256": "72f053ed8d6337249e347e95ca1750c3028f5dcfd32138784b008d01ae754f29"
     },
     {
       "path": "optimized/Mintcake/Clotted.webp",
-      "sha256": "5dec75bd2a2468df582a3a7e770e0e9ddffd0348444464a31fe6dd7aa97c7717"
+      "sha256": "08075dfbeb46f83f5bcaa9ee638d4208bfc941cf8bbe2cabf6dd843067b41af9"
     },
     {
       "path": "optimized/Mintcake/Coatedcinder.webp",
-      "sha256": "7a743c7ed66721d627ba77948d9c6a2868662c64bd69f69e4f7cab9e3a4e9999"
+      "sha256": "5435cb76fb8890e8ae6114daa0a747311fe0a9e4d2e8260b3f5b5d837c15bd79"
     },
     {
       "path": "optimized/Mintcake/Cola.webp",
-      "sha256": "f1b47a9416fa21285f9e3462a8bef6483e0bc115ef20239662daceed1ef23519"
+      "sha256": "ad0cd29ed1f18d9c9621d177bdf877abb6f68760a055e081cd4673e13851cea9"
     },
     {
       "path": "optimized/Mintcake/Con.webp",
-      "sha256": "a514a055ab799814e7bed4518c1e38f61c78b030e1991b968ac6115e44d6cb4a"
+      "sha256": "e14715957d1208996771e2a88ec1857b13aa658dccd4a9884da9ecd0bddaff21"
     },
     {
       "path": "optimized/Mintcake/Dollym.webp",
-      "sha256": "838060689c2e7b9082dd5e0624b26039cc7d0d498a90ddc6cc3b5fbdee3c38cf"
+      "sha256": "c09a7d4ecefd045a504dc879804e3b487effc26e042f4acd581c86ccb49e90af"
     },
     {
       "path": "optimized/Mintcake/Farmh.webp",
-      "sha256": "3967997326273b638bdfc82b13e276e295d1892047f045a2c230785e270edbfa"
+      "sha256": "72d682d40d24a6b05fc8fc0831a7086b9b4d7f82ca9e6f3d9e03aebd8cf18d9c"
     },
     {
       "path": "optimized/Mintcake/Fizzy.webp",
-      "sha256": "486d4fc57db23721112178715c7d28565836899292cc135de10ea8e66d73d673"
+      "sha256": "1345e8428511869423cd6dfaabec881bd214c9e98afe114ed8aca269d0fac535"
     },
     {
       "path": "optimized/Mintcake/Fryer.webp",
-      "sha256": "8cc8be7c9adba5550a9cb5352e967470c5534afae2c1a3a7f8d99d84a0621a04"
+      "sha256": "ed80f0c6c9a85c86a2c09a1c34ef28d0f51f7bbffce31eda712a39fea655c09c"
     },
     {
       "path": "optimized/Mintcake/Giant-Choc.webp",
-      "sha256": "e649bd8a71f5a9b1edab74a10b329852a2e34de89ecdb43357ee36e41ac1e549"
+      "sha256": "8051ea661df7f1851e75561381f886666aa78571b44576fa4f632fce5fc1e6a4"
     },
     {
       "path": "optimized/Mintcake/Giant-ging.webp",
-      "sha256": "8ac82f7779a77eae43294fa44d1e8a8a349c6e086ee4daad66363fe9ed11b4f8"
+      "sha256": "51492330ea6b9d17047af2d287a24f7df58938246261381adef925d41b2024eb"
     },
     {
       "path": "optimized/Mintcake/Ginger.webp",
-      "sha256": "02f2fc80b03259156ad6cb63b0685a574bd1a9923a6d6c12809ba6f1b4f78469"
+      "sha256": "097f9e56b520d2719f3bc72ec03a397644896ce0d0e33b77e6fb6b1517967cc8"
     },
     {
       "path": "optimized/Mintcake/Honey.webp",
-      "sha256": "f6e91c6a4d0a25687e213a2912dd0ba82c122c860fbeaa639ff5ed02624934d2"
+      "sha256": "688208c2c777bbf4a60f16d854a1888c50e79714d7c379271b3174f6370db1ff"
     },
     {
       "path": "optimized/Mintcake/Honeyc.webp",
-      "sha256": "644f509560f2b0c77138aec5f77efab387a7955e899e2aa0535bf70967b37f5e"
+      "sha256": "028c2753c28ee5cdb59cc3f3874ad2d5cad1edcb657111bb8b0b4eda92ce641c"
     },
     {
       "path": "optimized/Mintcake/Jellyb.webp",
-      "sha256": "c94266ac35a400df5bf227e7dfafc237c2149ec34e475f7f38cf21f4522225e0"
+      "sha256": "def993231ef10688cce3691f4277d9d2de4c4dcfc8cecd292c8faba93e02a77f"
     },
     {
       "path": "optimized/Mintcake/Jellybeans.webp",
-      "sha256": "d34afcd79b432cfba54767e5c23fa18b5f587f69ee41da8b0b690c111d793d29"
+      "sha256": "671890b82708696c70e0750607eb31654c86c56d8d755d5d67c34fcb73723c3b"
     },
     {
       "path": "optimized/Mintcake/LT.webp",
-      "sha256": "df589c5c36dfaab7eca4a17819f61e90f5568a6a21e53c744109546fd395cf61"
+      "sha256": "c261cd3188e237d29807e88b83e0119ccd5f27524aa5eeaa406e8bfdb4379dab"
     },
     {
       "path": "optimized/Mintcake/LT2.webp",
-      "sha256": "b8cac3216102e3d9484481f2c936ed66f75629a4dfd89f9b7715676c84972da4"
+      "sha256": "50c893a2645d82a2c64ac0470ea413a14af77e9f5c80e18e3565a6a6ca0cc7c9"
     },
     {
       "path": "optimized/Mintcake/Lemonbon.webp",
-      "sha256": "80db2774e555e7c7338dfab8f4cf2ad6a900f1805f8e87d95aa1f31fda641ba2"
+      "sha256": "ab94cc649f0d7dd55d7e5728a490b19b78a1efbcc937c30dfaad7e73691d40b8"
     },
     {
       "path": "optimized/Mintcake/MP.webp",
-      "sha256": "600832ff1f4909d10ebcc4481732929be6d0c6b59069ec81ab628a7fc0486181"
+      "sha256": "29e7ce0b0603ccdbbcec458a41280f2fea38361792fc9ddc272bd96809d39e58"
     },
     {
       "path": "optimized/Mintcake/Milkchoc.webp",
-      "sha256": "c3170f7edfcb7c614fedc102589a8101c4d1ee1c5e727d78c08e71902cda6e92"
+      "sha256": "7489940399ede28cbf1d9fdab05d6ce094cd48e3a475e0f957fe1e584333edbc"
     },
     {
       "path": "optimized/Mintcake/Peanut.webp",
-      "sha256": "34bbbcfad942eee1c90b9065f08ae20a8f291c98377d5d6f60fd19862dd202e2"
+      "sha256": "e5acd6665dba13d7e3aeb6807d890d9cfdadc847fc77e9ac2c2c9a1eedb2729b"
     },
     {
       "path": "optimized/Mintcake/Pink.webp",
-      "sha256": "f2d3a7412d25e5876ac4ba6c9547c6616252fc0cd3eab66cb91b0cce3302d962"
+      "sha256": "56ba1e8803ecfab6877ea0e4a7f1298562bd4474d0babebf24ba2affb203ee08"
     },
     {
       "path": "optimized/Mintcake/RumF.webp",
-      "sha256": "a932decb37fd59509704dcd4cade3dbb14208d6ac93f557cb1f8e3ce97f9aa1a"
+      "sha256": "21611f2ecd042a831d865bb4b90c6c184b9d822dafc158a66f4eb7cb04f378d6"
     },
     {
       "path": "optimized/Mintcake/Salted.webp",
-      "sha256": "d6e4dd8e7f95d9024e00e57856720b73fc11088bd4087ec97780b181e7503423"
+      "sha256": "2e49c06235d0e0fde8da70ed8df541a0760ecf803b8341b75b029e1a9a333017"
     },
     {
       "path": "optimized/Mintcake/Shortcake.webp",
-      "sha256": "3296a5f3eb976f4e071e2b5d87ddc60f8b9376d0a4220370c9edfae2e952040b"
+      "sha256": "f241b8539868bbcc096c05bb0c94b8335b1a29e9277bd62b61e76b68f6606682"
     },
     {
       "path": "optimized/Mintcake/Strawberrybon.webp",
-      "sha256": "a258122cb0d83da134b283ac6b303a6a53a7c4113b7a572383fbab3faee5b04b"
+      "sha256": "f9c879274f8b1a1b789200ceae99f88c3311dec18fec67527639844acaccf3f5"
     },
     {
       "path": "optimized/Mintcake/Sweetbags.webp",
-      "sha256": "4153c5f4f4a3b5e974a50672c0a444c08f997eb7e35350d606e0d491db8bd798"
+      "sha256": "106e1373d7a1bfa66659680686e6d2bbc50d7792536388011a82f2baf72d8015"
     },
     {
       "path": "optimized/Mintcake/Tedybear.webp",
-      "sha256": "a4bac64fc47a4443c919758e0b19338376522f4a1ccb770c94b50762ef1f877e"
+      "sha256": "ce3e2568bd42c7cae29575947cb25dc2923c5e333f9e19c958456936bcd60766"
     },
     {
       "path": "optimized/Mintcake/Thankcat.webp",
-      "sha256": "7d4ddd102d04421ce015bec6583911e99d15fd9acde6aa1cc0826b14796d9a9c"
+      "sha256": "154fb7e85d80ed0118eeaaeeda923f9b4c10ceba807af1417f89e23b49cf4b97"
     },
     {
       "path": "optimized/Mintcake/Thankdog.webp",
-      "sha256": "af712b080133a5e201490c04e7ab8ecbe4924350d3e1140bb93668851e37f481"
+      "sha256": "f9cd46b6d2685970440100fee25b1e495a5c8c97f1348400380b300172d55121"
     },
     {
       "path": "optimized/Mintcake/Thankewe.webp",
-      "sha256": "f11b54f6ca226c93e7fb16c2578ec88b6b2b10bf8fe5ad3e6a7245dcfd36637a"
+      "sha256": "42786680715a10ee56e7c6711df92a3412a1e2cdfa64d2a274a692b07e996723"
     },
     {
       "path": "optimized/Mintcake/TripleF.webp",
-      "sha256": "ea52db46e1858182f5bc0f0370c8ebe9010aeaead20ee96197826dc04c3ea490"
+      "sha256": "26a6ee482075192e33bb8c4d0870e5a78836a5e0a7f372e1590e0aa0e9a81191"
     },
     {
       "path": "optimized/Mintcake/Triplemint.webp",
-      "sha256": "79902afdfae5fb96591a1048a718409fc98c1909ea4a63f023e6a04acd0536a9"
+      "sha256": "28baa96684641a2c01ce38f61e37358828dfeb2ad0667302dfe5aece9402e5cb"
     },
     {
       "path": "optimized/Mintcake/VF.webp",
-      "sha256": "5d7467b04eee95386241777c5cefa2e2235def3313580cb8dc6a1eab77f64cf1"
+      "sha256": "802776fc28a9f3e572fd0b7237560835937d4aed6f9522a48f7b6d33c6a8fba6"
     },
     {
       "path": "optimized/Mintcake/Vanilla.webp",
-      "sha256": "a495869facb13845c629f59a77bac0fbd3a69d5d8a412ca27e959c10d11682fe"
+      "sha256": "8878681069488797fc6672a744ad9172bcf000290440282ea05a36b3911708f8"
     },
     {
       "path": "optimized/Mintcake/banof-fud.webp",
-      "sha256": "4d1f1cf29c1d1f2e41c38e6152ab16545c2a3ec6fed2db62fb3b988ec85b6b6d"
+      "sha256": "a11ce0e25d55754a66fa8d5cd6e8b0a6ae1e119f545cacd444394f98ec95e997"
     },
     {
       "path": "optimized/Mintcake/butter-tablet.webp",
-      "sha256": "799977251f0ed636d84bf03764fb1e25d12e75c068dfbc821df87fe9af11cc33"
+      "sha256": "855ee8c4920d3a965d52f595c4acbb58e9bc85cd97a82601ef5fe568e0e40fc1"
     },
     {
       "path": "optimized/Mintcake/buttershort.webp",
-      "sha256": "3284dd1085089f1bcebcf2511dc1196bfa2df7553b57b99dba2906da076bb02f"
+      "sha256": "433e67aead6a37e4767a04b31ac02df118d465f61fd18470e308f932bdef904a"
     },
     {
       "path": "optimized/Mintcake/choc-orange.webp",
-      "sha256": "e68fb534596ca661c82dcafa52e5d3ff6944ccfece377f7251c5945d6c50ffa7"
+      "sha256": "db9793b79e50592b88d3827e29d43023dba7ecd6c60edd1b99e95d19f948b1bd"
     },
     {
       "path": "optimized/Mintcake/dubai.webp",
-      "sha256": "1650bb8534a5e00238f1b96943ccc7d7009647f893e532d3d70e6840be97aec6"
+      "sha256": "3900eef5226069c81914ffacdd5c2228f5ef53a6edca0f999e48a99bf4851e18"
     },
     {
       "path": "optimized/Mintcake/extrast.webp",
-      "sha256": "5e09827c89a340b2385c3460d16ec05e34a14aa1d86fbf76b8a61ac19247a4d5"
+      "sha256": "a2d224e978a0dc7096f8fadb33964df0e1ab7d3222bbad40a523baf42e2a1439"
     },
     {
       "path": "optimized/Mintcake/gingerb.webp",
-      "sha256": "10c9db69f9d269250ef117c811d3eb5a9ecf64f577d6e1a67253f5dc3f773f59"
+      "sha256": "1734e6ff8e9a7719c59c2ef7ef8872a85eaa905e74ff258fc60081813565ded8"
     },
     {
       "path": "optimized/Mintcake/goldenc.webp",
-      "sha256": "b292042a5d95e2bab42b48d3705d81a7c54df1bf210690fec122f7cbd9c61a16"
+      "sha256": "9968dcb388d2bb2c293d52f7fc12f9f2fc646856109d4b87911b998e76fe2940"
     },
     {
       "path": "optimized/Mintcake/lakelandr.webp",
-      "sha256": "39d22604978ddc26cb472c1c13d83ef4d5b88c98b2b37632b72ded048d08caec"
+      "sha256": "4e15628eb0164fe330a66b4e7d3ea64bb3c1eaa38f90eeb532a5a35cc77b6fe7"
     },
     {
       "path": "optimized/Mintcake/mintcake_brown.webp",
-      "sha256": "2a6f0de97d70521d899e434c011c2531d2e13dc8b5c5e82461c97c5a7e35b653"
+      "sha256": "d336eac986a66f53dd4fac9aa91ce19fe3a3a08ad1ae7978acd14aea045385b0"
     },
     {
       "path": "optimized/Mintcake/mintcake_white.webp",
-      "sha256": "437ab776f7e262356d45ca3c1b3af8debcaf2d000d9bcaa4f74d2004bf9b6d0d"
+      "sha256": "2bd49c512a9926da1da5d8dfa2994bbfbaaa7bb45b26d38ea57ca16679f22ef5"
     },
     {
       "path": "optimized/Mintcake/triple.webp",
-      "sha256": "de14ee1f08cd9c5bffdabdc22cd7991cf4e3391996ebbaeff77f79eb3f152a3a"
+      "sha256": "5d0239ab549072d59365d8d1c4d8d1147d1940187a49f17358cd4f2618115fe8"
     },
     {
       "path": "optimized/hotdrinks/americano.webp",
-      "sha256": "b9c9d24c300189aa512c4a8c9db3c804e6d1d9c1184783318bda2f3846fea6fc"
+      "sha256": "2b3106e156f63b579c1d01b6c50afd99328d1134f2761ddc111d1e2210cbb769"
     },
     {
       "path": "optimized/hotdrinks/cappuccino.webp",
-      "sha256": "9c7cd6711e0eb94827d05ab1803e861c3bf96465fcbfda0135cc40ace61a58c3"
+      "sha256": "273172def7ee6af4a5e8ace332775f84e1ad016f8129278c8af8ec3eb9fe98a7"
     },
     {
       "path": "optimized/hotdrinks/decaf.webp",
-      "sha256": "9ab3a38216c135673e3eb1f6165a554ded7660c450a55940c6255a4a302fa103"
+      "sha256": "f76543644e646cad0e38539d51f6174c0352005271d995ba03b3e092c4ccb1b5"
     },
     {
       "path": "optimized/hotdrinks/espresso.webp",
-      "sha256": "5967250ea094832efdfa9db065f8531715d4a42915f0d774242f1cb33ff2e3a3"
+      "sha256": "740d5ed6e30dd0512db2a6d99c688221570fd252905f49877e6dec365b4a0698"
     },
     {
       "path": "optimized/hotdrinks/flatwhite.webp",
-      "sha256": "b697fcbb448754e9357a8032de99113b621401c71d36962c444a0cb0e8aa2daf"
+      "sha256": "7b0b68ffdaa1589edce1f351aae394871dd9e29b779484aa8bf03c23625006ee"
     },
     {
       "path": "optimized/hotdrinks/hotchocolate.webp",
-      "sha256": "eeb98289a16342bc7966293d741c6cbe33523e3fe7e87b8e7d3d98cc105ce151"
+      "sha256": "cc1063927fd469a195ea62a4348ee8d96b8d51a42eadec13510802e464b5e1c7"
     },
     {
       "path": "optimized/hotdrinks/latte.webp",
-      "sha256": "d875ebf0301d98d64ed91d920dc2ac030f4245655ba4c23966baa9c42d7a30ca"
+      "sha256": "387cf1eecb74c51a2f3746304ffaaa7041376e0e52ca095534bcfc7c7e79aee7"
     },
     {
       "path": "optimized/hotdrinks/mocha.webp",
-      "sha256": "d3e9316853f770edecaf7948c376abd6f0e75cef858751130afe8cc47a354292"
+      "sha256": "7225d9a685864c86cd8971b2c784dfc00dc71fc2f48a9fb063f46e36c817e7a8"
     },
     {
       "path": "optimized/hotdrinks/tea.webp",
-      "sha256": "8aea7aaf4e1f17188c398b35d217093b1b746f9c1f6c2f81802c170bcb27c306"
+      "sha256": "c6f98d96ba627e4c00a3e71c4efa4270d6c369d8bc549c56f81ad8937cf80c35"
     },
     {
       "path": "optimized/images/After-flood.webp",
-      "sha256": "eece24da58def52cd6c928781daf1fb5adf05af145f6cb6d0f9266fb0ab85732"
+      "sha256": "3c9281482a93137eb856568d49d43e38969510ca24ee197d3d2d753fb49c334a"
     },
     {
       "path": "optimized/images/Cadb.webp",
-      "sha256": "dea992b64963b1d97013ca13d51ee5aa248843ad61871b0d810838a62ae4c670"
+      "sha256": "4bfa38968d969e9b3dc3c8fc86f5ba681a4eba0b03a0bee6d35948a88ae26073"
     },
     {
       "path": "optimized/images/Flood-day.webp",
-      "sha256": "1785fde74afc430a431556c0ee40d8bcf0b79ef478974712f6beb3367897b7ba"
+      "sha256": "ef7096689cdf52113a0109b91248a2a778ea6c2d4780927d0b61297fd6805979"
     },
     {
       "path": "optimized/images/Flood-next-day.webp",
-      "sha256": "c3d83a2418eccabbcd128b9be6982eb626d3946a8aa1ebb28d28b248394752e0"
+      "sha256": "c1b98c97328eb569d656ec0d56126146a61574e918f914173e45990b8e74f6d5"
     },
     {
       "path": "optimized/images/Flood-night.webp",
-      "sha256": "396294c30a544d8daf263f54cd879193ff8a1b327450d046d4d8c4b5ccc1a310"
+      "sha256": "9b2a2e9e234fd5faf10b8de23fa1f9eecd33b1825809732f6b83ed65e31855a9"
     },
     {
       "path": "optimized/images/Maps.webp",
-      "sha256": "bdbb7782218341d2ac99051e7ceca11e41d6f04c19c2cd906f42604cc73e90ae"
+      "sha256": "a241b56ebfcb159ab3b64fc2cc33c3e930bd3ebbd2bf0b798aef47bb9afbf163"
     },
     {
       "path": "optimized/images/Pr.webp",
-      "sha256": "6f370bdf6dec1315d78b5852c348fcabcc499b76a08e2eb412421e7d3018ac90"
+      "sha256": "85817c2f459555cbcaf2e3ac34758ede22e780cf08113122c9912e7e9fea4d72"
     },
     {
       "path": "optimized/images/Souvenir.webp",
-      "sha256": "d0ccc043b631311ac9d5864820bb0365fc3f0f7edb8e0648d74cb6954b7ef57e"
+      "sha256": "2553f00486546f678f0e77ea3ce2566b4c7d228c905cfb046f875d1b23cea6cc"
     },
     {
       "path": "optimized/images/Start1.webp",
-      "sha256": "7d97e95eba3ac49f4ab7bd14985c3669dfb825e7d59c1613e69b5eaabe19053b"
+      "sha256": "bc785ab94d9ff0c918dd33b9fe3c0e4dabe91f7dbcbff357ee92da9fb40a13bf"
     },
     {
       "path": "optimized/images/Start2.webp",
-      "sha256": "e3d10e4bf0190826d5612f1bb0bd7a9c00885576391aa95cd9020acd5f1b8c94"
+      "sha256": "6be82ef60d47b21af1e71805010c6bc24441a5fd5d86d6a29d26ed8b63db58a1"
     },
     {
       "path": "optimized/images/Start3.webp",
-      "sha256": "197f64720098afc5622f839fd83145cdbf3918f75d2d5c009e6fd252d411397a"
+      "sha256": "a36f809d465be90ba53f83b90bf38e62397e8ebcc24b8fc2173ab056b80d1196"
     },
     {
       "path": "optimized/images/Today.webp",
-      "sha256": "b2b1daa23390f22c2401e7fcae7e45a5be101e78b5cc4592a3e227ab9eb30b84"
+      "sha256": "a11a58dc7c3c69190bff3269ef3e36097b6033192b462490e5b1d9780b971188"
     },
     {
       "path": "optimized/images/about-img.webp",
-      "sha256": "fef9577e68fb647bffdcaa1fc2046be3b298841415e020e685715174374b5906"
+      "sha256": "d19556dd98e3343c2c2b5dd597889e9ae2acb4cd3071972c06ec5afed0612500"
     },
     {
       "path": "optimized/images/awards.webp",
-      "sha256": "2bd9d115f3c45cbbd8e7b114fca2699feec0ee4d48537e2f6f7300a84d0d5c78"
+      "sha256": "95f52e638fb59a9b8b7dcf31f09a4369f978350072ea5ce70b046985da26ed6d"
     },
     {
       "path": "optimized/images/banner-bg.webp",
-      "sha256": "d823236822164e3fae75364c7c6894ff1bcc701563fb671c0840086f66b946ef"
+      "sha256": "12876f24efd9482ba469578a4e70cc9fdda7b033c0096dddd50ebf5fa21a4494"
     },
     {
       "path": "optimized/images/banner-img-coffee.webp",
-      "sha256": "db150a480eda702dfaec42c3ef1c53099e9381bcb670dff0db7743a8c305c6aa"
+      "sha256": "d6cb931cb08046aa1cde5bd9344eb197fcfb184de64be010e29588a6b3b536c7"
     },
     {
       "path": "optimized/images/banner-img-romneys.webp",
-      "sha256": "e1b6c60d2efc1ef55f99a273bcf3fbdc9b2d64f26e9f590459fd790a5d510bec"
+      "sha256": "58561575d4c327d5cfcd0fa72166c80b244cc1d4d4ddfc6f6a29f630ed941424"
     },
     {
       "path": "optimized/images/banner-img.webp",
-      "sha256": "937a1e7e26f174367e1a67445ec0c29f5324677383973f3da2345b0abae4582e"
+      "sha256": "dbb120e594e569521a11cf55eb135097831a4221e9c0dbda71fea113c51e4e12"
     },
     {
       "path": "optimized/images/cocacola.webp",
-      "sha256": "c34d4f7bfb04b39d13eeadc2390de104b3dc3f790187fd7fc10fedccf2dd8a00"
+      "sha256": "be446059fb2b73c32ab65a4ac066d1887ed9bb2cd9a77c16854ce8cf72153057"
     },
     {
       "path": "optimized/images/cola.webp",
-      "sha256": "8e45728995420050e7a6f84992a008acec51c4b7556d27de833d075b6c3d2d7f"
+      "sha256": "c87cd1ef3ee026c5cbc3c5684f1d9855d79581d5870826b910cfe360f3986ef8"
     },
     {
       "path": "optimized/images/jersey.webp",
-      "sha256": "02db42f4568c4d826f6476da26953c8e50395c0150ee4acebadbd2e6f0777e16"
+      "sha256": "cf6335fb020c4ec98e3ac844575466cdc3e55ac7b0a5cb3ebd702f2a3d2f6c81"
     },
     {
       "path": "optimized/images/lakes-icon.webp",
-      "sha256": "472d3f1413be462099c7c0de171db8b0cbdd5f4008d4f5192ef22589604ad6a9"
+      "sha256": "5b2d5e48f4532d195a41a7144d92fab72471e369d6d152288d34e3cdffe14554"
     },
     {
       "path": "optimized/images/quick-icon.webp",
-      "sha256": "45bc3e46c05b586f65a187c1141a4e03fac076994b882ac8adf6fb97be0e8caa"
+      "sha256": "f7c692bbf838d3db09595535fa8f8124c6febaafbff22db207aed003358f580a"
     },
     {
       "path": "optimized/images/romneys.webp",
-      "sha256": "044ef8f3eefa87c93ce088d701db0dda3f59282f27c6836304166878e705fc71"
+      "sha256": "120c70e822599d21b4833e204a0efe9577ad69d772e70ebbd07e098c3c86a116"
     },
     {
       "path": "optimized/images/toys.webp",
-      "sha256": "5db41a8ebf6a6cac6f2c085c85b740bee9589841fcc14061013b1acb0ce10767"
+      "sha256": "fda2b45af98eacfb5af208d4b84135a13efaf9dd9600b1b42b5fba086739cec0"
     },
     {
       "path": "optimized/to-do/Ambleside.webp",
-      "sha256": "add16171ac3a9bd1760805acf53cdf96b4e1c5fddfb5d8f5074bab827ca51d58"
+      "sha256": "e84bdd7a0c249bd144f3c6c73ab4ebc3286aa190854399524a5bb5b82e1c755a"
     },
     {
       "path": "optimized/to-do/Boat.webp",
-      "sha256": "99e307d47a6a4beba70bfd2023f5e1a8f14a3b1bdf1db819cdfcbea13e97b018"
+      "sha256": "a9c390434ef2c248e42064ef3ebed3acfac52a57c655de2cc6714865dcad81e6"
     },
     {
       "path": "optimized/to-do/Borrans.webp",
-      "sha256": "085a4ea3375e83041902ca8cc77ff32069a7ca0de3d4ec3aa3bc729d83dc535d"
+      "sha256": "cf0f4fd1f126fe20c73fe7fd03fcbc5c0c1621e55a759c89cd3bf2893fa44d27"
     },
     {
       "path": "optimized/to-do/Bridgehouse.webp",
-      "sha256": "362323dbfd0213cf8937a3a38d567b5b01b030b26fc0616deba59b69d8230532"
+      "sha256": "1d8a1f67c2066c6fb2d0238c6ca8602c9eaeb28b4f548ca364e0a25dd6d033c7"
     },
     {
       "path": "optimized/to-do/Cave.webp",
-      "sha256": "46303b8bd3c0029e80ebf2bf1d0085f9accec2a929fdf830a988ecba984dfdec"
+      "sha256": "a58c3496586f720e8d1c569ba2a0d4de9b256f64766c49d68d53dbbf0c88c1ef"
     },
     {
       "path": "optimized/to-do/Garden.webp",
-      "sha256": "494bc2a2301ec2e3bfeda389ba2e0fa4ecf7ab0e9ea6438beb17bf1526cc38e2"
+      "sha256": "df57ff575236f3c7525676f173669a5705d29b6d9194adac96ad162b725ba5cc"
     },
     {
       "path": "optimized/to-do/Garden2.webp",
-      "sha256": "fe67895ac90e4fd3e0c315eddea350f893bc436de54e832f9aa013887403ae37"
+      "sha256": "1e22e66be658b021e97577829c6b2af09020527e5c2592a522646ad24bee61b9"
     },
     {
       "path": "optimized/to-do/Jenkin.webp",
-      "sha256": "08b87c57c575db543ad9730ee3a971f2066638ab59c6e488b24af411538d507c"
+      "sha256": "5e4c8bb607421cff7dbda3847d0d80fe1fcc7623c9749fd6e1efdaa16098e4f2"
     },
     {
       "path": "optimized/to-do/Jump.webp",
-      "sha256": "97204519c1532e738ee8de30ffe315ec2a3987f366a6fea6116f937bb0258b97"
+      "sha256": "82181b4e349dec2309192ce506a8eef21dec52cb33daad68a965077bb4e4aa14"
     },
     {
       "path": "optimized/to-do/Lakesidep.webp",
-      "sha256": "6f9b3f044e8067e591190a76449dddbbbf92577118da6d73ab63925304ee5aaf"
+      "sha256": "0192d5e9b4273668d93e067d6787b482276d5d84db345ec82b9d34522be40485"
     },
     {
       "path": "optimized/to-do/Loughrigg.webp",
-      "sha256": "4262e804775f51147ea21b7fb989c255c35edff8899f851c36605fe7245c6ce4"
+      "sha256": "a13993092842a84833f3b0d3747fb490a31920e24f4c1668294dd4858fc657e4"
     },
     {
       "path": "optimized/to-do/Roman.webp",
-      "sha256": "4c52856bdfbcb940d49ca69e04ebcdec5b0b1e94875919010bb1c82b7c493b92"
+      "sha256": "07ac1162d53da9863c7f600594147530ae2cf516ebc87ce3e60bd63d89f62104"
     },
     {
       "path": "optimized/to-do/Rothay.webp",
-      "sha256": "437ad257fc29c7a5e7f6761e099331706e055d0b65ecc36710222cb5bba3b541"
+      "sha256": "ae7253aed95ea8da419de989d33972df73a4f1e702ee562d980246ad8f510406"
     },
     {
       "path": "optimized/to-do/Rydal.webp",
-      "sha256": "1cf2f77dfa8838b548412997a3c9c620dc7b0e94733557e647ba469ce20aa41c"
+      "sha256": "e06af5f64e201b339120bda7b5038a0e363036825da0b77e2c598ac34159982a"
     },
     {
       "path": "optimized/to-do/Rydalw.webp",
-      "sha256": "e689f3bd9b710f359f302a4eb44b053a7300d0b18a31eea3eee4d5da55be09c6"
+      "sha256": "8c77c6527c310706508ddfce5f720e4642c94ba90d80e1193ef9a99b4797a718"
     },
     {
       "path": "optimized/to-do/Self.webp",
-      "sha256": "b525f7c7e1b3a6832b1458831bdff125ec4195c309363f545f67438c230e0962"
+      "sha256": "f866d6cfeff9f783cc5a1786d2c86c9f3d3280dcbf461482f9fb2e2a7fc1d4c0"
     },
     {
       "path": "optimized/to-do/Stockghyll.webp",
-      "sha256": "36dcb72b17cfacf89f6b67609003cd5570a66931ad41e6525ca7541f914088eb"
+      "sha256": "92523a45bd2253181bd5dab30e131cdd96c20b6c092bc6a217850fd437ae308e"
     },
     {
       "path": "optimized/to-do/Underl.webp",
-      "sha256": "5dc4131af734f707cdb254163bf5313e1811e57737f3be6362041a516c54cac1"
+      "sha256": "0153265cff904dffb419f0b7c153dc72edd3aa6ad1ec60d4efbad4c2ae5e5db4"
     },
     {
       "path": "optimized/to-do/Wansfell.webp",
-      "sha256": "60bb741160745b772f3ca03378441c7508d2224d7ba9628e4a1edb8104749b43"
+      "sha256": "f36f8ec30138d97d5a121a60540d50adcacc0839b384806759b95ba0a6023120"
     },
     {
       "path": "optimized/to-do/Wray.webp",
-      "sha256": "69013f5e6b4e21cbf0fcf382da1a7501f1177329cd2051d95cebe6ca30adb65e"
+      "sha256": "f78dd3e2791a9e430fc7c08d4beefcdc16d4cd398ea82370a20a8e03f3227122"
     },
     {
       "path": "optimized/to-do/Zip.webp",
-      "sha256": "4689b56de9fc73e5bd2ce6715dc13b4efc0df17d4050872f07aea0e6af12461f"
+      "sha256": "220739c24390094f77e36a0dd9bf64618e5d095fd295db412bfef5f2afa7eb3c"
     },
     {
       "path": "privacy.html",
@@ -1265,623 +1265,623 @@
     },
     {
       "path": "products/affogato/index.html",
-      "sha256": "51060f5594ae109cc6d37a187604659608b8f0d7d12858d75d210f12fe301c5d"
+      "sha256": "0ef4344961e99b46e3ef998ca546d8bcd100356325ed41c3f3a799b98f1ad1fe"
     },
     {
       "path": "products/after-dinner-mint-fudge-150g/index.html",
-      "sha256": "a6c4ccb1ed3301547900142815639fdfa96a43418f050b03b851bfac2baccc8d"
+      "sha256": "17c717c6bce2d8f1e68de4719032d4f87f50da252f7977ff977a39a215df7f94"
     },
     {
       "path": "products/ball/index.html",
-      "sha256": "65dbf15cf8633c6f647f8f6c2cdc6eb98bad61dd51713bfb0cae75cdbb4c54ed"
+      "sha256": "ec7a056e0a302a51fd13310b4973b0a99f590d2aa7fb589b00b48e6999655980"
     },
     {
       "path": "products/banoffee-fudge-150g/index.html",
-      "sha256": "6d17d19d78f7c08976aa9cd0a7d9b78f22a87ba865052e7bde7ce6972ab80eb4"
+      "sha256": "dc0fc48da74f816ce5ce1e8a02108444268d0cfd818f6683d389cf975a8dbad5"
     },
     {
       "path": "products/beatrix-potter-stationery-set/index.html",
-      "sha256": "a29568fa88f50aba83505f3fa099ea55fc678dbb3e0b26c83bbcf8ab4f5cb99e"
+      "sha256": "722a6678f439c68ba7b29c7f92e3e7a0bbe3475c8b9530ce59dc4adf8f2c920a"
     },
     {
       "path": "products/benjamin-bunny-large/index.html",
-      "sha256": "8a7f74e47617007c3be488f98d1ab54c7ed8693bae59ceb9978dd9993e9862e4"
+      "sha256": "036f3edd6f9dfa162fe706c20579186e7f8851df93494ce4e42340c31d472790"
     },
     {
       "path": "products/benjamin-bunny-plush-keyring/index.html",
-      "sha256": "fe7b5df20d63033c6f0b41ecfa5217a81b19f48e8c8c5b8037e2e2a52dac301f"
+      "sha256": "0891885e9400f92618d3ee2f82039f7c69549e4decad99e110e7c7776ba8292a"
     },
     {
       "path": "products/benjamin-bunny-small/index.html",
-      "sha256": "22e910deba7b02ced218929e845a72a01c315919c80d9012a773323df3f16c00"
+      "sha256": "92e9b73ccb315726feb257b6e72ce545613df46ec04cbc50882bb21eeb7a6123"
     },
     {
       "path": "products/brown-kendal-mint-cake-170g/index.html",
-      "sha256": "82dc8bfd0e0b5b875b9ad5d2598aa3d844e7f3ff23d4c09426ee832fceaa7a8c"
+      "sha256": "7b5de11a28c867e6e4d811fdca0a28dcc67235ec601d239a6d10d35dc1112fb8"
     },
     {
       "path": "products/brown-kendal-mint-cake-85g/index.html",
-      "sha256": "d822c65f209c0960377c0aa196fc1ac8bf4ba72606add65aea18627bae3c099c"
+      "sha256": "e95ae0b8c9051e0a6784c3329e279845c5ecdfb2722184af8751454456f0697e"
     },
     {
       "path": "products/butter-fudge-150g/index.html",
-      "sha256": "7863d1d99d88cfbfdca141dc3f0af8ff8c51d0290392ce7e3166937f4c607454"
+      "sha256": "e10b44066c0df9de81b97937d35cc85e88bb1c39450e0a0a4cd28c905e4a38d0"
     },
     {
       "path": "products/cadbury-boost-chocolate-bar-duo-68g/index.html",
-      "sha256": "17d7ca71987c358463127e310addbe75cec2263cd54ae4ff005ec8f4437ebef9"
+      "sha256": "5de27c2d275d96683ed206ca391b5eb78b9221d6d1ac47eb875da99b6fefca0b"
     },
     {
       "path": "products/cadbury-double-decker-duo-chocolate-bar-80g/index.html",
-      "sha256": "7aed1bbf70fb33610afe82e64dea6ac8505d5e98f765245870dbdb2449a5b7bd"
+      "sha256": "ee2037ecbe90f5306ec18e07aa061a39320d3c069ed295242aad59da02871a0e"
     },
     {
       "path": "products/cappuccino-fudge-150g/index.html",
-      "sha256": "ac52d62eb5aa9186cd1cd3eca0623e779bc1ff2926733a73d226b993de420509"
+      "sha256": "5f3bba363336d524771b5a56ac55a1c9d81bdaff4fec5895f6514390c4cfc0de"
     },
     {
       "path": "products/caps-and-hats/index.html",
-      "sha256": "81e464ce5e0d4a6ce76b5a0ff138c729e4a4fbf49ec3a5703bc247b8bd379a4f"
+      "sha256": "4b23aa4b84055984aa6bc9ec673d8f02a9af591ca06f8e83ffa96e9f0b98011c"
     },
     {
       "path": "products/car-stickers/index.html",
-      "sha256": "1cf4948fd1e606aca48ecd6aa3970469058b188c82170a9fca29c1ca0e1d80c7"
+      "sha256": "712fff4b964f54744ffa07b4a9d95b2e0e5394c179174e38d9d0a79a951d82d1"
     },
     {
       "path": "products/cherry-almond-biscuits-200g/index.html",
-      "sha256": "f1a1afae2574701181a73740c20ac100e0478b3d8537f555d784bf243fdf76fb"
+      "sha256": "30dbfeac0842ea725d31eb16ad16343c3235e8f28f942f2824041434b0a808de"
     },
     {
       "path": "products/cherry-bakewell-fudge-150g/index.html",
-      "sha256": "7a0bda6f0ad1f9266630759a4bd2fa36933f12f757374ac925eaf35500405c3b"
+      "sha256": "041167fe4ea564b4082601a0a79f37b77dc2106bcf8f9264b9173f072e0b8f29"
     },
     {
       "path": "products/choc-chip-orange-biscuits-200g/index.html",
-      "sha256": "54a61bf601c3895bbf490816547d36e9cd8ac379a755962984732f28a9ce4902"
+      "sha256": "b20f78e24ced72c28038f980d14078c7446f9cf248dd7c03f6d0a4d9db684728"
     },
     {
       "path": "products/chocolate-chip-biscuits-200g/index.html",
-      "sha256": "576fcab23b02d126924d50c9bc9153de478e43d0356a461bbf72376520667833"
+      "sha256": "e147983a3abf0f54469f25c2184dad60554709b6d88102cdae027d1f00237151"
     },
     {
       "path": "products/chocolate-coated-cinder-toffee-150g/index.html",
-      "sha256": "6ab79522c18e45b9a11e217ec95d0556c04318bf2568cd08611e6e893be44713"
+      "sha256": "8820e47a6049561daf2c1cdb5a2926317c0ea5694dbfa642b0ae2dcfb30d4dc2"
     },
     {
       "path": "products/chocolate-covered-kendal-mint-cake-113g/index.html",
-      "sha256": "da0f07ca72d64a837c08b0e275c4c2e1dc86428de2eca670f21f072353de3653"
+      "sha256": "138c55d8f999b887fa8abdd3121e0cead6008dfb7fb0ed3ab15483d99a98ed3e"
     },
     {
       "path": "products/chocolate-fudge-150g/index.html",
-      "sha256": "700860d4a8bf4109abce88eec164745476262415ba044af04224814e65fe3019"
+      "sha256": "f8e835bcae3aa4da172f9478b408e0b988ed03b07b78a92bd7db65d645d407c0"
     },
     {
       "path": "products/chocolate-orange-fudge-150g/index.html",
-      "sha256": "239386179847d8535b6d108a8dca93570ab3e47ac1b81197a049fe4f2eb92ad1"
+      "sha256": "2d21925b0e123f427d1aec9d3103868e43456e548e69c2529650613270d0eb5a"
     },
     {
       "path": "products/cinder-toffee-bag-150g/index.html",
-      "sha256": "ee4ad75ab6425d2500f179bc9f77e3f202a56181b504daf8ab9db53924843557"
+      "sha256": "9889ab9aa190361d8cd2c16df1811a6b669b0a302d9fcdc42d148ab992603454"
     },
     {
       "path": "products/clotted-cream-fudge-150g/index.html",
-      "sha256": "26090aec5766ca4a712f375018ffcefaf18d516fa4b3c934229978a7e6e3321c"
+      "sha256": "59d81e4ac634f0d1e3cd12decfe7aa9a25bf5a23038d24f60b6f98a6a79b03d6"
     },
     {
       "path": "products/coca-cola-cherry-500ml/index.html",
-      "sha256": "773ee6ba6b83b417c9bb84455821d14f6600cc2490db74e4f22145f6eba7be0e"
+      "sha256": "d7fe3dff455e09321e269173d6e00402dcecf170775ee4e19e815fc6abdbc27f"
     },
     {
       "path": "products/coca-cola-cherry-can-330ml/index.html",
-      "sha256": "f5650264d09a0cd589a6132d23d928cec64c848a9e3bcb85ee7445205a8540f2"
+      "sha256": "1254e5289c7414c4cdffd25ffab0ce264356b715598b8b9a82b8ea419f26bb59"
     },
     {
       "path": "products/coca-cola-original-can-330ml/index.html",
-      "sha256": "58045e1a02f554288fa879e354d74a17cea9c17a5917d62da8c88e0def6cd0ee"
+      "sha256": "58f244de95233438e5d3b1b1b41970e270801816b31351d21154eecfedf47a62"
     },
     {
       "path": "products/coca-cola-original-taste-500ml/index.html",
-      "sha256": "28d324cf1df1b61f9da0fbc71c85ec40bfc2011b713bae412f3d4e8318c6dced"
+      "sha256": "ebc2b70bd5ed1e6021ce85daa2041d9680b8966158465442d015def1d711f495"
     },
     {
       "path": "products/coca-cola-zero-500ml/index.html",
-      "sha256": "2f2c25f814d4738fa69d07ec6eeb7cc6e732c5513165b2526cd3d3cc1dc8a504"
+      "sha256": "a22402bad40909a316831a069d55df60b1f0abf513d6f71a0378264c6cd01d3b"
     },
     {
       "path": "products/cointreau-orange-fudge-150g/index.html",
-      "sha256": "94aba174c0ad9fe779304323e2be9d6801d3507d3ccae1dafdabd3a0417ded30"
+      "sha256": "4262a6b2e0b996b7b8acfad5d351fe23e2943de82334b25a05a194a2b0f7355a"
     },
     {
       "path": "products/cumberland-sausage-85g/index.html",
-      "sha256": "34ebceba44df51b0189d1247de262414fdd573c4dd1120db47cfbb3795a1707a"
+      "sha256": "48ab006f75a26ee35f20a778f0ab138434fd7183072cb403f7b1db7435abc1bd"
     },
     {
       "path": "products/diet-coke-500ml/index.html",
-      "sha256": "12355a040604b7ea7e9038fdd77ee97f0eb1f94533b4d4aa3daf48a3a062a299"
+      "sha256": "ccc9e05fbcd5f20c61522627e794764da569dba75ec186b10ebdb503012409b3"
     },
     {
       "path": "products/diet-coke-can-330ml/index.html",
-      "sha256": "94d95c4973f8ff56873139750016a574c11a547e9fb4718d9bc7e59c3640986a"
+      "sha256": "32b3224dab4124bacbe3ef7371b34def1f4979c781d75302fb93c3390861465d"
     },
     {
       "path": "products/dr-pepper-500ml/index.html",
-      "sha256": "fca0ec97ed33f8f2acbe64cc74dbef60430f01a4bd46f4b43b469f4340742c39"
+      "sha256": "29c8a7e717821eccda7468c35297d25d36d8c1f37d2d0575165156c671d76cf3"
     },
     {
       "path": "products/dr-pepper-can-330ml/index.html",
-      "sha256": "af745515902a11f436a452a727573f63c7a45a3cbc0ddef2ee2db3dc15f39bc2"
+      "sha256": "ecfbdd128ce1e169653246cf10e0a583221c562ada90ab56fd7a26e7e494e5dc"
     },
     {
       "path": "products/dubai-chocolate/index.html",
-      "sha256": "1bf934a22f4d61a6372ef74be02001d3da1e9a47926917c372dc0245985f59a5"
+      "sha256": "0b134fd3599755e84f1789b204d928faaecee90e65a04a0b47b8ad110da0a24e"
     },
     {
       "path": "products/extra-strong-white-kendal-mint-cake-170g/index.html",
-      "sha256": "c7424dce8ee668dbdbf3fc8ad61d9bf6198157a0352a463e922dfa0450554bb6"
+      "sha256": "dfdb4b30c89311431b57d25aaa1f1edc9baf4caa8c9677ba1d0067b7e81a2dbd"
     },
     {
       "path": "products/fanta-icy-lemon-500ml/index.html",
-      "sha256": "5259e5d0951bdad9eb3176636c7d19faebea5f7501ed9d5b3a170d4c21a7db9e"
+      "sha256": "5b6cf881d6159fbc932271b74a1513d1141a5959e2160a9e71393214933907fb"
     },
     {
       "path": "products/fanta-lemon-can-gb/index.html",
-      "sha256": "fba3c574c1637d62172cc0b0ce28d01d84ac825aaced1f9e878a567f6cd7c88a"
+      "sha256": "5bf1a731262ece4cb53f240a0a26ef97c9085adbe108daa02fd642cc689a14a0"
     },
     {
       "path": "products/fanta-orange-500ml/index.html",
-      "sha256": "360def1648e749d1ddcd7cc6da74e4f88d5c853b5f6094496738fb63704563e4"
+      "sha256": "a4a572dca9a92a4c0f44fe480a20354e0fdc9b645783985f96fb7cffce99bfc7"
     },
     {
       "path": "products/fanta-orange-can-330ml/index.html",
-      "sha256": "0552f6e2125f3aa5405026ef10b53cb8a32c3d82348544c6d51da0811b3b1680"
+      "sha256": "f7e9da2530634147af6b0a8f90658b20715c6361aa5373d028414873b6bae43a"
     },
     {
       "path": "products/fanta-zero-orange-500ml/index.html",
-      "sha256": "68f7e332a7d9fba3bd4de2210d5129eeb26e3f37830c2665fba126436464a0c9"
+      "sha256": "0183b24251f88a423f978230fc99a8ca2b4233d52975d55848c9ee7839b8059c"
     },
     {
       "path": "products/farmhouse-oaties-biscuits-200g/index.html",
-      "sha256": "4049fcdc820326f43c00e82b7e7d4a679cf5268f3f951890a97ab12f85d9e9dc"
+      "sha256": "7ede540016d0dbc65a17ac78c3f0417279a943224c26f90fb6ba8b8f1349593a"
     },
     {
       "path": "products/fishing-net/index.html",
-      "sha256": "c453ab766365cd39585c3621b2f215e8b2711fd9ea8406a828df0f4d8dd3507c"
+      "sha256": "8711756e2d2f0678b40efcaf78cf08020a3c83234245d67cd6c0a33eeba43dbf"
     },
     {
       "path": "products/flying-ring/index.html",
-      "sha256": "270503f35efa58e3339329609d732b2f94e84dd1b149211ae4749ad1e79cfa07"
+      "sha256": "b77f11528898ec633c004eef9df7ed3e2cb462de988d75664c315214ab98642f"
     },
     {
       "path": "products/fridge-magnet/index.html",
-      "sha256": "426c6dcea34fd6be92555ccc990c64fa671c6eb08ca29c57102bf53bf295de02"
+      "sha256": "1783ebbaf05891ee9d321bc040a739e1347eb5dd45b30695fbfc33d10aae515c"
     },
     {
       "path": "products/fun-kandy-mallow-sheep-35g/index.html",
-      "sha256": "0a3163688a7515f49db1d27629b359a821f0d0744a62d8c9107788ae0ab4c962"
+      "sha256": "941b605de6ba600dcb8d1949175080ce75494bfb55d6f054dc1c2f9dc572b266"
     },
     {
       "path": "products/giant-choc-chip-cookie-250g/index.html",
-      "sha256": "8ec79e5ea097dbed65f7b1da167a2d1bcd8ce5ec699fb85e75e6abdb8f7f1b22"
+      "sha256": "0e56c2d6f78c86df3df9cf4910b7d04ae7ececb1c7fb108175dd5c6743d67b3e"
     },
     {
       "path": "products/giant-ginger-lemon-cookie-250g/index.html",
-      "sha256": "4a90479385ed7455ce45a334ec1b8638c982dc93f10819646ba1d62d84908c96"
+      "sha256": "1d95f2732b61167a3929db1e9d52ce3f53cef2db023532409ea7abf6c9dee35e"
     },
     {
       "path": "products/giant-shortbread-cookies/index.html",
-      "sha256": "7dd52bed77b80981dc07fd2b2fa84356b6df618039a8324b2825a0626cedf1dd"
+      "sha256": "f94680d569f831ab1a0eab435bff2d3f46d16aa9475abdf494a16abcd3216897"
     },
     {
       "path": "products/gift-box-assorted-fudge-200g/index.html",
-      "sha256": "bd1186e26860daaee261ab9d06c4a7342ab29265567ed84a40317bdd15673bcc"
+      "sha256": "ba0f41968ce836cfdacefacd62f01f5b510049a954bb886810125158460606b2"
     },
     {
       "path": "products/gift-box-assorted-toffee-200g/index.html",
-      "sha256": "cd13e9d8da08aa6e4bf6796d5513ba0f96ec0af67440d2a13edd54f542583f34"
+      "sha256": "3ab2e0aa0954f7268c617de6411337437ac8dc142251e29dbda69067f4d10935"
     },
     {
       "path": "products/gift-box-clotted-cream-fudge-200g/index.html",
-      "sha256": "872e6976b0f79c3ee68f55fa8b0bf367670ca44d40697a0886ac857ea2d71ee3"
+      "sha256": "580c1f04813ef7101990f54505b65cd32e1811544d4b7c7c911a634cf745fc52"
     },
     {
       "path": "products/gift-box-mint-cake-200g/index.html",
-      "sha256": "036b790089ba311aaf1ab7ef079a8edbce258950a07e9e353a603a294a4d48fa"
+      "sha256": "8d95e4ce2915a049b207e44191b1ee967e1b6407635ba4f4d8082cc3c77d2f51"
     },
     {
       "path": "products/ginger-biscuits-200g/index.html",
-      "sha256": "c4f18dc844484786cdd22166b7102a9a3c3a9730fb29cd1b95fe4ac45a9962f6"
+      "sha256": "b7ee0e7ce27844e251d5928557337906586e57504068a3fe3d972be907a0944b"
     },
     {
       "path": "products/ginger-fudge-150g/index.html",
-      "sha256": "51f0493f93385ad15ae566681c42f3abb388ebe948154b0a505463c6243d046c"
+      "sha256": "fe0094b8e89ffb3a910d5c3890070204eb00f7d8665ed4dc4576a43213faefe5"
     },
     {
       "path": "products/golden-crunch-biscuits-200g/index.html",
-      "sha256": "341543fdbb1f34bcb4bfafe20ea228cc320fdbc237f57fbd9f939d340fa9a122"
+      "sha256": "d180f67f8482666893300f8f0372355e0fd7c257c4ef9edeca0c6b10f2d1ad13"
     },
     {
       "path": "products/harrogate-spring-bottled-water-500ml/index.html",
-      "sha256": "9cecc667daae7765ed681f5eaa4839e6311d09add906cb740964aea649afdfdc"
+      "sha256": "a0c68c9feb453cf2ffaeb6a0d1c00af29846e14e92f59417044859a6fdc14d91"
     },
     {
       "path": "products/harrogate-spring-sparkling-water-500ml/index.html",
-      "sha256": "417b2824ca8836a3f70734b66f6d09f3824e9ac6c32e1d40b785a119a7c53a4a"
+      "sha256": "9662f47186fa759b5157375d3064c29d34759a4d1366dc9cbac1dae0afda5b9f"
     },
     {
       "path": "products/honey-fudge-150g/index.html",
-      "sha256": "ce5187aa46cb6f208c5b4a3bfe36ad8ddf2f59ae9a3f9bf326147c88037de8e5"
+      "sha256": "f48bfe6987b34f23008484d17ba1e03c305efd473de0c2896e44ee1fe015d3fc"
     },
     {
       "path": "products/irn-bru-500ml/index.html",
-      "sha256": "b4c055ad5b2f5c8014cf4d30921dbe66832f00a1d1225c9ba0e584b6a0d80a6a"
+      "sha256": "d351c3e1f9addc3746d8b0f7d683198fc345625bb2b337983c427c847eeb691b"
     },
     {
       "path": "products/jemima-puddle-duck-keyring/index.html",
-      "sha256": "17007776d436cb0d7643a728b6d5f8a09e060a9e87e9113bed4ddb5b3aa85059"
+      "sha256": "6c259cd0ffb492152577bbe1130fc9c8b0877005ccbfab8e4c454355ca33730b"
     },
     {
       "path": "products/jemima-puddle-duck-large/index.html",
-      "sha256": "3efa7fc8fd5f03756d60bd86ffd6682e1b52701fc93f881a3fb23c803564d708"
+      "sha256": "64162d2716678e020529475f23cc85c1a4b6b86827a1a1f82034d9e82a5d96c8"
     },
     {
       "path": "products/jemima-puddle-duck-small/index.html",
-      "sha256": "938c5f3606abda516d5845c8f4786f55033edea284012b060a0f65b832eeaa5e"
+      "sha256": "9f215260ed22ea37ac689e8a1231f9bff3265dc549f01cd0c3fe2d06a08290bf"
     },
     {
       "path": "products/kendal-mint-cake-170g/index.html",
-      "sha256": "8ee25d00f46242b0636e58cc2482cf33701977499ee1f6b6e051d5c5a14aae13"
+      "sha256": "1c086b4dae40379f90a1e0d00fbb1819a04c8697db7e26d75ffe4b2fc025eff9"
     },
     {
       "path": "products/keyrings/index.html",
-      "sha256": "7f01d6e8629bca4fa8ab9f87435ade87ad80839926369548f8a9e346d1cf3db6"
+      "sha256": "3dc9a09753a0af0425685a4084baf376b452f72583c80421b9a26c350812642a"
     },
     {
       "path": "products/lake-district-calendar-2026/index.html",
-      "sha256": "868a1c98d6080f3ca47cc5adedbfb8b77fb34ef13effdf463ba4eff050901684"
+      "sha256": "9a7ff9897aecfb8e193f6c1dcc4e2e8ff09bb5a17f1d43aa201ddb75f2c68131"
     },
     {
       "path": "products/lake-district-coaster/index.html",
-      "sha256": "4812be835b27d571361f8d487dc9bac2ed1800dc0878c329af8dc9514309534f"
+      "sha256": "be2534e960c3117775981f5f73f84289eb1ab05f151d19fe7667be1b5bbe3f88"
     },
     {
       "path": "products/lake-district-collectors-pin/index.html",
-      "sha256": "63945ab0724991bf8d9d08f061e36a05bb3dfea14e58eee27f53b20ea23b2c32"
+      "sha256": "73e9ceae5a07b3da08b6e81c517b484f78901d033fb73138d021d4b2406ffdf5"
     },
     {
       "path": "products/lake-district-embroidered-badge/index.html",
-      "sha256": "95cd8ce9b48f4ab14d208aab90f66a6f5470ba0a43650e31abdd58b5c964afe2"
+      "sha256": "9c53636d7b57de5ca95fad22396d2ad06fc3193a3e64e991cb300458a53e969d"
     },
     {
       "path": "products/lake-district-mug/index.html",
-      "sha256": "11797f38fee57c89b17e0b926bea17a55ab2fbcb883ccd9d76c1f4cad81bd59c"
+      "sha256": "9a028f38348e10aa50a86f4cbd989a8007026c58129a32fc2ad9c1c9dc7f0f8d"
     },
     {
       "path": "products/lake-district-notebook/index.html",
-      "sha256": "98ca82bcbfdf5c7523b9a269a3bd4547f23ea4fc1cb45cd7ee7220f3611e9c42"
+      "sha256": "169040da58881ff44d33877da9bca7301c47ad46b5984bc2d2b7145994bee382"
     },
     {
       "path": "products/lake-district-pen/index.html",
-      "sha256": "22d1286293694900eb5be52464e4e7a267dd072442f7843f151797f124a46a99"
+      "sha256": "a4d65151fa828238728f096b3a9b0addcfd25e773c723dbf728f57930b6fbf31"
     },
     {
       "path": "products/lake-district-shot-glasses/index.html",
-      "sha256": "368c0ad113fefe782d0ea973b475837a3315193f5a34205a9d0774a121ce80a6"
+      "sha256": "647bd16ecd7af11badb0946b1e08b106dad7bfb34add1e807c66d39f09c91cfd"
     },
     {
       "path": "products/lake-district-teaspoons/index.html",
-      "sha256": "d107263ec49d73cebebdfd0296b0ed3ec62e52c88c257ee2bee978130deaa0a6"
+      "sha256": "58489050105e8254c3eb4b9afbba7b6f93be21d5615a3f9eaf03f9704d329490"
     },
     {
       "path": "products/lakeland-rock/index.html",
-      "sha256": "ebbb2759ec5051286d731545b4f09debb0b48c2ff1397175ca49bdfc8e3840b7"
+      "sha256": "e8c79be11a479002b4c1f9a40a37fecc11f86eeeabe3063902e134517cd88cbe"
     },
     {
       "path": "products/lovely-liquorice-walker-s-nonsuch-toffee-bar-50g/index.html",
-      "sha256": "33bf799868461b2b9c902065f425fb6a554fe1f2ff0c4dc7aea0f68a02bcbd49"
+      "sha256": "d418f12da4f81c0903e040734b13c2743f5e1411610fcddf85f9f3b80880161d"
     },
     {
       "path": "products/lucozade-sport-orange-500ml/index.html",
-      "sha256": "de08e96597f8d74c22130b81076439be0e201db9444a19754f9ba449ef4adb8c"
+      "sha256": "286ef2aba3f2a7c1c510c3adb395ab60c4a3c8c647a6dd3d9270d11a59fa74ff"
     },
     {
       "path": "products/lucozade-sport-raspberry-500ml/index.html",
-      "sha256": "3d4c729e2c8bf0cd0f67042e1e435dc814482b07a9326ad7650f9a78ed6ec418"
+      "sha256": "82112f0b8ff1723f8cf79f72e424dd88d067a4deeabdb6c0f392cc19ed8a7786"
     },
     {
       "path": "products/lying-peter-rabbit-large/index.html",
-      "sha256": "b2beeb624d713c55f8d0d52a834dbd90b23c135330ac7ad88eeddccbd8794b28"
+      "sha256": "1dac1b5d0c682de1b3acade25bb7c47b1d8afc2b2f36e353f2e9af83df9cfceb"
     },
     {
       "path": "products/mars-duo-chocolate-bar-78-8g/index.html",
-      "sha256": "6dcdff8145743695053f627c1b3e9d6ecf09dea758c66cd516db6b9937a3608f"
+      "sha256": "a431525408aea832788ae86a7323743b142085b25fffe2d48cd70ee0412944ed"
     },
     {
       "path": "products/mrs-rabbit-peter-bauble/index.html",
-      "sha256": "4077eb07f1592d1ddc36f2b05a92b34598d7019d4b2607ce85eee6611b67569f"
+      "sha256": "883efa53cb9ff7a4cc3e90ea6370bb69023f8e6319757d2847f964839ac28ccc"
     },
     {
       "path": "products/oasis-citrus-punch-500ml/index.html",
-      "sha256": "2d97b930ff665567bbff0a0bdef7ef14a26debf2f2b93e17fbbd34980f62b0ba"
+      "sha256": "4b1cff3482083f189e5c7e7db1cca0b1b0f3d5741a7f9af1dc693e9d78bca050"
     },
     {
       "path": "products/oasis-summer-fruits-500ml/index.html",
-      "sha256": "c96164b7e0135d2568075cccfb47cf5096db954d01f9cb593eee5e4147175c68"
+      "sha256": "fc1d2eac8fb2f9bba70656819d6170ab44d3c34aae920698d9a989a8458c7a03"
     },
     {
       "path": "products/os-ol6-map/index.html",
-      "sha256": "91fed8a590bd4b55077b473237e9e78fea921430db3136d4a35ea07cf3bd6dcc"
+      "sha256": "899e5a6a8e4025913a9baead27dc288f55a1d65a38fe79ade6eb8371d3196e78"
     },
     {
       "path": "products/os-ol7-map/index.html",
-      "sha256": "d895dc32745d70ffe6e1d036e9c2d8638485e38151cdda84d8984322bd946b08"
+      "sha256": "f037ef32d64fdaa98b26a0bedbdb63fdf4c83f4589f9cffb9584474fe7366286"
     },
     {
       "path": "products/peanut-brittle-bar-100g/index.html",
-      "sha256": "d90b53e3bd8fc620b51d2bea004908bc62d02ac6f76d536816ab1f3a7522f497"
+      "sha256": "8f87d325c56100f7383b5069ec62c68c46369b62649b67557902c55483789268"
     },
     {
       "path": "products/peter-and-flopsy-bauble/index.html",
-      "sha256": "852ff05dacf78863482b9f3e135dff436115fceac0b03549519915b4dfd11bcd"
+      "sha256": "d81dc5199ecb1942534c57db871de94e4b48e6af7ab986bb570a7a7d088fdc49"
     },
     {
       "path": "products/peter-my-1st-christmas-bauble/index.html",
-      "sha256": "e1037197fe54c677efa5d1703dd0cb23c35252167e057dae8d4e1f89f4cd8b15"
+      "sha256": "6d6cb7c65729050cb47d0b9828f1338bb52f19cb9457e45fe94e86b3dd38d84e"
     },
     {
       "path": "products/peter-rabbit/index.html",
-      "sha256": "9a3ea6c8014cf6b4ceb7ff8dc43291f4cc3d4b39c8e69e62746295d961e3598e"
+      "sha256": "b1daf31ad1976744dfddc5638b273501edabe54ab26ff513c8c06f28eec2ae17"
     },
     {
       "path": "products/peter-rabbit-christmas-bauble/index.html",
-      "sha256": "85ac602ca27227509476fc9b780e12fa21846d94df807053e56fcf9868eca2ac"
+      "sha256": "ffa0059352b0404c5b71c64b921e74562f59097a416de01fa9a3a32a15478859"
     },
     {
       "path": "products/peter-rabbit-double-oven-glove/index.html",
-      "sha256": "4681abd83780f88113412ea7c33d4db06c3f67ea109a752644d81b2756f83d9c"
+      "sha256": "9f3717b345a5d57260fb0a2f8dd77421565ee05230f40358357a33e3f3d2605d"
     },
     {
       "path": "products/peter-rabbit-ho-set-of-4/index.html",
-      "sha256": "a27dd5b39056232c712f90baaff2d815b7dfe05ba7f85f2e0b17695041f981fc"
+      "sha256": "868a42186437a8cfb0e7e46b60bd0228d84e5ac74ae44ec2cb0b21873a0ab696"
     },
     {
       "path": "products/peter-rabbit-image-tray/index.html",
-      "sha256": "f6543168ea78aa52c4abd47b7113b581de3d99e1b292d18adc294aa3fd9fd383"
+      "sha256": "12f79ad7d2d7cbe30e4e8307aad9ace036ac4b53fa3fe1fd5f0f34c4ad0cad7a"
     },
     {
       "path": "products/peter-rabbit-in-gift-bag/index.html",
-      "sha256": "ed5c28f79001adb8966e49b315ae298364356e23000410bfd8eded95b030e5e5"
+      "sha256": "d896dbeaab60c583c628750ca9ff17ccbb0db4879a8faf4e61838f57caa4295b"
     },
     {
       "path": "products/peter-rabbit-keyring/index.html",
-      "sha256": "a025e49e7b929d028ef7a22f11a54651afdd1bbea455785b46b6b8ebe8436d6c"
+      "sha256": "868cab09de348d4a4a3f3878deacda067483c356733ba7a6d77b665624d8afb0"
     },
     {
       "path": "products/peter-rabbit-large/index.html",
-      "sha256": "b5cf37ac975415fab3e0acfced3182fdfa1e81bd2e83f7f028594b32c5304f40"
+      "sha256": "712fa253fb40154f2cbed5fe1924154b52855b5087757bf67da1d7c49e110d35"
     },
     {
       "path": "products/peter-rabbit-medium/index.html",
-      "sha256": "f0305a7c1509183645b5541e3ebcb57f193a56d7304941c8c1afe1d569d331a9"
+      "sha256": "4629d5a75b655814b10bb7db5e5612d5ab329a4528d657d51c2c10f8a61b8393"
     },
     {
       "path": "products/peter-rabbit-mug/index.html",
-      "sha256": "aa8216306f907cb2f4c65f116c8e8c9ea9e27b835250d30f20077bc8d03157c4"
+      "sha256": "faf88dedaefebaf28d56c3f8b4fe164a77c54e95790a78913ec6107b499f9a99"
     },
     {
       "path": "products/peter-rabbit-mugs/index.html",
-      "sha256": "8e4e966946cb05feb486b1391fbb74d29076350a8ae6a1a691062a2a1364d752"
+      "sha256": "cf44c7565c90cfadfca83eab0c73830db6047a74692d68a2febd66728fbf4d60"
     },
     {
       "path": "products/peter-rabbit-notepad-set/index.html",
-      "sha256": "0a6782528f76c6b89b83e6b65861132ef115d29896cf2367a4dda07132f09351"
+      "sha256": "2e54450a01946acbc9987b6161eea5eb7674e98290d19420884f3349b09055fb"
     },
     {
       "path": "products/peter-rabbit-playing-cards/index.html",
-      "sha256": "f40d0e79b42bd7987e8ca693e664682c47066145af17bbe3e2f00a49f1f50890"
+      "sha256": "b11958bd98a6a150ffee7266c72929928a9bef7a002928e947f5989d040a60bb"
     },
     {
       "path": "products/peter-rabbit-small/index.html",
-      "sha256": "88bb52dc423e04ba994e2948e454d3ba6231b67ded8fd600a5edde4868331af7"
+      "sha256": "42cf92b9ba3deefaaa5c0b0e86ff3d12fa40e01915eab9e80640feb0520ced79"
     },
     {
       "path": "products/peter-rabbit-spatulas/index.html",
-      "sha256": "01d637bcb6b4af073333c62c8e32f329e4ac6f0ab0b75d4f687f15b44e8fb2d1"
+      "sha256": "123281b6338cc94677c06f87183b8fdcb83beee33e36fb7b3bcc7910443c0998"
     },
     {
       "path": "products/peter-rabbit-tea-tray/index.html",
-      "sha256": "30a94ff8078c4c74b7ebaf9999f1974daf34b8108e5ccd64148419c818da1c78"
+      "sha256": "45dc27aee018047814f8cf9a5a303cb18d3e0ac2573f90b620a9dce9d19fedae"
     },
     {
       "path": "products/pink-white-nougat-bar-120g/index.html",
-      "sha256": "2bf61c4021240f854a368ec27cb2bf985d4194f5046759bf4f6af3a778914810"
+      "sha256": "b4c858a7497b9647caa695d4329692dfc304b3d20e95120e364b05a7a853f0db"
     },
     {
       "path": "products/plush-soft-toys/index.html",
-      "sha256": "ce21d023c53bf07245e2bd520b269f5192d5c0ffdbea75a6e3920980ea0799f7"
+      "sha256": "9f5e8c11ff5f7a776f3bd8630e6dfa9834f1c3969261d2af536be4bb594a1926"
     },
     {
       "path": "products/pocket-money-toys/index.html",
-      "sha256": "c8e177f93cb9d22bc63a2a7f7468a562d554f6c2b660791f50d525c81ba372da"
+      "sha256": "564541e1ceb38d3584918c75e8e955ade13363bbf8685c762e1b62b7bf62fe23"
     },
     {
       "path": "products/postcard/index.html",
-      "sha256": "fd82a8c60b283895af6e40fd28ec9cd91cf56b0eeef61299269a3b80021406b3"
+      "sha256": "660127310e4481a936359efe04acf6f42a698394dc0cd5ce3b88d808740c8f4c"
     },
     {
       "path": "products/r-whites-lemonade-cans/index.html",
-      "sha256": "5571261b6b98c76932db199de278beab981856d4fc6268eb0c5cd39bdc947179"
+      "sha256": "5c167dc415e48d8a812f27b14b6c64149927ba4c51865dda7131475c9a2f8ba4"
     },
     {
       "path": "products/red-bull-energy-drink-250ml/index.html",
-      "sha256": "7a63ca9a4407165bb950b90f2a176cc9420100fd3e24c09ff935c939d139727f"
+      "sha256": "05a3fcefbca0dac821e1686010d7feca1593b763d2ab6bc8dd9af8e787b5cb71"
     },
     {
       "path": "products/reduced-books-sale/index.html",
-      "sha256": "a14dc59bfd1c1646b7f44072d7201670a10e12e825548b522c44f4c967b98838"
+      "sha256": "73c757c2e81c3411d3f38b7e675b6b94edef3d2b4a105535b9abc8f3408cde3a"
     },
     {
       "path": "products/ribena-blackcurrant-500ml/index.html",
-      "sha256": "6bf93007d1db9330f7788eab0249a931ad7a32271e7679c5b6918cb9900ae192"
+      "sha256": "4cb990c98717efbc6cadc5c3eff6789bc36b52b8941c59bc5832e26c8ae99fd6"
     },
     {
       "path": "products/robinsons-fruit-shoot-apple-blackcurrant-275ml/index.html",
-      "sha256": "dadcc943217bbc190528c629f347b1559ceb3b5b7ee4f84c8f4772c9adf20210"
+      "sha256": "cdea01f70e526cf25a23101834dcad0640ab462b28948a72bcc117c656b410ce"
     },
     {
       "path": "products/robinsons-fruit-shoot-orange-juice-275ml/index.html",
-      "sha256": "ca27d4690c36cf6c1b7e361d15da842c8ee6eceb78d53b8fc1833524ff9ccde5"
+      "sha256": "d3aae2f6f7325e757760e7b1645c2f22b2fb18563e9c6f0da7fc6b02920c82f7"
     },
     {
       "path": "products/romney-s-kendal-mint-cake-85g-bar/index.html",
-      "sha256": "f3c15d34969204edc638c1fc0ab52f71f790cdda55b82a21a8cf454f03317ed5"
+      "sha256": "35340a6667acefbf1f1d488075129245716e076a7f030d62a15732f5aec603fc"
     },
     {
       "path": "products/romney-s-sherbet-flyer-75g/index.html",
-      "sha256": "f1452ff1629bc641519efd0c824fee485d5a520a96952c06b8025151d65bb79e"
+      "sha256": "dfb35d1ae60f4cc3db5fd71ed17528635b1062135088be5d91d2717b93f3dc79"
     },
     {
       "path": "products/romney-s-strawberry-bon-bons/index.html",
-      "sha256": "e67ae08299fe08699e465dc9f15a52084a182ea4d2b288f70f52c0b2b1c78c13"
+      "sha256": "5ef7823e85bd20ff9bc61d84df196f3c4850c4f2173aae28156403a6448958b9"
     },
     {
       "path": "products/romney-s-sweet-bag/index.html",
-      "sha256": "5a794d05b736ca38438386f20a64e3f0447d45ae619901283d9cc9ccb2bc078f"
+      "sha256": "efdaaf7d558fe29bcbf1789068821d774cc2fb7ee444b1ae68a68f3022dbf70c"
     },
     {
       "path": "products/romneys-kendal-mint-cake-giant-white-480g/index.html",
-      "sha256": "8ef5256b36996ccc0071af546014e50eef82a269aed4e1de84352fe013d3f544"
+      "sha256": "29dc67b15b4c9e581e5a48e50330b47d0cdbcc1d9b2290bb92c0e19de74314ae"
     },
     {
       "path": "products/rum-raisin-fudge-150g/index.html",
-      "sha256": "ad931833e34af819afa2b4a7eb131759bb02a57fb21492a9ed8ea99896e05569"
+      "sha256": "3318a9788e395434009213d730a0409ac3dda6dce2f64604dedbe80ebea99bf2"
     },
     {
       "path": "products/salted-caramel-fudge-150g/index.html",
-      "sha256": "1a3158707eaabc415020a654cbfe14130af998c13b2690b101919aad0ae55f0d"
+      "sha256": "7a609a838a2ce9caca15d3efc09b5b2fbc601a64809835900e84a2debc92fd70"
     },
     {
       "path": "products/self-adhesive-stickers/index.html",
-      "sha256": "5187526d15144757b29a5b40f711431b8229607580e05171c1a09512b5cce1a5"
+      "sha256": "b4d338fa1ca808792542e08aad89c4828de20c986963bdae225a4046d46492d4"
     },
     {
       "path": "products/set-of-4-hanging-ornaments/index.html",
-      "sha256": "809a13c41f251054f97dc03121638d0647d620ff4e25ccb6da17559d98eaa5e8"
+      "sha256": "2da537e07be8932ef61d623ecb573bcc111b4ac21583790f8e8ec2a8029c86d6"
     },
     {
       "path": "products/shortcake-biscuits-200g/index.html",
-      "sha256": "8814c7afa925739934cd7373b86e5d4987db802ef9f7bfdf1956f43b75b357b3"
+      "sha256": "d2ef297fcb2cc2a95d3322ce80dcb0a41cd22702f096fda05bfd0e8035bef261"
     },
     {
       "path": "products/snickers-duo-bar-83-4g/index.html",
-      "sha256": "ef3996f64529f3b3d47fb53c2ec86dbfb869e1c60a7569de4c2c2554deebf7f0"
+      "sha256": "033ae2e678ad050bc79a5922f19710d0b74276deaaf4bbd6114deba023a95423"
     },
     {
       "path": "products/soft-toy/index.html",
-      "sha256": "422f48f3dd06a6fd40c84b17be3eda003044ae890707d2ba7296948a719f91c2"
+      "sha256": "e88b59ecdf36ab426e642dec608e8b543ce34579462d3804b6b4c23e8215e311"
     },
     {
       "path": "products/sprite-original-500ml/index.html",
-      "sha256": "ff9fe9e1a3480f17b32187b7f86b58fe219acc0f43ad7d557ae68966435caa84"
+      "sha256": "d4bab145a9e739d9a8bcd5022240df1b310d78c4586654114bcce81cb016b62d"
     },
     {
       "path": "products/squares-cheese-onion-crisps-72g/index.html",
-      "sha256": "2fd5d4e9b61f73f7974db49a241ed69074c258821072536d6540aaf0e9e5d461"
+      "sha256": "c14d3289921eb4e0dd59a8258a094516969ddaaee3690e1f33036a705b5ca08f"
     },
     {
       "path": "products/sun-cream/index.html",
-      "sha256": "c85ed2822444f1445fa80b569cb8f111c78b77f247e5e87c19b9ea01bb2ba2c7"
+      "sha256": "e0f6fc16746967db700ae0f00132aa852782e10c6bfae5d53bfb6f56dac60d04"
     },
     {
       "path": "products/sunglasses/index.html",
-      "sha256": "d74dc346b90ee5a956d639b78864b6fa25d2272ffd52ddffc0973269dc185935"
+      "sha256": "e002b8b236b5dd75eafb8cd3554f41630f9487c027eab622fdec67d53e5d68ed"
     },
     {
       "path": "products/tango-orange-500ml/index.html",
-      "sha256": "39bff096de2a8fd8e4dbb9428b0f712aae17fe817486c6d352c83b99b223fa4e"
+      "sha256": "3bb85126b513b7bbbada1f4d9365cee6b549a086bc27e6038042565eb313af9f"
     },
     {
       "path": "products/tea-towel/index.html",
-      "sha256": "e11d92f9081ff3aaa7fca784b63a033fd877ae740b19e7d82ece20f2f1eb97b2"
+      "sha256": "1a341cdf47ba94e8a8d1a66e77d936b06caaff7d583e22834e5e768ee1f7a3e5"
     },
     {
       "path": "products/tennis-ball/index.html",
-      "sha256": "2641be8d0f75b064246e6c4449dde0faffad9cea4b71bac7aef93a861ac9169c"
+      "sha256": "47bdfff0b0fcbcbb1cbda403826712152672c8cfc78be7bf4c207e88270da704"
     },
     {
       "path": "products/thank-ewe-novelty-box-300g/index.html",
-      "sha256": "da2c2df5b672957dcb49cccf0b56d76d1ee6ab7da7818ccdc7d160dea91cc254"
+      "sha256": "f99d42fd83161f7751643fb8472e6fd49e3fcc883a8e8d319247c1440353b33f"
     },
     {
       "path": "products/thank-you-cat-novelty-box-300g/index.html",
-      "sha256": "fd0226ae3b0d8828a533b59bc8a3390129a72888de6121c2b30da9a4cce88c0f"
+      "sha256": "c99ed5801bfb4b2e9ab4c308244f22fb5eb94c541836a6159e2f2b3446fc32f2"
     },
     {
       "path": "products/thank-you-dog-novelty-box-300g/index.html",
-      "sha256": "9b779133378be9b613eedf01bf798d2c78497935cf30a4b07716f0c5ade4f946"
+      "sha256": "d54d6285fd21d16b9bb24a7b6cb7fed1371c7eefab8fc2b1a632f9cbe1af04ad"
     },
     {
       "path": "products/the-lake-district-notepad-pen-set/index.html",
-      "sha256": "69895a3ffc5d4f644a3c58bcdb93635c4b07e9d7a7ed3e3bb6e0e35a48171984"
+      "sha256": "c841778103bf1154790edd13d052f650b160d880e810123157a453e76f10827b"
     },
     {
       "path": "products/top-10-walks/index.html",
-      "sha256": "358ba4f6bd8e5f7eecba718ae608642f47ed41481c5198b365d8fe4246f7e8c3"
+      "sha256": "6efe27101f4f9a76584b7fe07f55b817fb52708226ce5dab343b2a172b062e4e"
     },
     {
       "path": "products/tote-bag/index.html",
-      "sha256": "be50c8b5a06f98db55518408b9c13b47fe88deaa0ff68f5a76dcb4bb2d4fbf45"
+      "sha256": "c67fb17a4b500ca31858b0b33929ce48133eedbd57045efab8246d9a16f048b3"
     },
     {
       "path": "products/triple-choc-fudge-150g/index.html",
-      "sha256": "a95c7e57aac0dfdf65e284abdbaaba4bb7b3c70e131bd81cd241e7804ea5059e"
+      "sha256": "fdeb4f96c46f47dfc332e38525ac187de3ef19aa7532d98ebf579219b15d57a6"
     },
     {
       "path": "products/triple-pack-kendal-mint-cake-227g/index.html",
-      "sha256": "f9a22f044f7eb741a82d03db49a03cabd40e8391135d97d9cc7af6f20d8d66a6"
+      "sha256": "ce642211e59a5d88f09577732670aeca1eed596279cdc67819092d3b43588c6b"
     },
     {
       "path": "products/vanilla-fudge-150g/index.html",
-      "sha256": "9631f422150a76f33ace68353f2d6fca8807df00ea2354bdc25aa229d0ca715c"
+      "sha256": "d035e4f6fc9ef31b931809ee139257ce4cda4cc83af69cff9e54bad521ddf218"
     },
     {
       "path": "products/vanilla-fudge-bar-110g/index.html",
-      "sha256": "ab516d0e40ff16a0b4cca5534732d2540a469513f0e4424650636472d964a859"
+      "sha256": "735031a8a81ebaa90528d6ceb005bd53b3d2d17ad9bcc7d78b3d0906517c448a"
     },
     {
       "path": "products/vimto-fizzy-500ml/index.html",
-      "sha256": "b824881f7c2bb0d38e48e56561df047b78026301414c2d6b93699103040e32d5"
+      "sha256": "606e5c317f7173ca01b7b7aec2cc8a0bb92ecc00bc2c5e3887e22f67efc16e15"
     },
     {
       "path": "products/walkers-cheese-onion-32-5g/index.html",
-      "sha256": "31afd0f1760505dac0f4a8780ce944cbb0df0d85d020cf49c30abe22a3289c8f"
+      "sha256": "fd28ec4868ab7678204cf85f2b68a6f4a423ec2135af7dd23f8b13a7572ef0a5"
     },
     {
       "path": "products/walkers-original-dreamy-creamy-toffee-50g/index.html",
-      "sha256": "66001cc0fc54425149c6e112fd633241316bcdb28143d21ee20449eca0812205"
+      "sha256": "c54dae7e08e9140a5f803e95d8580f2f61fafde7454ff957357b03a760bd2c34"
     },
     {
       "path": "products/walkers-ready-salted-32-5g/index.html",
-      "sha256": "67249d49ae3e0f06a5fed0bcb1ea9a8295007f5cf66029d2096c64321e3d4599"
+      "sha256": "937fdda19cbe731a138b212c5af63155f023f0eac604fe2712de3bf02565db37"
     },
     {
       "path": "products/walkers-roast-chicken-32-5g/index.html",
-      "sha256": "b93131de9e7cb0f3a6d64290e1cfb25b3fc70c7b087e708cc6d80deafa24c24d"
+      "sha256": "c28a69a997d804faacfbf183e943adf6841d08178f3eba9e939ff026961ecf1f"
     },
     {
       "path": "products/walkers-salt-vinegar-32-5g/index.html",
-      "sha256": "64339b41306194e75da8d9cab6e770794aaf6a98789f72ef3c9fbe12a53a5394"
+      "sha256": "3d2101f24d374ef2a4b5a8d6fca3a0d2288dd71236e6808d4cb7d7b4e0c079b6"
     },
     {
       "path": "products/walkers-tomato-ketchup-32-5g/index.html",
-      "sha256": "8be16640c779a952710c9a515e033207e9fcf27b85c10313c25cca5bfd1bb83b"
+      "sha256": "db4ce31ddfdfc09fa54095650df36aa04dc391c8d2f2c063e418987c35f7ca29"
     },
     {
       "path": "products/walks-around-ambleside/index.html",
-      "sha256": "7a9f2bfea4b9eeed71fe26cf935423ab2765c2d29d09ed6ab57dbd9cd0ebb9a4"
+      "sha256": "7adab428969d9182a35b53984a2e80b763a4f9edfa55901f9b82d7caa6c2107f"
     },
     {
       "path": "products/white-choc-fudge-150g/index.html",
-      "sha256": "609b16a27a4d71d33283b472a5bf718e610b15394a0318e29f558d89db368eea"
+      "sha256": "3411b34d649f31eb8a28fb5fb9540eb9ef2d8cc185cadb310d1501a29a381055"
     },
     {
       "path": "robots.txt",
@@ -1913,91 +1913,92 @@
     },
     {
       "path": "to-do/Ambleside.jpeg",
-      "sha256": "2a4b24204bbad38f692d7f90e11a06e80930fc0d13bef8821831e880d8f9bd46"
+      "sha256": "ef4e0437dfffea37d9419ff1de9f8b3a9beb876579eddc507a3fe8be708b0bb3"
     },
     {
       "path": "to-do/Boat.jpeg",
-      "sha256": "286eae12a17e83c294731eab5d308b9b13b9312389f807dad261b69fbee75886"
+      "sha256": "b8b31296b567d2575dd6f7d37b319db21d4735dcdba085e93bbac03c36263a31"
     },
     {
       "path": "to-do/Borrans.jpeg",
-      "sha256": "ae0253495e0093186c5c808c879fafa60a4e37e16c0b6f4d0d067c2001b857e2"
+      "sha256": "ebeb749a1608740c9bdd8388abf2307a681f98525032d8d16b73d7a211017fe5"
     },
     {
       "path": "to-do/Bridgehouse.jpeg",
-      "sha256": "f84b157f4b13b140da6c714edfae7782a58a3d736ea8f460979b85e3cba046be"
+      "sha256": "26d51eede0c5d08bb72d7ed463a989eb4fabb7524b9c5cdf6a502bc6e02b58db"
     },
     {
       "path": "to-do/Cave.jpeg",
-      "sha256": "23925082bc49b308fb034675616aec3bcffeeff631a99ea6f6f906925e709ea4"
+      "sha256": "b8e43416f1b7e968a1f9748cc600e7ab0b00b391a1bbebfe6813bb6d2ef712a5"
     },
     {
       "path": "to-do/Garden.jpeg",
-      "sha256": "5bae4693239637eb3e627d4076fcc1d3ce7ceb532f01572f593705e5f9c061e8"
+      "sha256": "03a28037eaa66496680ab538e56901efc5c2f31d3f5e53d02e57eda91a29f37a"
     },
     {
       "path": "to-do/Garden2.jpeg",
-      "sha256": "7eb225307fd327c1aad04bcea24cef19270bf31a7f0dbcc43fddf00839a087fd"
+      "sha256": "58b0b1821048dc876f8ec64741c02280eb15b41769f98a00a0f68eb3d0ed6ba0"
     },
     {
       "path": "to-do/Jenkin.jpeg",
-      "sha256": "94134152af4786b03e9353cedac5501716a734d0bb7239279d674473733a8959"
+      "sha256": "9c8717538fc53c6f8be5a57877d7a00b6024c6586fd30d0c31a481f50a09c639"
     },
     {
       "path": "to-do/Jump.jpeg",
-      "sha256": "c4a28f5ec9b1e94354f55531616d8104f77ba471ac54d0d7833d7b1e8f22e238"
+      "sha256": "e75a9fa835f6f4564d2f7e01a59b557750b6f803f62d12d770e803b300b25b80"
     },
     {
       "path": "to-do/Lakesidep.jpeg",
-      "sha256": "c357aaaf28d576c34e16168715eff90ae8bf3a944622fe5dab59a425f7740dfd"
+      "sha256": "ed679b17fc8ed6a98251cf9e54be99b26ada91944bd157e653ddae4cd857d654"
     },
     {
       "path": "to-do/Loughrigg.jpeg",
-      "sha256": "f3a675dd837417e717903577b1b2c54c9d9824ba569f1df9cb80044672031dda"
+      "sha256": "f62fc5843213ae17f18741bfed8265fbe68e8375448c3135362bd1364c4155d6"
     },
     {
       "path": "to-do/Roman.jpeg",
-      "sha256": "4e812e338cf50ea0538aabd372ced364f715c2aa1b70540c8bc00735fb072b0c"
+      "sha256": "c86d256c00c8fd1f6ec1f459022e0543b5c2f251f3509cf8491dca1c1f32358c"
     },
     {
       "path": "to-do/Rothay.jpeg",
-      "sha256": "6af27d133e17696e27c82ba9f2dc180d797b11f99bbc191163d239ff0714b9e0"
+      "sha256": "666afe4c8703bc25a9d64959e9d5d1af708a2135cc68aefc3f6bb0cbd1d3f775"
     },
     {
       "path": "to-do/Rydal.jpeg",
-      "sha256": "98b89fd3e271cb95fd404a76a28ca2ea10860ceda7fa44cd4406c8c6895187a9"
+      "sha256": "ed8dd877cfd4031d92dfb764626bb0d0e1e6c67c5b072497c2e3da9f71fb507c"
     },
     {
       "path": "to-do/Rydalw.jpeg",
-      "sha256": "517a9dea3bc65aed4d163e001a0f64dcff510c2cf63b5c727107958a9e29cd10"
+      "sha256": "681867cc01a2232726fbcb2a3ec891fd953078b89d0246df340736774f38629b"
     },
     {
       "path": "to-do/Self.jpeg",
-      "sha256": "3a743512c625c29c93954214f3b44236b75644c9fc3dfee2c4a1c77a73c5daff"
+      "sha256": "5618cf55fe1c76f462d5e7c8d6dbd51e05dbfbb333ebd8eab783cb781e386a66"
     },
     {
       "path": "to-do/Stockghyll.jpeg",
-      "sha256": "8d08a4cf5d17ea278a166f86e200a247917350bcfc3b17f87c33fb9c20785905"
+      "sha256": "d573dc9dd231bbad6d0b5993c7eaece61d9217f7454cf127ba543a94fae8e6a6"
     },
     {
       "path": "to-do/Underl.jpeg",
-      "sha256": "c35064285879c713e7d2bd2df3d398f6091124cd88af3c335e02198147a22969"
+      "sha256": "72dc3c239d9266ea463df577c15dd8e8ab4e26487f801c44621093082cfab173"
     },
     {
       "path": "to-do/Wansfell.jpeg",
-      "sha256": "5bca75cde8e2c154bd3f337ff160a152744f2eea7831d6e987371ffeec88274c"
+      "sha256": "553d4084bf3799856cc5f2534757e5ab9cef235ef2f699653b16d87aa4bc156f"
     },
     {
       "path": "to-do/Wray.jpeg",
-      "sha256": "ead70c150b84747fb8058a9f0166019a6eb95c12ca1d5f8621e1ce838892ae08"
+      "sha256": "294fd95b86cbfea1598c533434f8768d98db50ab5a0d103af3c8b2bec789dc95"
     },
     {
       "path": "to-do/Zip.jpeg",
-      "sha256": "b127c09ac0250782c13c241a8c587068a8853378103e6e19c2e150c64be83aab"
+      "sha256": "e9ce1dfcd006c8057e8ebbf2810ed3920661d56f1a4702f8853e182eb293b19c"
     },
     {
       "path": "to-do.html",
       "sha256": "a1028b8b1139436a9eed109bbdbcd9eff5b86f628e2ddc1c460af43f393c6a20"
     }
-  ]
+  ],
+  "completedFromLegacyAssets": true
 }
