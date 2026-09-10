@@ -1,0 +1,74 @@
+name: Apply standalone Lakeside Picnic logo
+
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-standalone-logo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Reconstruct verified standalone logo
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat \
+            brand/logo-upload/part-1a.txt \
+            brand/logo-upload/part-1b.txt \
+            brand/logo-upload/part-2.txt \
+            brand/logo-upload/part-3a.txt \
+            brand/logo-upload/part-3b.txt \
+            brand/logo-upload/part-4.txt \
+            brand/logo-upload/part-5.txt \
+            | base64 --decode > /tmp/lakeside-logo.jpg
+          echo '2893cda7c016e981a9c15736b23efcd8dcf6e6f0dc6d1afe42dcc4c4780a9177  /tmp/lakeside-logo.jpg' | sha256sum --check --strict
+          test "$(stat -c%s /tmp/lakeside-logo.jpg)" = '21747'
+          cp /tmp/lakeside-logo.jpg brand/identity-board.jpeg
+
+      - name: Refresh package manifest and verify all package files
+        run: |
+          python - <<'PY'
+          import hashlib, json, pathlib
+          root = pathlib.Path('.')
+          manifest_path = root / 'PACKAGE-CONTENTS.json'
+          manifest = json.loads(manifest_path.read_text())
+          missing = []
+          for item in manifest['files']:
+              p = root / item['path']
+              if not p.is_file():
+                  missing.append(item['path'])
+              else:
+                  item['sha256'] = hashlib.sha256(p.read_bytes()).hexdigest()
+          if missing:
+              raise SystemExit('Missing package files: ' + ', '.join(missing))
+          manifest['logoAsset'] = 'brand/identity-board.jpeg'
+          manifest['logoSha256'] = '2893cda7c016e981a9c15736b23efcd8dcf6e6f0dc6d1afe42dcc4c4780a9177'
+          manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')
+          print(f"Verified {len(manifest['files'])} package files")
+          PY
+
+      - name: Remove temporary transfer files
+        run: |
+          rm -rf brand/logo-upload
+          rm -f brand/lakeside-picnic-logo.jpg
+          rm -f brand/lakeside-picnic-logo-copy.jpg
+          rm -f brand/logo-standalone-ready.txt
+          rm -f brand/README-logo-fix.txt
+          rm -f .github/workflows/apply-standalone-logo.yml
+
+      - name: Commit standalone logo
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A brand PACKAGE-CONTENTS.json .github/workflows/apply-standalone-logo.yml
+          git commit -m 'Use standalone Lakeside Picnic logo'
+          git push
