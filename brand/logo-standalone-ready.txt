@@ -1,0 +1,1 @@
+The binary standalone logo is being committed via the Git data API. This marker can be removed after verification.
