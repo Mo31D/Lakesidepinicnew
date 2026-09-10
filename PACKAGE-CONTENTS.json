@@ -473,7 +473,7 @@
     },
     {
       "path": "brand/identity-board.jpeg",
-      "sha256": "63a41f4a61cd01bed3a0f7483d776aeb9e0dc71d647292ffe669af05f6db67f6"
+      "sha256": "2893cda7c016e981a9c15736b23efcd8dcf6e6f0dc6d1afe42dcc4c4780a9177"
     },
     {
       "path": "brand/single-scoop.png",
@@ -2001,5 +2001,7 @@
     }
   ],
   "completedFromLegacyAssets": true,
-  "headerLogoFix": "verified-direct-render-v1"
+  "headerLogoFix": "verified-direct-render-v1",
+  "logoAsset": "brand/identity-board.jpeg",
+  "logoSha256": "2893cda7c016e981a9c15736b23efcd8dcf6e6f0dc6d1afe42dcc4c4780a9177"
 }

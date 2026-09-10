@@ -1,1 +1,0 @@
-Standalone Lakeside Picnic logo replacement pending binary write. No page or layout changes.
