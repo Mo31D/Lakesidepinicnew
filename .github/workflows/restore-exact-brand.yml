@@ -69,5 +69,3 @@ jobs:
             git commit -m 'Restore exact Lakeside Picnic brand assets'
             git push
           fi
-
-# Trigger exact brand restoration from the verified app repository.
