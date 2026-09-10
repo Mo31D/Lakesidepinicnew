@@ -45,3 +45,5 @@ jobs:
             git commit -m 'Refresh package hashes after logo fix'
             git push
           fi
+
+# Trigger manifest refresh after the header logo replacement.
