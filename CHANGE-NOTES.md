@@ -1,4 +1,8 @@
-# Menu and catalogue update — reviewed 15 September 2026
+# Menu and catalogue update — completed 15 September 2026
+
+The requested navigation, product-category and drinks changes are complete.
+On 15 September 2026, the owner removed the Google gift-photo import from
+this task. No Google sign-in or photo upload is needed for this delivery.
 
 - Drinks & sandwiches and Romney’s are in product navigation. Our story and
   Find us appear below product links and at the bottom of the mobile menu.
@@ -39,12 +43,9 @@ menu; navigation from that menu to Gifts was verified. Existing logo and ice
 cream content are preserved. This is representative browser QA, not an
 exhaustive device or accessibility audit.
 
-## Pending gift photographs
+## Scope and source notes
 
-Google Maps was checked again on 15 September 2026. It shows a limited,
-signed-out listing without a Menu tab; opening See more photos explicitly
-requests sign-in. The saved menu transcription has no original image URLs.
-No new gift photos or substitute images have been added. Google sign-in or the
-original gift image files are needed to complete this request. Drinks retain
-the previously captured names, sizes and prices; prices were not reverified
-against the live Google menu.
+Importing Google gift photographs is excluded at the owner's request. Existing
+images are retained; no new gift photos or substitute images were added.
+Drinks retain the Google menu names, sizes and prices captured on 6 September
+2026; prices were not reverified against the live Google menu.

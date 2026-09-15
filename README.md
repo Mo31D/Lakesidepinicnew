@@ -16,4 +16,4 @@ python3 scripts/verify-static.py
 Commit the generated pages, site.js, site.css, sitemap and package manifest
 with the source changes. `npm run dev` starts a development preview. There is
 no hosted administration backend in this static website. Customer lists stay
-in the browser. See CHANGE-NOTES.md for current validation and pending work.
+in the browser. See CHANGE-NOTES.md for the completed scope and validation.
