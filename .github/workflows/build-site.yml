@@ -1,6 +1,8 @@
 name: Build and publish static site
 
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
