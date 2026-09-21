@@ -10,21 +10,28 @@ on:
       - 'scripts/**'
       - 'package.json'
       - 'package-lock.json'
-      - 'site.css'
+      - 'brand/**'
+      - 'optimized/**'
+      - 'product-images/**'
+      - 'robots.txt'
       - '.github/workflows/build-site.yml'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: lakeside-static-build
-  cancel-in-progress: true
+  group: lakeside-static-${{ github.event.pull_request.number || 'main' }}
+  cancel-in-progress: false
 
 jobs:
   build:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      publish: ${{ steps.current.outputs.publish }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,40 +43,49 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run build
-      - name: QA generated site
+      - name: Check all generated pages, catalogue, schema, assets and manifest
+        run: python3 scripts/verify-static.py
+      - name: Check selection business rules
+        run: node scripts/test-selection.mjs
+      - name: Check source is still current
+        id: current
+        if: github.event_name != 'pull_request'
         run: |
-          python - <<'PY'
-          from pathlib import Path
-          import re, json
-          pages=[p for p in (list(Path('.').glob('*.html'))+list(Path('products').glob('*/index.html'))+list(Path('Icecream').glob('*.html'))) if p.name != '404.html']
-          failures=[]
-          for p in pages:
-            h=p.read_text(errors='ignore')
-            for needle,label in [('<title>','title'),('name="description"','description'),('rel="canonical"','canonical'),('application/ld+json','structured data'),('property="og:title"','Open Graph'),('name="twitter:card"','Twitter card')]:
-              if needle not in h: failures.append(f'{p}: missing {label}')
-            if '<html lang="en"' not in h: failures.append(f'{p}: missing lang')
-            for src in re.findall(r'(?:src|href)="([^"]+)"',h):
-              if src.startswith(('http:','https:','mailto:','tel:','#','data:')): continue
-              target=(p.parent/src.split('?',1)[0]).resolve()
-              try: target.relative_to(Path('.').resolve())
-              except ValueError: continue
-              if not target.exists(): failures.append(f'{p}: missing asset {src}')
-          data=json.loads(Path('src/catalogue.json').read_text())
-          for item in data['products']:
-            img=item.get('image','')
-            if img.startswith('/product-images/') and not Path(img[1:]).is_file(): failures.append(f"{item['id']}: missing image {img}")
-          if failures:
-            print('\n'.join(failures[:200])); raise SystemExit(f'QA failed with {len(failures)} issue(s)')
-          print(f'QA_OK pages={len(pages)} products={len(data["products"])}')
-          PY
-      - name: Commit generated site
-        run: |
-          if git diff --quiet; then
-            echo "No generated changes"
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD)" ]; then
+            echo "A newer source revision will be built by its own run."
+            echo "publish=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          echo "publish=true" >> "$GITHUB_OUTPUT"
+      - name: Commit generated output
+        if: steps.current.outputs.publish == 'true'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Build static site"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Build verified static site"
+            git push origin HEAD:main
+          fi
+      - name: Package verified public files
+        run: node scripts/package-static.mjs
+      - uses: actions/upload-pages-artifact@v4
+        if: steps.current.outputs.publish == 'true'
+        with:
+          path: dist
+
+  deploy:
+    if: needs.build.outputs.publish == 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the verified build
+        id: deployment
+        uses: actions/deploy-pages@v4
