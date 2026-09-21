@@ -1,6 +1,11 @@
 name: Import product images
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-product-images.mjs'
+      - '.github/workflows/import-product-images.yml'
 permissions:
   contents: write
 jobs:
