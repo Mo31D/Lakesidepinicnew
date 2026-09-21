@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
-  "updatedAt": "2026-09-10",
+  "revision": 2,
+  "updatedAt": "2026-09-21",
   "categories": [
     {
       "id": "sandwiches",
@@ -27,14 +27,14 @@
     {
       "id": "drinks",
       "name": "Cold drinks",
-      "description": "Coca-Cola, chilled soft drinks and bottled water for your day out.",
+      "description": "Chilled soft drinks and bottled water for your day around Waterhead and Windermere.",
       "image": "/images/cocacola.png",
       "visible": true
     },
     {
       "id": "snacks",
       "name": "Snacks",
-      "description": "Chocolate bars and crisps for your day out.",
+      "description": "Chocolate bars and crisps for a quick lakeside snack.",
       "image": "",
       "visible": true
     },
