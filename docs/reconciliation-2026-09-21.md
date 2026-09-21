@@ -79,3 +79,17 @@ now embeds the same source catalogue. Old list normalization is retained.
 
 Deployment and exact production verification are recorded in the completion
 response and the associated GitHub Actions run.
+
+## Publication reconciliation
+
+The first artifact deployment was cancelled by the repository's existing
+branch-based Pages publisher. The deployment job now waits for those automatic
+runs to finish before publishing the verified artifact. This retains the current
+Pages configuration and prevents the publishers cancelling each other. The wait
+is bounded and fails clearly if Pages remains busy.
+
+The resumed browser checks also verified the Snacks filter (10 results), a
+triple tub with Thunder & Lightning, Double Jersey and Pistachio (£8.00), and
+list persistence across pages. The open scoop dialog passed axe at 390px.
+The existing single-scoop illustration was compressed from 1.52MB to 114KB
+without changing its dimensions or identity.
