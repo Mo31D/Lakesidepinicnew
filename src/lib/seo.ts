@@ -1,5 +1,5 @@
 import type {Catalogue} from './catalogue';
-import {establishedYear} from './catalogue';
+import {establishedYear,productURL} from './catalogue';
 export const origin='https://www.lakesidepicnic.co.uk';
 
 export function structuredData(c:Catalogue,page?:any){
@@ -28,7 +28,7 @@ export function structuredData(c:Catalogue,page?:any){
  }
  if(page?.kind==='catalogue'){
   const items=c.products.filter((p:any)=>p.visible!==false&&(page.category==='all'||p.category===page.category));
-  if(items.length)graph.push({'@type':'ItemList','@id':origin+page.path+'#items',name:page.title,itemListElement:items.map((p:any,i:number)=>({'@type':'ListItem',position:i+1,name:p.name,url:origin+(p.path||('/products/'+p.id+'/'))}))});
+  if(items.length)graph.push({'@type':'ItemList','@id':origin+page.path+'#items',name:page.title,itemListElement:items.map((p:any,i:number)=>({'@type':'ListItem',position:i+1,name:p.name,url:origin+productURL(p)}))});
  }
  return JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c');
 }
