@@ -33,6 +33,32 @@ jobs:
       - run: npm ci
       - run: npm run check
       - run: npm run build
+      - name: QA generated site
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re, json
+          pages=list(Path('.').glob('*.html'))+list(Path('products').glob('*/index.html'))+list(Path('Icecream').glob('*.html'))
+          failures=[]
+          for p in pages:
+            h=p.read_text(errors='ignore')
+            for needle,label in [('<title>','title'),('name="description"','description'),('rel="canonical"','canonical'),('application/ld+json','structured data'),('property="og:title"','Open Graph'),('name="twitter:card"','Twitter card')]:
+              if needle not in h: failures.append(f'{p}: missing {label}')
+            if '<html lang="en"' not in h: failures.append(f'{p}: missing lang')
+            for src in re.findall(r'(?:src|href)="([^"]+)"',h):
+              if src.startswith(('http:','https:','mailto:','tel:','#','data:')): continue
+              target=(p.parent/src.split('?',1)[0]).resolve()
+              try: target.relative_to(Path('.').resolve())
+              except ValueError: continue
+              if not target.exists(): failures.append(f'{p}: missing asset {src}')
+          data=json.loads(Path('src/catalogue.json').read_text())
+          for item in data['products']:
+            img=item.get('image','')
+            if img.startswith('/product-images/') and not Path(img[1:]).is_file(): failures.append(f"{item['id']}: missing image {img}")
+          if failures:
+            print('\n'.join(failures[:200])); raise SystemExit(f'QA failed with {len(failures)} issue(s)')
+          print(f'QA_OK pages={len(pages)} products={len(data["products"])}')
+          PY
       - name: Commit generated site
         run: |
           if git diff --quiet; then
