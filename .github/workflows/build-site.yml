@@ -9,6 +9,7 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'site.css'
+      - '.github/workflows/build-site.yml'
   workflow_dispatch:
 
 permissions:
