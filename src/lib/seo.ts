@@ -24,7 +24,11 @@ export function structuredData(c:Catalogue,page?:any){
  if(page?.path&&page.path!=='/')graph.push({'@type':'BreadcrumbList','@id':origin+page.path+'#breadcrumb',itemListElement:[{'@type':'ListItem',position:1,name:'Home',item:origin+'/'},{'@type':'ListItem',position:2,name:page.title,item:origin+page.path}]});
  if(page?.kind==='product'&&page.productId){
   const p=c.products.find((x:any)=>x.id===page.productId);
-  if(p)graph.push({'@type':'Product','@id':origin+page.path+'#product',name:p.name,description:p.description||p.name,image:p.image?origin+p.image:undefined,brand:p.supplier?{'@type':'Brand',name:p.supplier}:undefined,offers:p.price!=null?{'@type':'Offer',price:String(p.price),priceCurrency:'GBP',availability:p.available?'https://schema.org/InStock':'https://schema.org/OutOfStock',url:origin+page.path,seller:{'@id':origin+'/#store'}}:undefined});
+  if(p)graph.push({'@type':'Product','@id':origin+page.path+'#product',name:p.name,sku:p.id,category:p.category,description:p.description||p.name,image:p.image?origin+p.image:undefined,brand:p.supplier?{'@type':'Brand',name:p.supplier}:undefined,offers:p.price!=null?{'@type':'Offer',price:String(p.price),priceCurrency:'GBP',availability:p.available?'https://schema.org/InStock':'https://schema.org/OutOfStock',url:origin+page.path,seller:{'@id':origin+'/#store'}}:undefined});
+ }
+ if(page?.kind==='catalogue'){
+  const items=c.products.filter((p:any)=>p.visible!==false&&(page.category==='all'||p.category===page.category));
+  if(items.length)graph.push({'@type':'ItemList','@id':origin+page.path+'#items',name:page.title,itemListElement:items.map((p:any,i:number)=>({'@type':'ListItem',position:i+1,name:p.name,url:origin+(p.path||('/products/'+p.id+'/'))}))});
  }
  return JSON.stringify({'@context':'https://schema.org','@graph':graph}).replace(/</g,'\\u003c');
 }
