@@ -21,3 +21,13 @@
 @media(max-width:600px){.sandwich-status{gap:12px;padding:20px 18px}.sandwich-status h2{font-size:22px}}
 @media(max-width:600px){.site-header .wordmark{flex:0 1 215px;min-width:0}.site-header .board-logo{width:100%}.site-header .header-actions{flex-shrink:0}}
 @media(max-width:640px){.category-filters{margin-right:0;padding-right:0}}
+
+/* Final catalogue consistency */
+.discover-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.discover-card{min-height:360px}
+.drinks-card{background:#e8efe9}
+.drinks-card .gift-type{color:var(--primary)}
+.product-card .product-image-link{min-height:270px}
+.product-card.text-product .product-image-link{display:flex;align-items:center;justify-content:center;padding:24px}
+.product-card.text-product .product-type{width:100%;min-height:222px;display:flex;flex-direction:column;justify-content:flex-end}
+@media(max-width:760px){.discover-grid{grid-template-columns:1fr}.discover-card{min-height:300px}.product-card .product-image-link{min-height:220px}}
