@@ -9,13 +9,13 @@ export function structuredData(c:Catalogue,page?:any){
   name:'Lakeside Picnic',
   url:origin,
   foundingDate:String(establishedYear),
-  description:'Independent shop in Waterhead, Ambleside by Windermere, serving Lakes Ice Cream, coffee, cold drinks and snacks, with Romney’s Kendal Mint Cake and Lake District gifts.',
+  description:'Independent shop in Waterhead, Ambleside by Lake Windermere, serving Lakes Ice Cream, coffee, cold drinks and snacks, with Romney’s Kendal Mint Cake and Lake District gifts.',
   telephone:c.settings.phone,
   priceRange:'£',
   image:origin+'/brand/identity-board.jpeg',
   address:{'@type':'PostalAddress',streetAddress:'Borrans Road, Waterhead',addressLocality:'Ambleside',addressRegion:'Cumbria',postalCode:c.settings.postcode,addressCountry:'GB'},
   geo:{'@type':'GeoCoordinates',latitude:54.4329,longitude:-2.9614},
-  areaServed:[{'@type':'Place',name:'Waterhead, Ambleside'},{'@type':'Place',name:'Lake District'}],
+  areaServed:[{'@type':'Place',name:'Waterhead, Ambleside'},{'@type':'Place',name:'Ambleside'},{'@type':'Place',name:'Lake Windermere'},{'@type':'Place',name:'Lake District'}],
   hasMap:'https://www.google.com/maps/search/?api=1&query=Lakeside+Picnic+Waterhead+Ambleside+LA22+0ES'
  };
  const graph:any[]=[store,{ '@type':'WebSite','@id':origin+'/#website',url:origin,name:'Lakeside Picnic',publisher:{'@id':origin+'/#store'},inLanguage:'en-GB'}];
