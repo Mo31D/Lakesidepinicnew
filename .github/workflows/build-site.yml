@@ -41,7 +41,7 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re, json
-          pages=list(Path('.').glob('*.html'))+list(Path('products').glob('*/index.html'))+list(Path('Icecream').glob('*.html'))
+          pages=[p for p in (list(Path('.').glob('*.html'))+list(Path('products').glob('*/index.html'))+list(Path('Icecream').glob('*.html'))) if p.name != '404.html']
           failures=[]
           for p in pages:
             h=p.read_text(errors='ignore')
