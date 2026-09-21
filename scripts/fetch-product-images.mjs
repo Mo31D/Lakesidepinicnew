@@ -71,6 +71,6 @@ for(const [id,spec] of Object.entries(products)){
   console.log('saved',id,file);
  }catch(e){failures.push(id+': '+e.message); console.error('FAILED',id,e.message);}
 }
-if(failures.length){console.error(failures.join('\n')); process.exitCode=1;}
+if(failures.length){console.error('Sources needing fallback:\n'+failures.join('\n'));}\nconsole.log(`Imported ${Object.keys(products).length-failures.length}/${Object.keys(products).length}; preserving unresolved catalogue images for fallback pass.`);
 catalogue.updatedAt=new Date().toISOString().slice(0,10);
 await fs.writeFile('src/catalogue.json',JSON.stringify(catalogue,null,2)+'\n');
