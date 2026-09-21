@@ -6,14 +6,14 @@ export function resolvePage(path:string,catalogue:Catalogue):PageInfo|null{
  const p=path==='/'?'/':path.replace(/\/$/,'');
  const routes:Record<string,Omit<PageInfo,'path'>>={
  '/':{kind:'home',title:'Ice Cream, Coffee & Gifts in Waterhead, Ambleside',description:'Lakes Ice Cream, coffee and Lake District gifts from our small independent shop by the water in Waterhead, Ambleside.'},
- '/index.html':{kind:'home',title:'Ice Cream, Coffee & Gifts in Waterhead, Ambleside',description:'A little lakeside joy at Lakeside Picnic, Waterhead.'},
+ '/index.html':{kind:'home',title:'Ice Cream, Coffee & Lake District Gifts in Waterhead, Ambleside',description:'Visit Lakeside Picnic in Waterhead, Ambleside for Lakes Ice Cream, coffee, cold drinks, snacks, Romney’s Kendal Mint Cake and Lake District gifts by Windermere.'},
  '/icecream.html':{kind:'catalogue',category:'ice-cream',title:'Lakes Ice Cream in Ambleside',description:'Explore the Lakes Ice Cream flavours served at Lakeside Picnic. Single, double or triple, in a cone or a tub.'},
  '/hotdrinks.html':{kind:'catalogue',category:'coffee',title:'Coffee, Tea & Hot Chocolate',description:'Explore the coffee and tea menu at Lakeside Picnic in Waterhead, Ambleside.'},
  '/romneys.html':{kind:'catalogue',category:'romneys',title:'Romney’s Kendal Mint Cake & Sweet Treats',description:'Discover Romney’s Kendal Mint Cake, fudge, biscuits and sweet gifts at Lakeside Picnic.'},
  '/Mintcake/mintcake.html':{kind:'catalogue',category:'romneys',title:'Romney’s Kendal Mint Cake',description:'Romney’s Kendal Mint Cake, stocked by Lakeside Picnic in Waterhead.'},
  '/souvenirs.html':{kind:'catalogue',category:'gifts',title:'Lake District Gifts & Souvenirs',description:'Browse Peter Rabbit, Lake District souvenirs, maps, books and little keepsakes at Lakeside Picnic.'},
- '/drinks.html':{kind:'catalogue',category:'drinks',title:'Cold Drinks & Sandwiches in Ambleside',description:'Coca-Cola, chilled soft drinks and water for your day by the lake, with snacks for the journey. Sandwiches are temporarily unavailable due to supply issues.'},
- '/coca-cola.html':{kind:'catalogue',category:'drinks',title:'Cold Drinks & Sandwiches in Ambleside',description:'Coca-Cola, chilled soft drinks and water for your day by the lake, with snacks for the journey. Sandwiches are temporarily unavailable due to supply issues.'},
+ '/drinks.html':{kind:'catalogue',category:'drinks',title:'Cold Drinks & Snacks in Ambleside',description:'Cold drinks, bottled water, Coca-Cola favourites, chocolate and crisps at Lakeside Picnic in Waterhead, Ambleside by Windermere.'},
+ '/coca-cola.html':{kind:'catalogue',category:'drinks',title:'Cold Drinks & Snacks in Ambleside',description:'Cold drinks, bottled water, Coca-Cola favourites, chocolate and crisps at Lakeside Picnic in Waterhead, Ambleside by Windermere.'},
  '/menu.html':{kind:'catalogue',category:'all',title:'The Shop — Our Full Range',description:'Explore the full Lakeside Picnic range and make a list to show us at the counter.'},
  '/services.html':{kind:'catalogue',category:'all',title:'Browse the Shop',description:'Ice cream, drinks, gifts and treats at Lakeside Picnic, Waterhead.'},
  '/about.html':{kind:'about',title:'Our Story — Independent Since 2015',description:'Meet Lakeside Picnic: an independent shop in Waterhead, Ambleside since 2015, serving ice cream, coffee and a warm welcome.'},
