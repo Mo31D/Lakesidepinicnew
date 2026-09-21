@@ -32,3 +32,4 @@ export function resolvePage(path:string,catalogue:Catalogue):PageInfo|null{
  return null;
 }
 export function allRoutes(c:Catalogue){return ['/', '/icecream.html','/hotdrinks.html','/romneys.html','/souvenirs.html','/drinks.html','/coca-cola.html','/menu.html','/services.html','/about.html','/contact.html','/to-do.html','/ambleside_guide.html','/blog.html','/allergens.html','/privacy.html','/my-list.html','/Mintcake/mintcake.html',...publicProducts(c).map(productURL)];}
+
