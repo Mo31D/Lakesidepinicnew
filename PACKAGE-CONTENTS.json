@@ -485,7 +485,7 @@
     },
     {
       "path": "coca-cola.html",
-      "sha256": "61464ee3eb1765e583019e86a2a33ebaabb3d363dbf63fcfeeeb56aeca71fcb0"
+      "sha256": "d9679980880c1569a9a5706b06b53ddf2a3566d058c543402b411dfef4554714"
     },
     {
       "path": "contact.html",
@@ -493,7 +493,7 @@
     },
     {
       "path": "drinks.html",
-      "sha256": "88eaab5347cb6d49a8fbd0e91a5498cd83da182e82271f23dd2463d23dbbab49"
+      "sha256": "298ea0c5aa6e72098215383a087ec2753fa12c584d6884fab6ab4d559f2ded09"
     },
     {
       "path": "favicon.svg",
@@ -1905,7 +1905,7 @@
     },
     {
       "path": "site.js",
-      "sha256": "20e77a4f7f6cc99cc9560adedb9ada2d9d5cb0ec7617a6281055e67ba8beeeb4"
+      "sha256": "446a5b58f9affbdb48dbf79701873f037f585489693fad164ae80ab503c4e498"
     },
     {
       "path": "sitemap.xml",
