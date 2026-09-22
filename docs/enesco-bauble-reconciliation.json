@@ -1,0 +1,180 @@
+{
+  "scope": "Phase 2: four existing missing baubles only",
+  "reviewedAt": "2026-09-22T23:20:48+00:00",
+  "baseGithubMain": "4b787b87aaa199fe5c6b877f7f992ff4b43caad4",
+  "visibleImageGapsBefore": 7,
+  "visibleImageGapsAfter": 4,
+  "imagesAdded": 3,
+  "existingImagesReplaced": 0,
+  "all59RecoveredImagesPreserved": true,
+  "accepted": [
+    {
+      "catalogueId": "peter-my-1st-christmas-bauble",
+      "sku": "A29823",
+      "officialName": "Peter Rabbit My First Christmas Bauble",
+      "sourcePage": "https://www.christmaselves.com.au/peter-rabbit-my-first-christmas-glass-bauble-8cm/",
+      "sourceImage": "https://cdn11.bigcommerce.com/s-630c7/images/stencil/1280x1280/products/20477/26099/A29823_PETER_RABBIT_MY_FIRST_CHRISTMAS_BAUBLE__2__01775.1655643523.jpg?c=2",
+      "sourceDimensions": [
+        1000,
+        1000
+      ],
+      "design": "Pale glass bauble, gold My 1st Christmas lettering, Beatrix Potter illustrations and red ribbon; the product has different illustrations around its circumference.",
+      "priceEvidence": {
+        "officialLaunchSrpGBP": 9.95,
+        "source": "https://www.enesco.co.uk/news/by:category/latest_news/enesco-launches-my-first-christmas-peter-rabbit-items-into-its-popular-winter-collection/",
+        "date": "2019-07-01",
+        "note": "Historic launch SRP, not claimed as a current Enesco RRP."
+      },
+      "identityBasis": "Exact first-Christmas product name and A29823 SKU on the stockist page, 8cm specification, matching ribbon, pale finish, gold first-Christmas lettering and wreath design described in official Enesco launch material. Photograph shows another side of the same bauble from the catalogue.",
+      "matchConfidence": "high",
+      "officialCatalogue": {
+        "url": "https://cdn.asp.events/CLIENT_Ascentia_4E961A52_5056_B739_54289B84DF34E888/sites/springfair-2024/media/libraries/exhibitor-brochures/405610-brand_bp_bpot_beatrix_potter_catalogue_mar24-11-.pdf",
+        "page": 31,
+        "nativeImageResolutionNote": "The official PDF embeds small product images; these are identity evidence, not upscaled website assets."
+      },
+      "facts": {
+        "material": "Glass",
+        "diameterCm": 8,
+        "packaging": "Presentation box",
+        "lakesidePriceGBP": 9.95
+      },
+      "unverifiedFields": [
+        "current official RRP",
+        "age guidance",
+        "CE/safety details",
+        "care instructions"
+      ],
+      "imageProvenance": {
+        "type": "ENESCO-CATALOGUE-VERIFIED-STOCKIST-COPY",
+        "directOfficialDownload": false,
+        "note": "Discontinued official product pages no longer exposed usable original downloads. A catalogue-verified photograph hosted by a named stockist is used; it is not represented as a direct Enesco download.",
+        "preservedOriginal": "docs/enesco-source-images/A29823.jpg",
+        "sourceSha256": "ab76f4544ae662f723f69b85933352a0d10d6e1d5c9a82f06005c2c71d0911b2",
+        "output": "product-images/enesco/peter-my-1st-christmas-bauble.webp",
+        "outputSha256": "fbdf26309b25ff54397d2af712003da771c6e7b6cb9a1c4cb9904e44bacea87d",
+        "outputDimensions": [
+          600,
+          600
+        ],
+        "processing": "Non-generative ImageMagick: remove only border-connected near-white background at 2% tolerance; preserve product artwork and ribbon; downscale without enlargement; balance sphere diameter and lower baseline on transparent square canvases; WebP quality 90."
+      }
+    },
+    {
+      "catalogueId": "mrs-rabbit-peter-bauble",
+      "sku": "A29527",
+      "officialName": "Mrs. Rabbit and Peter Bauble",
+      "sourcePage": "https://www.fhinds.co.uk/Beatrix-Potter-A29527-Mrs-Rabbit-And-Peter-Merry-Christmas-Bauble-P8767",
+      "sourceImage": "https://www.fhinds.co.uk/Images/Product/Default/xlarge/P8767_L_1.jpg",
+      "sourceDimensions": [
+        960,
+        720
+      ],
+      "design": "Red bauble with Mrs Rabbit embracing Peter, Dashing through the Snow lettering and a red ribbon.",
+      "priceEvidence": {
+        "stockistPriceGBP": 9.95,
+        "officialCurrentRrpGBP": null,
+        "note": "Stockist price corroborates the existing Lakeside price; not used as the sole identity evidence."
+      },
+      "identityBasis": "Distinctive Mrs Rabbit and Peter pairing in the existing product name, exact A29527 stockist SKU, and the same red design, character pose, lettering and ribbon as the official catalogue photograph.",
+      "matchConfidence": "high",
+      "officialCatalogue": {
+        "url": "https://cdn.asp.events/CLIENT_Ascentia_4E961A52_5056_B739_54289B84DF34E888/sites/springfair-2024/media/libraries/exhibitor-brochures/405610-brand_bp_bpot_beatrix_potter_catalogue_mar24-11-.pdf",
+        "page": 31,
+        "nativeImageResolutionNote": "The official PDF embeds small product images; these are identity evidence, not upscaled website assets."
+      },
+      "facts": {
+        "material": "Glass",
+        "diameterCm": 8,
+        "packaging": "Presentation box",
+        "lakesidePriceGBP": 9.95
+      },
+      "unverifiedFields": [
+        "current official RRP",
+        "age guidance",
+        "CE/safety details",
+        "care instructions"
+      ],
+      "imageProvenance": {
+        "type": "ENESCO-CATALOGUE-VERIFIED-STOCKIST-COPY",
+        "directOfficialDownload": false,
+        "note": "Discontinued official product pages no longer exposed usable original downloads. A catalogue-verified photograph hosted by a named stockist is used; it is not represented as a direct Enesco download.",
+        "preservedOriginal": "docs/enesco-source-images/A29527.jpg",
+        "sourceSha256": "f69ced319686ecce713ea9f7256fcf9a95e403f569ca18d54d704e6cf3c5926d",
+        "output": "product-images/enesco/mrs-rabbit-peter-bauble.webp",
+        "outputSha256": "e05c73601cb750a1f4bcaaae62d83ea4fb27231c9f7ddfa7c29d567995b5a7f4",
+        "outputDimensions": [
+          600,
+          600
+        ],
+        "processing": "Non-generative ImageMagick: remove only border-connected near-white background at 2% tolerance; preserve product artwork and ribbon; downscale without enlargement; balance sphere diameter and lower baseline on transparent square canvases; WebP quality 90."
+      }
+    },
+    {
+      "catalogueId": "peter-and-flopsy-bauble",
+      "sku": "A28974",
+      "officialName": "Peter Rabbit and Flopsy Holding Holly Wreath Bauble",
+      "sourcePage": "https://www.youngsjewellers.co.uk/products/peter-rabbit-and-flopsy-holding-holy-wreath-bauble-a28974",
+      "sourceImage": "https://cdn.shopify.com/s/files/1/0188/5856/products/2667904-a28974-2-3-560.jpg?v=1605479550",
+      "sourceDimensions": [
+        560,
+        560
+      ],
+      "design": "White bauble with Peter and Flopsy holding a holly wreath, red Merry Christmas lettering and a red ribbon.",
+      "priceEvidence": {
+        "stockistPriceGBP": 10.5,
+        "officialCurrentRrpGBP": null,
+        "note": "Current stockist price differs from Lakeside. Existing Lakeside price is preserved. Match rests on character pairing, SKU, design and dimensions, not price."
+      },
+      "identityBasis": "Distinctive Peter and Flopsy pairing, exact A28974 stockist SKU, and the same white bauble, wreath illustration, lettering and ribbon as the official catalogue photograph.",
+      "matchConfidence": "high",
+      "officialCatalogue": {
+        "url": "https://cdn.asp.events/CLIENT_Ascentia_4E961A52_5056_B739_54289B84DF34E888/sites/springfair-2024/media/libraries/exhibitor-brochures/405610-brand_bp_bpot_beatrix_potter_catalogue_mar24-11-.pdf",
+        "page": 31,
+        "nativeImageResolutionNote": "The official PDF embeds small product images; these are identity evidence, not upscaled website assets."
+      },
+      "facts": {
+        "material": "Glass",
+        "diameterCm": 8,
+        "packaging": "Presentation box",
+        "lakesidePriceGBP": 9.95
+      },
+      "unverifiedFields": [
+        "current official RRP",
+        "age guidance",
+        "CE/safety details",
+        "care instructions"
+      ],
+      "imageProvenance": {
+        "type": "ENESCO-CATALOGUE-VERIFIED-STOCKIST-COPY",
+        "directOfficialDownload": false,
+        "note": "Discontinued official product pages no longer exposed usable original downloads. A catalogue-verified photograph hosted by a named stockist is used; it is not represented as a direct Enesco download.",
+        "preservedOriginal": "docs/enesco-source-images/A28974.jpg",
+        "sourceSha256": "ea8491f95ae2c7a0a5a128a08673f56807317de04d76f539c76af628b7c2d645",
+        "output": "product-images/enesco/peter-and-flopsy-bauble.webp",
+        "outputSha256": "d7ef2e85ec717f4c7622423d66dc6beca06c09d29384c8c55869b159e17a50ec",
+        "outputDimensions": [
+          600,
+          600
+        ],
+        "processing": "Non-generative ImageMagick: remove only border-connected near-white background at 2% tolerance; preserve product artwork and ribbon; downscale without enlargement; balance sphere diameter and lower baseline on transparent square canvases; WebP quality 90."
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "catalogueId": "peter-rabbit-christmas-bauble",
+      "reason": "The generic catalogue name has no SKU or sufficiently distinct existing product photograph. A30193 Peter Rabbit Christmas and A29526 Peter Rabbit Merry Christmas are plausible older products; current coloured baubles are further possible variants. The shared £9.95 price is insufficient evidence. Image remains blank pending an own-stock photograph or SKU."
+    }
+  ],
+  "remainingVisibleImageGaps": [
+    "affogato",
+    "lake-district-calendar-2026",
+    "peter-rabbit-christmas-bauble",
+    "walks-around-ambleside"
+  ],
+  "limitations": [
+    "Stockist-hosted photographs are distinguished from direct official image downloads.",
+    "Unknown safety, care and current official RRP facts have not been invented or published.",
+    "No other product or existing image assignment was changed."
+  ]
+}

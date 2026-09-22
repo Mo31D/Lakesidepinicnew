@@ -20,6 +20,10 @@ export type Product = {
   visible: boolean;
   featured: boolean;
   supplier: string;
+  manufacturerSku?: string;
+  material?: string;
+  diameterCm?: number;
+  packaging?: string;
   ingredients: string;
   nutrition: string;
   sourceNote: string;

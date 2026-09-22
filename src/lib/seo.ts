@@ -97,6 +97,19 @@ export function structuredData(c: Catalogue, page: PageInfo) {
       "@id": origin + page.path + "#product",
       name: product.name,
       sku: product.id,
+      mpn: product.manufacturerSku,
+      material: product.material,
+      additionalProperty:
+        product.diameterCm || product.packaging
+          ? [
+              ...(product.diameterCm
+                ? [{ "@type": "PropertyValue", name: "Diameter", value: product.diameterCm, unitCode: "CMT" }]
+                : []),
+              ...(product.packaging
+                ? [{ "@type": "PropertyValue", name: "Packaging", value: product.packaging }]
+                : []),
+            ]
+          : undefined,
       category: product.category,
       description: product.description || page.description,
       image: product.image ? origin + optimizedImage(product.image) : undefined,
