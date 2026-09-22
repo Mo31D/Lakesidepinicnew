@@ -690,7 +690,8 @@ function ProductCard({
         "product-card " +
         (p.image ? "" : "text-product") +
         " category-" +
-        p.category
+        p.category +
+        (p.imageMode ? " image-mode-" + p.imageMode : "")
       }
     >
       {p.image && (
@@ -1003,11 +1004,12 @@ function ProductPage({ id }: { id: string }) {
               "detail-image category-" +
               p.category +
               " " +
-              (ice ? "ice-detail" : "")
+              (ice ? "ice-detail" : "") +
+              (p.imageMode ? " image-mode-" + p.imageMode : "")
             }
           >
             {p.image ? (
-              <Photo src={p.image} alt={p.name} priority />
+              <Photo src={p.image} alt={p.imageAlt || p.name} priority />
             ) : (
               <div className="detail-typography">
                 <Gift size={48} />

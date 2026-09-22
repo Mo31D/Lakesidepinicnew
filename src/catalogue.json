@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 3,
-  "updatedAt": "2026-09-21",
+  "revision": 4,
+  "updatedAt": "2026-09-22",
   "categories": [
     {
       "id": "sandwiches",
@@ -1658,7 +1658,7 @@
       "name": "Romney's Kendal Mint Cake 85g Bar",
       "category": "romneys",
       "description": "Bars of 2023 Great Taste Award-Winning White Kendal Mint Cake.",
-      "image": "",
+      "image": "/product-images/google-menu/romney-s-kendal-mint-cake-85g-bar.webp",
       "path": "",
       "price": 1.5,
       "unit": "each",
@@ -1668,7 +1668,9 @@
       "supplier": "Romney’s",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Romney's Kendal Mint Cake 85g Bar"
     },
     {
       "id": "brown-kendal-mint-cake-85g",
@@ -1726,7 +1728,7 @@
       "name": "Extra Strong White Kendal Mint Cake 170g",
       "category": "romneys",
       "description": "Bars of Extra Strong White Kendal Mint Cake.",
-      "image": "",
+      "image": "/product-images/google-menu/extra-strong-white-kendal-mint-cake-170g.webp",
       "path": "",
       "price": 2.7,
       "unit": "each",
@@ -1736,14 +1738,16 @@
       "supplier": "Romney’s",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Extra Strong White Kendal Mint Cake 170g"
     },
     {
       "id": "romneys-kendal-mint-cake-giant-white-480g",
       "name": "Romneys Kendal Mint Cake Giant White 480g",
       "category": "romneys",
       "description": "White Sugar, Glucose Syrup, Water, Peppermint Flavour.",
-      "image": "",
+      "image": "/product-images/google-menu/romneys-kendal-mint-cake-giant-white-480g.webp",
       "path": "",
       "price": 2.7,
       "unit": "each",
@@ -1753,7 +1757,9 @@
       "supplier": "Romney’s",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Romneys Kendal Mint Cake Giant White 480g"
     },
     {
       "id": "triple-pack-kendal-mint-cake-227g",
@@ -1777,7 +1783,7 @@
       "name": "Chocolate Covered Kendal Mint Cake 113g",
       "category": "romneys",
       "description": "Bars of White Kendal Mint Cake covered in rich, dark Belgian chocolate.",
-      "image": "",
+      "image": "/product-images/google-menu/chocolate-covered-kendal-mint-cake-113g.webp",
       "path": "",
       "price": 2.65,
       "unit": "each",
@@ -1787,7 +1793,9 @@
       "supplier": "Romney’s",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Chocolate Covered Kendal Mint Cake 113g"
     },
     {
       "id": "romney-s-strawberry-bon-bons",
@@ -2049,7 +2057,7 @@
       "name": "Fun Kandy Mallow Sheep 35g",
       "category": "romneys",
       "description": "Fluffy marshmallow pops in the shape of a sheep.",
-      "image": "",
+      "image": "/product-images/google-menu/fun-kandy-mallow-sheep-35g.webp",
       "path": "",
       "price": 2.2,
       "unit": "each",
@@ -2059,7 +2067,9 @@
       "supplier": "Romney’s",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Fun Kandy Mallow Sheep 35g"
     },
     {
       "id": "walkers-original-dreamy-creamy-toffee-50g",
@@ -2100,7 +2110,7 @@
       "name": "The Lake District Notepad & Pen Set",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/the-lake-district-notepad-pen-set.webp",
       "path": "",
       "price": 4.8,
       "unit": "each",
@@ -2110,14 +2120,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "The Lake District Notepad & Pen Set photographed in the Lakeside Picnic shop"
     },
     {
       "id": "postcard",
       "name": "Postcard",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/postcard.webp",
       "path": "",
       "price": 0.8,
       "unit": "each",
@@ -2127,14 +2139,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Postcard photographed in the Lakeside Picnic shop"
     },
     {
       "id": "fridge-magnet",
       "name": "Fridge magnet",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/fridge-magnet.webp",
       "path": "",
       "price": 3,
       "unit": "each",
@@ -2144,14 +2158,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Fridge magnet photographed in the Lakeside Picnic shop"
     },
     {
       "id": "tea-towel",
       "name": "Tea towel",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/tea-towel.webp",
       "path": "",
       "price": 5.65,
       "unit": "each",
@@ -2161,14 +2177,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Tea towel photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit",
       "name": "Peter Rabbit",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit.webp",
       "path": "",
       "price": null,
       "unit": "each",
@@ -2178,14 +2196,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-mug",
       "name": "Lake District Mug",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-mug.webp",
       "path": "",
       "price": 6.5,
       "unit": "each",
@@ -2195,14 +2215,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Mug photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-pen",
       "name": "Lake District Pen",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-pen.webp",
       "path": "",
       "price": 1.95,
       "unit": "each",
@@ -2212,14 +2234,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Pen photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-notebook",
       "name": "Lake District Notebook",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-notebook.webp",
       "path": "",
       "price": 3.5,
       "unit": "each",
@@ -2229,7 +2253,9 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Notebook photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-calendar-2026",
@@ -2253,7 +2279,7 @@
       "name": "Tote bag",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/tote-bag.webp",
       "path": "",
       "price": 13.9,
       "unit": "each",
@@ -2263,14 +2289,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Tote bag photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-coaster",
       "name": "Lake District Coaster",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-coaster.webp",
       "path": "",
       "price": 2.5,
       "unit": "each",
@@ -2280,14 +2308,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Coaster photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-shot-glasses",
       "name": "Lake District Shot Glasses",
       "category": "souvenirs",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-shot-glasses.webp",
       "path": "",
       "price": 2.5,
       "unit": "each",
@@ -2297,14 +2327,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Shot Glasses photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-teaspoons",
       "name": "Lake District Teaspoons",
       "category": "traditional",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-teaspoons.webp",
       "path": "",
       "price": 4.99,
       "unit": "each",
@@ -2314,14 +2346,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Teaspoons photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-collectors-pin",
       "name": "Lake District Collectors Pin",
       "category": "traditional",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-collectors-pin.webp",
       "path": "",
       "price": 3,
       "unit": "each",
@@ -2331,14 +2365,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Collectors Pin photographed in the Lakeside Picnic shop"
     },
     {
       "id": "lake-district-embroidered-badge",
       "name": "Lake District Embroidered Badge",
       "category": "traditional",
       "description": "Ambleside - Windermere - Lake District - Catbells - England - Scotland - Scafell Pike - Helvellyn - Keswick - Skiddaw - The English Lakes - Cumbria - GT. Britain - The Cumbrian Way -",
-      "image": "",
+      "image": "/product-images/google-menu/lake-district-embroidered-badge.webp",
       "path": "",
       "price": 3.5,
       "unit": "each",
@@ -2348,14 +2384,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lake District Embroidered Badge photographed in the Lakeside Picnic shop"
     },
     {
       "id": "keyrings",
       "name": "Keyrings",
       "category": "traditional",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/keyrings.webp",
       "path": "",
       "price": 3.25,
       "unit": "each",
@@ -2365,14 +2403,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Keyrings photographed in the Lakeside Picnic shop"
     },
     {
       "id": "car-stickers",
       "name": "Car Stickers",
       "category": "traditional",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/car-stickers.webp",
       "path": "",
       "price": 2.5,
       "unit": "each",
@@ -2382,14 +2422,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Car Stickers photographed in the Lakeside Picnic shop"
     },
     {
       "id": "self-adhesive-stickers",
       "name": "Self Adhesive Stickers",
       "category": "traditional",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/self-adhesive-stickers.webp",
       "path": "",
       "price": 2.5,
       "unit": "each",
@@ -2399,14 +2441,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Self Adhesive Stickers photographed in the Lakeside Picnic shop"
     },
     {
       "id": "set-of-4-hanging-ornaments",
       "name": "Set of 4 Hanging Ornaments",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/set-of-4-hanging-ornaments.webp",
       "path": "",
       "price": null,
       "unit": "each",
@@ -2416,14 +2460,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Set of 4 Hanging Ornaments photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-medium",
       "name": "Peter Rabbit Medium",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-medium.webp",
       "path": "",
       "price": 19.95,
       "unit": "each",
@@ -2433,14 +2479,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Medium photographed in the Lakeside Picnic shop"
     },
     {
       "id": "beatrix-potter-stationery-set",
       "name": "Beatrix Potter Stationery Set",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/beatrix-potter-stationery-set.webp",
       "path": "",
       "price": 6.95,
       "unit": "each",
@@ -2450,14 +2498,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Beatrix Potter Stationery Set"
     },
     {
       "id": "jemima-puddle-duck-keyring",
       "name": "Jemima Puddle-Duck Keyring",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/jemima-puddle-duck-keyring.webp",
       "path": "",
       "price": 12.95,
       "unit": "each",
@@ -2467,14 +2517,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Jemima Puddle-Duck Keyring photographed in the Lakeside Picnic shop"
     },
     {
       "id": "benjamin-bunny-plush-keyring",
       "name": "Benjamin Bunny Plush Keyring",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/benjamin-bunny-plush-keyring.webp",
       "path": "",
       "price": 12.95,
       "unit": "each",
@@ -2484,14 +2536,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Benjamin Bunny Plush Keyring photographed in the Lakeside Picnic shop"
     },
     {
       "id": "benjamin-bunny-small",
       "name": "Benjamin Bunny Small",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/benjamin-bunny-small.webp",
       "path": "",
       "price": 14.95,
       "unit": "each",
@@ -2501,14 +2555,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Benjamin Bunny Small"
     },
     {
       "id": "benjamin-bunny-large",
       "name": "Benjamin Bunny Large",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/benjamin-bunny-large.webp",
       "path": "",
       "price": 24.95,
       "unit": "each",
@@ -2518,14 +2574,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Benjamin Bunny Large photographed in the Lakeside Picnic shop"
     },
     {
       "id": "jemima-puddle-duck-large",
       "name": "Jemima Puddle-Duck Large",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/jemima-puddle-duck-large.webp",
       "path": "",
       "price": 24.95,
       "unit": "each",
@@ -2535,14 +2593,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Jemima Puddle-Duck Large photographed in the Lakeside Picnic shop"
     },
     {
       "id": "jemima-puddle-duck-small",
       "name": "Jemima Puddle-Duck Small",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/jemima-puddle-duck-small.webp",
       "path": "",
       "price": 14.95,
       "unit": "each",
@@ -2552,14 +2612,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Jemima Puddle-Duck Small"
     },
     {
       "id": "peter-rabbit-mug",
       "name": "Peter Rabbit Mug",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-mug.webp",
       "path": "",
       "price": 9.95,
       "unit": "each",
@@ -2569,14 +2631,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Mug photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-playing-cards",
       "name": "Peter Rabbit Playing Cards",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-playing-cards.webp",
       "path": "",
       "price": 4.95,
       "unit": "each",
@@ -2586,14 +2650,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Playing Cards photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-notepad-set",
       "name": "Peter Rabbit Notepad Set",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-notepad-set.webp",
       "path": "",
       "price": 4.95,
       "unit": "each",
@@ -2603,14 +2669,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit Notepad Set"
     },
     {
       "id": "peter-rabbit-in-gift-bag",
       "name": "Peter Rabbit in Gift Bag",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-in-gift-bag.webp",
       "path": "",
       "price": 14.95,
       "unit": "each",
@@ -2620,14 +2688,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit in Gift Bag"
     },
     {
       "id": "lying-peter-rabbit-large",
       "name": "Lying Peter Rabbit Large",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/lying-peter-rabbit-large.webp",
       "path": "",
       "price": 24.95,
       "unit": "each",
@@ -2637,14 +2707,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Lying Peter Rabbit Large photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-small",
       "name": "Peter Rabbit Small",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-small.webp",
       "path": "",
       "price": 14.95,
       "unit": "each",
@@ -2654,14 +2726,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Small photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-large",
       "name": "Peter Rabbit Large",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-large.webp",
       "path": "",
       "price": 24.95,
       "unit": "each",
@@ -2671,14 +2745,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Large photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-keyring",
       "name": "Peter Rabbit Keyring",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-keyring.webp",
       "path": "",
       "price": 12.95,
       "unit": "each",
@@ -2688,14 +2764,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit Keyring"
     },
     {
       "id": "peter-rabbit-ho-set-of-4",
       "name": "Peter Rabbit HO (Set of 4)",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-ho-set-of-4.webp",
       "path": "",
       "price": null,
       "unit": "each",
@@ -2705,7 +2783,9 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit HO (Set of 4) photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-christmas-bauble",
@@ -2780,7 +2860,7 @@
       "name": "Peter Rabbit Spatulas",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-spatulas.webp",
       "path": "",
       "price": 9.95,
       "unit": "each",
@@ -2790,14 +2870,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Spatulas photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-tea-tray",
       "name": "Peter Rabbit Tea Tray",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-tea-tray.webp",
       "path": "",
       "price": 3,
       "unit": "each",
@@ -2807,14 +2889,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Tea Tray photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-image-tray",
       "name": "Peter Rabbit Image Tray",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-image-tray.webp",
       "path": "",
       "price": 6.5,
       "unit": "each",
@@ -2824,14 +2908,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit Image Tray"
     },
     {
       "id": "peter-rabbit-mugs",
       "name": "Peter Rabbit Mugs",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-mugs.webp",
       "path": "",
       "price": 9,
       "unit": "each",
@@ -2841,14 +2927,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Peter Rabbit Mugs photographed in the Lakeside Picnic shop"
     },
     {
       "id": "peter-rabbit-double-oven-glove",
       "name": "Peter Rabbit Double Oven Glove",
       "category": "peter-rabbit",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/peter-rabbit-double-oven-glove.webp",
       "path": "",
       "price": 14.5,
       "unit": "each",
@@ -2858,14 +2946,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit Double Oven Glove"
     },
     {
       "id": "soft-toy",
       "name": "Soft toy",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/soft-toy.webp",
       "path": "",
       "price": 5.95,
       "unit": "each",
@@ -2875,14 +2965,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Soft toy photographed in the Lakeside Picnic shop"
     },
     {
       "id": "plush-soft-toys",
       "name": "Plush soft toys",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/plush-soft-toys.webp",
       "path": "",
       "price": 10,
       "unit": "each",
@@ -2892,14 +2984,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Plush soft toys photographed in the Lakeside Picnic shop"
     },
     {
       "id": "pocket-money-toys",
       "name": "Pocket money toys",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/pocket-money-toys.webp",
       "path": "",
       "price": 3.5,
       "unit": "each",
@@ -2909,14 +3003,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Pocket money toys photographed in the Lakeside Picnic shop"
     },
     {
       "id": "ball",
       "name": "Ball",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/ball.webp",
       "path": "",
       "price": 4,
       "unit": "each",
@@ -2926,14 +3022,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Ball photographed in the Lakeside Picnic shop"
     },
     {
       "id": "tennis-ball",
       "name": "Tennis ball",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/tennis-ball.webp",
       "path": "",
       "price": 1.5,
       "unit": "each",
@@ -2943,14 +3041,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Tennis ball photographed in the Lakeside Picnic shop"
     },
     {
       "id": "fishing-net",
       "name": "Fishing net",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/fishing-net.webp",
       "path": "",
       "price": 2.5,
       "unit": "each",
@@ -2960,14 +3060,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Fishing net photographed in the Lakeside Picnic shop"
     },
     {
       "id": "flying-ring",
       "name": "Flying ring",
       "category": "toys",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/flying-ring.webp",
       "path": "",
       "price": 2,
       "unit": "each",
@@ -2977,14 +3079,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Flying ring photographed in the Lakeside Picnic shop"
     },
     {
       "id": "sunglasses",
       "name": "Sunglasses",
       "category": "sunny-days",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/sunglasses.webp",
       "path": "",
       "price": 6,
       "unit": "each",
@@ -2994,14 +3098,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Sunglasses photographed in the Lakeside Picnic shop"
     },
     {
       "id": "sun-cream",
       "name": "Sun Cream",
       "category": "sunny-days",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/sun-cream.webp",
       "path": "",
       "price": 9.99,
       "unit": "each",
@@ -3011,14 +3117,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Sun Cream photographed in the Lakeside Picnic shop"
     },
     {
       "id": "caps-and-hats",
       "name": "Caps and Hats",
       "category": "sunny-days",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/caps-and-hats.webp",
       "path": "",
       "price": 7.5,
       "unit": "each",
@@ -3028,14 +3136,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Caps and Hats photographed in the Lakeside Picnic shop"
     },
     {
       "id": "os-ol7-map",
       "name": "OS OL7 Map",
       "category": "maps-books",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/os-ol7-map.webp",
       "path": "",
       "price": 12.99,
       "unit": "each",
@@ -3045,14 +3155,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "OS OL7 Map"
     },
     {
       "id": "os-ol6-map",
       "name": "OS OL6 Map",
       "category": "maps-books",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/os-ol6-map.webp",
       "path": "",
       "price": 12.99,
       "unit": "each",
@@ -3062,14 +3174,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "OS OL6 Map photographed in the Lakeside Picnic shop"
     },
     {
       "id": "top-10-walks",
       "name": "Top 10 walks",
       "category": "maps-books",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/top-10-walks.webp",
       "path": "",
       "price": 6.99,
       "unit": "each",
@@ -3079,14 +3193,16 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Top 10 walks photographed in the Lakeside Picnic shop"
     },
     {
       "id": "reduced-books-sale",
       "name": "Reduced books - Sale -",
       "category": "maps-books",
       "description": "",
-      "image": "",
+      "image": "/product-images/google-menu/reduced-books-sale.webp",
       "path": "",
       "price": 3,
       "unit": "each",
@@ -3096,7 +3212,9 @@
       "supplier": "",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "imageMode": "photo",
+      "imageAlt": "Reduced books - Sale - photographed in the Lakeside Picnic shop"
     },
     {
       "id": "walks-around-ambleside",

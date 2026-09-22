@@ -3143,3 +3143,31 @@ button:disabled {
     padding: 12px 17px;
   }
 }
+
+/* Recovered shop photographs retain their framing; isolated products share a
+   transparent square canvas. Scope these rules to new assets only. */
+.product-card.image-mode-photo .product-image {
+  padding: 12px;
+  background: #edf0e9;
+}
+.product-card.image-mode-photo .product-image img {
+  object-fit: contain;
+  filter: none;
+  border-radius: 3px;
+}
+.product-card.image-mode-cutout .product-image {
+  padding: 8px;
+}
+.product-card.image-mode-cutout .product-image img {
+  filter: none;
+}
+.detail-image.image-mode-photo {
+  padding: 20px;
+}
+.detail-image.image-mode-photo img {
+  object-fit: contain;
+  border-radius: 3px;
+}
+.detail-image.image-mode-cutout {
+  padding: 20px;
+}

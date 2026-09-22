@@ -12,6 +12,8 @@ export type Product = {
   description: string;
   image: string;
   path: string;
+  imageMode?: "photo" | "cutout";
+  imageAlt?: string;
   price: number | null;
   unit: string;
   available: boolean;
