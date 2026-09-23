@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "3f973ac3dc39b4649891e836c520122498e4c1af",
+  "sourceCommit": "4f8f3415d3efa018aaf823cd8fe1c2906ff71524",
   "sourceDirectory": "src",
   "catalogueRevision": 16,
   "files": [
@@ -1515,7 +1515,7 @@
     },
     {
       "path": "product-images/enesco/peter-rabbit-mini-chopping-board.webp",
-      "sha256": "f16b399ae338b2eee02ec10f4a3bed92f8e7ab68a4ae8ec0219e5a50d0fdf03d"
+      "sha256": "a138080abea97f9bdf451d87c62aa4ecc45786be839e9e0a6faf1b5b32e62b80"
     },
     {
       "path": "product-images/enesco/peter-rabbit-notepad-set.webp",
