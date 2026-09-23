@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 11,
+  "revision": 12,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2639,22 +2639,25 @@
     },
     {
       "id": "peter-rabbit-mug",
-      "name": "Peter Rabbit Mug",
+      "name": "Peter Rabbit English Garden Mug",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/peter-rabbit-mug.webp",
+      "description": "A ceramic Peter Rabbit mug from the English Garden collection, featuring Peter Rabbit among soft pastel flowers and garden foliage. Approx. 9cm high, presented in a branded gift box, and suitable for dishwasher and microwave use.",
+      "image": "/product-images/enesco/peter-rabbit-english-garden-mug.webp",
       "path": "",
       "price": 9.95,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
-      "imageMode": "photo",
-      "imageAlt": "Peter Rabbit Mug photographed in the Lakeside Picnic shop"
+      "sourceNote": "Product identity, SKU and key product details verified against retailer listings; Lakeside Picnic price (£9.95) confirmed by the in-store product photograph.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit English Garden ceramic mug with pastel floral design",
+      "manufacturerSku": "A31870",
+      "material": "Ceramic",
+      "packaging": "Branded gift box"
     },
     {
       "id": "peter-rabbit-playing-cards",
