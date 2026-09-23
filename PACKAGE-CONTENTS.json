@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "c71eba2d2b1d06b3d194429fd50e15de22315a9c",
+  "sourceCommit": "898395c39ef2bdb5e3472ced09479945f3fecfdc",
   "sourceDirectory": "src",
   "catalogueRevision": 14,
   "files": [
@@ -1528,6 +1528,22 @@
     {
       "path": "product-images/enesco/peter-rabbit-spatulas.webp",
       "sha256": "6557e67c1d07b91114690d7d79ecc6375f7e61b20095d8f519ce6c63b4ba661e"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-tea-bag-tidy-display.webp",
+      "sha256": "e1afffe6f9e70b4768595f65770abf942b9e853d63545082ea4728be018aa5e4"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-tea-bag-tidy.webp",
+      "sha256": "b1d7e3e4684ef16498d81fd223f3355ac48beee4fa945fc7cc0cce2c91fe696f"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-trinket-tray-closeup.webp",
+      "sha256": "ff76d86e36de41fd29aa577b20e49d4ca89496135a0e9e28f06c610435fb1c86"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-trinket-tray.webp",
+      "sha256": "338a9932f831ad6ec022aaa28bb4dbc5174db72ec7603feec28fb65b321e6c72"
     },
     {
       "path": "product-images/google-menu/ball.webp",
