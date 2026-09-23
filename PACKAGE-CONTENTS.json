@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "3cb695aedac1f99d7981623228c13d702666ae10",
+  "sourceCommit": "398de5482cb71696bc750ab8e716d77e8c70a3f9",
   "sourceDirectory": "src",
   "catalogueRevision": 11,
   "files": [
@@ -1480,6 +1480,10 @@
     {
       "path": "product-images/enesco/peter-rabbit-double-oven-glove.webp",
       "sha256": "a3cd99bbaaa29a91e250f937b40c9143367ea646a7adb206490df23fada8d620"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-english-garden-mug.webp",
+      "sha256": "10944e00dff2f746c0dbd0da5074fdfd132c525436e2ecd80e484d9419a150d2"
     },
     {
       "path": "product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4-box.webp",
