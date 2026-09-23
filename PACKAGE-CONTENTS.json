@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "adc3ee34cbc6ed6e24c8e18b209c7d9272d13732",
+  "sourceCommit": "fb464aa84e368082da288bf5065a36d22c11559b",
   "sourceDirectory": "src",
   "catalogueRevision": 12,
   "files": [
@@ -1483,7 +1483,7 @@
     },
     {
       "path": "product-images/enesco/peter-rabbit-english-garden-mug.webp",
-      "sha256": "4028ef80dd87dd66c6d6e5b42cb323e128fa31322aa4a8fd5e1e0099339d51d4"
+      "sha256": "10944e00dff2f746c0dbd0da5074fdfd132c525436e2ecd80e484d9419a150d2"
     },
     {
       "path": "product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4-box.webp",
