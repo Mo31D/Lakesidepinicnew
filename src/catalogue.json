@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 10,
+  "revision": 11,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2797,22 +2797,26 @@
     },
     {
       "id": "peter-rabbit-ho-set-of-4",
-      "name": "Peter Rabbit HO (Set of 4)",
+      "name": "Peter Rabbit Ceramic Hanging Ornaments (Set of 4)",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/peter-rabbit-ho-set-of-4.webp",
+      "description": "A set of four round Peter Rabbit ceramic hanging ornaments from the Winter Collection, each featuring a different festive Beatrix Potter illustration and finished with a gold hanging ribbon. Each ornament is approx. 7cm across and 0.5cm deep, and the set comes together in a branded presentation box.",
+      "image": "/product-images/enesco/peter-rabbit-ceramic-hanging-ornaments-set-of-4.webp",
       "path": "",
-      "price": null,
+      "price": 19.95,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
-      "imageMode": "photo",
-      "imageAlt": "Peter Rabbit HO (Set of 4) photographed in the Lakeside Picnic shop"
+      "sourceNote": "Product identity and SKU verified against retailer evidence for A30499; Lakeside Picnic price (£19.95) confirmed by the in-store product photograph.",
+      "imageMode": "cutout",
+      "imageAlt": "Set of four Peter Rabbit ceramic winter hanging ornaments with gold ribbons",
+      "manufacturerSku": "A30499",
+      "material": "Ceramic",
+      "diameterCm": 7,
+      "packaging": "Branded presentation box"
     },
     {
       "id": "peter-rabbit-christmas-bauble",
