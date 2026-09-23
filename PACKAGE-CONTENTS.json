@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "d4e7c774eb4a8046ff5c60c2171c98de7a704a90",
+  "sourceCommit": "1554eb2017701f3755f98e2602b01a0f40c76f94",
   "sourceDirectory": "src",
   "catalogueRevision": 7,
   "files": [
@@ -1492,6 +1492,10 @@
     {
       "path": "product-images/enesco/peter-rabbit-playing-cards.webp",
       "sha256": "2e766f0c22654f67568b55421c227a475144904237256172cfa41c002dc751b9"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-small.webp",
+      "sha256": "daac2f7a17624e0a161f6c607def27c21e69599b08ef89c9c149b7950a5a65e6"
     },
     {
       "path": "product-images/google-menu/ball.webp",
