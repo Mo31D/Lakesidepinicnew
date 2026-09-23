@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "46be944c80b286c6c4d0ec102c7395993286f93e",
+  "sourceCommit": "cb5eb83fe576bc53d40b7bc74326289280e851db",
   "sourceDirectory": "src",
   "catalogueRevision": 13,
   "files": [
@@ -1496,6 +1496,10 @@
     {
       "path": "product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4.webp",
       "sha256": "7503eb5f90535e7c4d052c06e06041f8d1dae51433e6332b9357ae79245a2276"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-in-gift-bag.webp",
+      "sha256": "e0b5f126782710b83092d72d34e3563ffb8a75ebe550182156c9923fb57db4f4"
     },
     {
       "path": "product-images/enesco/peter-rabbit-keyring.webp",
