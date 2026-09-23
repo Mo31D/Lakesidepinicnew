@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 16,
+  "revision": 17,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -3025,22 +3025,24 @@
     },
     {
       "id": "peter-rabbit-image-tray",
-      "name": "Peter Rabbit Image Tray",
+      "name": "Peter Rabbit Scatter Tray",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/peter-rabbit-image-tray.webp",
-      "path": "",
+      "description": "A classic Peter Rabbit melamine scatter tray featuring Beatrix Potter artwork. The compact 22 × 16 cm size works well as a mini serving tray or a handy place for small everyday items, and it is dishwasher safe.",
+      "image": "/product-images/enesco/peter-rabbit-scatter-tray.webp",
+      "path": "/products/peter-rabbit-scatter-tray",
       "price": 6.5,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "sourceNote": "Product identity, stock code SG9103084, 22 × 16 cm size and dishwasher-safe melamine construction verified against the official Eddingtons product listing. Lakeside Picnic price (£6.50) is retained from the existing shop listing.",
       "imageMode": "cutout",
-      "imageAlt": "Peter Rabbit Image Tray"
+      "imageAlt": "Peter Rabbit melamine scatter tray with classic garden artwork",
+      "manufacturerSku": "SG9103084",
+      "material": "Melamine"
     },
     {
       "id": "peter-rabbit-mugs",
