@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 8,
+  "revision": 9,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2891,7 +2891,7 @@
       "id": "peter-rabbit-spatulas",
       "name": "Peter Rabbit Spatula Set of 2",
       "category": "peter-rabbit",
-      "description": "A pair of Peter Rabbit spatulas with wooden handles and illustrated silicone heads: one larger adult-sized spatula and one smaller child-sized spatula. The large spatula is approx. 32.5cm long and the small spatula approx. 21cm long.",
+      "description": "A pair of Peter Rabbit spatulas with wooden handles and silicone heads: one larger adult-sized spatula and one smaller child-sized spatula. The larger design shows Peter eating carrots in a vegetable patch, while the smaller shows him in his blue coat beside plant pots with a robin. Approx. 32.5cm and 21cm long respectively.",
       "image": "/product-images/enesco/peter-rabbit-spatulas.webp",
       "path": "",
       "price": 9.95,
@@ -2902,10 +2902,11 @@
       "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Product identity, materials and dimensions verified against the British Museum product listing; Lakeside Picnic price (£9.95) and stock are subject to confirmation in store.",
+      "sourceNote": "Product identity, materials, dimensions and illustrated designs verified against the British Museum product listing; Lakeside Picnic price (£9.95) and stock are subject to confirmation in store.",
       "imageMode": "cutout",
       "imageAlt": "Peter Rabbit Spatula Set of 2",
-      "manufacturerSku": "CMCK85160"
+      "manufacturerSku": "CMCK85160",
+      "material": "Silicone, wood"
     },
     {
       "id": "peter-rabbit-tea-tray",
@@ -2968,7 +2969,7 @@
       "id": "peter-rabbit-double-oven-glove",
       "name": "Peter Rabbit Double Oven Glove",
       "category": "peter-rabbit",
-      "description": "A classic Peter Rabbit double oven glove with Peter Rabbit on one side and blue-and-white spots on the reverse. Made from 100% cotton with heat-resistant wadding for comfort and protection. Heat resistant to 230°C, machine washable at 30°C and approx. 83 × 18cm.",
+      "description": "A classic Peter Rabbit double oven glove with Peter Rabbit on one side and blue-and-white spots on the reverse. Made from 100% cotton with heat-resistant material and full wadding for comfort and protection. Heat resistant to 230°C, machine washable at 30°C and approx. 83 × 18cm.",
       "image": "/product-images/enesco/peter-rabbit-double-oven-glove.webp",
       "path": "",
       "price": 14.5,
@@ -2979,10 +2980,11 @@
       "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Product identity, material, care, heat resistance and dimensions verified against the official Peter Rabbit shop listing; Lakeside Picnic price (£14.50) and stock are subject to confirmation in store.",
+      "sourceNote": "Product identity, material, care, heat resistance and dimensions verified against the Beatrix Potter Shop product listing; Lakeside Picnic price (£14.50) and stock are subject to confirmation in store.",
       "imageMode": "cutout",
       "imageAlt": "Peter Rabbit Double Oven Glove",
-      "manufacturerSku": "4608"
+      "manufacturerSku": "4608",
+      "material": "100% cotton"
     },
     {
       "id": "soft-toy",
