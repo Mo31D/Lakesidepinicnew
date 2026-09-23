@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 12,
+  "revision": 13,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2825,18 +2825,24 @@
       "id": "peter-rabbit-christmas-bauble",
       "name": "Peter Rabbit Christmas Bauble",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "",
+      "description": "A glass Peter Rabbit Christmas bauble featuring a festive Beatrix Potter family scene alongside a Merry Christmas wreath design. Finished with a red hanging ribbon, it measures approx. 8cm across and comes in a presentation box.",
+      "image": "/product-images/enesco/peter-rabbit-christmas-bauble.webp",
       "path": "",
       "price": 9.95,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store."
+      "sourceNote": "Product identity, SKU and 8cm size verified against Enesco catalogue evidence and retailer listings; Lakeside Picnic price (£9.95) matches the existing shop record.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit Christmas glass bauble with Merry Christmas wreath and red ribbon",
+      "manufacturerSku": "A30193",
+      "material": "Glass",
+      "diameterCm": 8,
+      "packaging": "Presentation box"
     },
     {
       "id": "peter-my-1st-christmas-bauble",
