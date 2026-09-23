@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 14,
+  "revision": 15,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2939,22 +2939,67 @@
     },
     {
       "id": "peter-rabbit-tea-tray",
-      "name": "Peter Rabbit Tea Tray",
+      "name": "Peter Rabbit Tea Bag Tidy",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/peter-rabbit-tea-tray.webp",
+      "description": "A Peter Rabbit melamine tea bag tidy in a teapot shape, from the classic range and available in assorted Beatrix Potter designs. It is designed to hold used tea bags, is dishwasher safe, and measures approx. 7.5 × 9.5 cm.",
+      "image": "/product-images/enesco/peter-rabbit-tea-bag-tidy.webp",
+      "path": "/products/peter-rabbit-tea-bag-tidy",
+      "price": 3,
+      "unit": "each",
+      "available": true,
+      "visible": true,
+      "featured": false,
+      "supplier": "Peter Rabbit",
+      "ingredients": "",
+      "nutrition": "",
+      "sourceNote": "Product type and six assorted designs verified against the JBA Peter Rabbit catalogue (PR009). Material, dishwasher suitability and approximate 7.5 × 9.5 cm size are corroborated by a Stow Green stockist listing. Lakeside Picnic price (£3.00) is retained from the original combined shop listing.",
+      "imageMode": "cutout",
+      "imageAlt": "Peter Rabbit melamine tea bag tidy in assorted teapot-shaped designs",
+      "manufacturerSku": "PR009",
+      "material": "Melamine",
+      "packaging": "Assorted designs",
+      "gallery": [
+        {
+          "src": "/product-images/enesco/peter-rabbit-tea-bag-tidy.webp",
+          "alt": "Six assorted Peter Rabbit melamine tea bag tidy designs"
+        },
+        {
+          "src": "/product-images/enesco/peter-rabbit-tea-bag-tidy-display.webp",
+          "alt": "Peter Rabbit tea bag tidies arranged in their retail display"
+        }
+      ]
+    },
+    {
+      "id": "peter-rabbit-trinket-tray",
+      "name": "Peter Rabbit Trinket Tray",
+      "category": "peter-rabbit",
+      "description": "A small square Peter Rabbit melamine trinket tray from the classic range, available in six assorted Beatrix Potter designs. Ideal for small keepsakes or as a decorative little tray.",
+      "image": "/product-images/enesco/peter-rabbit-trinket-tray.webp",
       "path": "",
       "price": 3,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "sourceNote": "Product type and six assorted designs verified against the JBA Peter Rabbit catalogue (PR010). Lakeside Picnic price (£3.00) is retained from the original combined shop listing.",
       "imageMode": "photo",
-      "imageAlt": "Peter Rabbit Tea Tray photographed in the Lakeside Picnic shop"
+      "imageAlt": "Peter Rabbit melamine trinket trays in assorted Beatrix Potter designs",
+      "manufacturerSku": "PR010",
+      "material": "Melamine",
+      "packaging": "Assorted designs",
+      "gallery": [
+        {
+          "src": "/product-images/enesco/peter-rabbit-trinket-tray.webp",
+          "alt": "Peter Rabbit melamine trinket tray range in retail display"
+        },
+        {
+          "src": "/product-images/enesco/peter-rabbit-trinket-tray-closeup.webp",
+          "alt": "Close-up of assorted Peter Rabbit trinket tray designs"
+        }
+      ]
     },
     {
       "id": "peter-rabbit-image-tray",
