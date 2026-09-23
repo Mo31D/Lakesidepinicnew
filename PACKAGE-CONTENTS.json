@@ -1,9 +1,9 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "78cd0ebed8fad25c945b83888aac8e0be2d82b70",
+  "sourceCommit": "864caa3d7b6fcd2707a13ea18e91e6fcd9b2a6b6",
   "sourceDirectory": "src",
-  "catalogueRevision": 7,
+  "catalogueRevision": 9,
   "files": [
     {
       "path": ".nojekyll",
@@ -127,27 +127,27 @@
     },
     {
       "path": "Icecream/biscoff.html",
-      "sha256": "1083c4644350fcfdb4d919431e69b2578b0349fe57de9df9d15ca470bab33b21"
+      "sha256": "974cc6224134cc7e3c499b339dfc13b544fc0a16ff9d721748d0bcd1a93f024e"
     },
     {
       "path": "Icecream/blackcurrant.html",
-      "sha256": "a9670b1bb56c6bff9f42bbbff6064ab4b8eeed9eaaa84e958b61196e45975a84"
+      "sha256": "5ec91941333252ddc1d26043a1f84fa5de08faca0c244504999cfe2449f1b5e7"
     },
     {
       "path": "Icecream/choc.html",
-      "sha256": "b7ea26c0c352961127d08e7a6135e9068f3515adcd6a2794cda131ae116f3376"
+      "sha256": "3778a400ce420fb7563005a4f373b8030b957234440fe36a32ff008e5e548c61"
     },
     {
       "path": "Icecream/cookies.html",
-      "sha256": "4a2213584ed371f0aacbf5e9f2cf3278d18647e8197739aef05059fd53525898"
+      "sha256": "1ba8b68085870a02d1d15b52b5a266854df49d6a5f6b00fc41ac98aaaea1060b"
     },
     {
       "path": "Icecream/crushed.html",
-      "sha256": "2ddf9d7b07772f731260dfd2dcef40030acceb2fb196ae14a3c5e8da5de3c71e"
+      "sha256": "f3fae3ee7641bda697454044914d2a4f7c4ca24b17b903c6f77adb062b36610f"
     },
     {
       "path": "Icecream/jersey.html",
-      "sha256": "a7a319b1685c6423b018018f8c1639df2e9511ea8ab3e58eeb0e3d65d8132d77"
+      "sha256": "ae14c41c9dcdbc7e446b3894c12de78887cccd875476bf65ef6da09679cb23f7"
     },
     {
       "path": "Icecream/jersey.jpeg",
@@ -155,27 +155,27 @@
     },
     {
       "path": "Icecream/mint.html",
-      "sha256": "0b360e988909d8131fc373cc9ec1de0a01c2401f0f4b8f0d191c113f86ab2935"
+      "sha256": "26da06b91378e78148f92bb82c97fb0f56b3b05a83ea081ea6b9655178c9d4b1"
     },
     {
       "path": "Icecream/pistachio.html",
-      "sha256": "515f45aac3947ac4253e4e010ba42eb8cdd5c9de0afe4c2afc0fedbdc082a9b5"
+      "sha256": "861bf17ce6dc00ea3c4bc3f9b748407e39b81a927ea9292706cf6e8769c95779"
     },
     {
       "path": "Icecream/raspberry.html",
-      "sha256": "3b0f528baa8dfdcd073dd3dd3b097773c689ef5f793e1cbfeb00242bfa55caa3"
+      "sha256": "5e52c3b4d89cd374b1c05705ed01db0c02f20ac1ef23fc82372fcd1e63aebee8"
     },
     {
       "path": "Icecream/rum.html",
-      "sha256": "7a522090a0110364d994a45cd0ed513e64575e9fd16c33f483fc83230d5c957f"
+      "sha256": "d01f47c001a02c54298036592b166621f1fb137360f4c37a6d9d2def2d0dafd5"
     },
     {
       "path": "Icecream/sticky.html",
-      "sha256": "76bdaf08dce851d0a680d4963fec7b36ecdda7ef2117549cd833664437f22f15"
+      "sha256": "1e9001b6e1f9b1f8dee492b70fa3d10b253dcc221e60730d6bc28b5cadff6cc5"
     },
     {
       "path": "Icecream/thunder.html",
-      "sha256": "59f6657e4ef1a37ed4d685f422d2cfc47dbe7eb8e4e960e2f293f57d66f74ee8"
+      "sha256": "644369103ca67ff34964f29357e8506171607341989704522a560563f2728779"
     },
     {
       "path": "Mintcake/170g.png",
@@ -447,7 +447,7 @@
     },
     {
       "path": "Mintcake/mintcake.html",
-      "sha256": "3ec281f5cb4f0971e006e2b501ab5dd167e6f752d337f776edf205d2084f8d4f"
+      "sha256": "93ea604dc304007a568f85706def114b3ec9426c24bba92e081fdc1c43a9bd1f"
     },
     {
       "path": "Mintcake/mintcake_brown.jpeg",
@@ -463,19 +463,19 @@
     },
     {
       "path": "about.html",
-      "sha256": "567c487c5c9d66248180ca7523624e4a29517ed6fb11870936e8c39ea3958cf1"
+      "sha256": "d29dcced5cd11643b95b01b983e0dfc18716de2e04e7422c18fe4fe5af2ebf4b"
     },
     {
       "path": "allergens.html",
-      "sha256": "ff7df9a862fe2c500c98a8cbaf7e76fb0186d25a88ae0bfb535165040190a0b7"
+      "sha256": "ffecd508b3f686f249f7034eedca2781745e1d21260df83d152dee5ac03fe1f6"
     },
     {
       "path": "ambleside_guide.html",
-      "sha256": "ab7220cd30d5ef10cd8c067c45e9e89e1c5a36f22700d521f55f8ea4480551a8"
+      "sha256": "3b43b9bf239b0176a029c6f110208149f0dfe675d080691b8ac6cf74999530c0"
     },
     {
       "path": "blog.html",
-      "sha256": "f721ed7dba90d42ff98ca58db55a2dfc459d16a128389aaaf29e221b26e089a4"
+      "sha256": "9f1bec45505f1e10556de8304b476e3c065e743d437b8bedc34b32df3d611b15"
     },
     {
       "path": "brand/identity-board.jpeg",
@@ -491,15 +491,15 @@
     },
     {
       "path": "coca-cola.html",
-      "sha256": "65ece464ee552e4fa0b4217e1844bb29f4b85b688b739a9d293184c38218a482"
+      "sha256": "da34555807afa9a033a042ddbd96e76a9f19a2e329a4caae3238065b6491f68f"
     },
     {
       "path": "contact.html",
-      "sha256": "9d7e8b560e8da6abc5b54b69f22e96fea380fa87973e0493dae27b6e1c607aab"
+      "sha256": "34e661bb58cd7df71fccd4aef5af42cb808d899234744429489b5d4bd2f86e55"
     },
     {
       "path": "drinks.html",
-      "sha256": "eab6c039bd047be0258930a84b4a39a7a26710b6cd8d116bbf2519948304ea27"
+      "sha256": "8f7c7aaf8e411d3b433527ddcbfa11f959751ef1e71b5c17b00a19ae887801d5"
     },
     {
       "path": "favicon.svg",
@@ -507,47 +507,47 @@
     },
     {
       "path": "hotdrinks.html",
-      "sha256": "a92dea18570e3061657dfdc515759003cca965b8f4228d0faa630b661a699376"
+      "sha256": "5f55a53edffbdcd8c5e8eef65d4dc022b6355b088eef6362a71a79bf8f02d789"
     },
     {
       "path": "hotdrinks/Americano.html",
-      "sha256": "57cf6a0f64f404eca621a8868b179faa26b2b9559979dd73fac1b2db8d02e639"
+      "sha256": "e087f0d1571e9aba3dcfd16a78c4cade89dc30c2a736900e4f71ff4f92cf4afc"
     },
     {
       "path": "hotdrinks/Cappuccino.html",
-      "sha256": "e53dec2557a694701c7889a04bef82d8b0bf7cd1ed47bddfe6aa5d7c5dc743e4"
+      "sha256": "3199bfe19f3d211a811104f310007c07bc534d8c079ad8514b5e2cbf0df4b68c"
     },
     {
       "path": "hotdrinks/Decaf.html",
-      "sha256": "2f73f6990836753e656d987c60b806a8e5c9708a771f52c79007a0eccfba591d"
+      "sha256": "469615c46150a6c3dfb02ae986045c854729ce0e626765332c8dd16dfac2ba5d"
     },
     {
       "path": "hotdrinks/Espresso.html",
-      "sha256": "b09a0f8a0279730c64738ab9ecdb81e70bc4003f23b575c4feeb55af1406adc7"
+      "sha256": "e58d6707fc9c2ec46ae10200c2f71a4a705c74bb6d416d0dd7774eb57b2b2a5a"
     },
     {
       "path": "hotdrinks/Flatwhite.html",
-      "sha256": "15def61b6b4c9b01ce2721dc868047f5231b5d9374246e68ec86187ca6ba8249"
+      "sha256": "1d84aa9a180b015128cce8bd06e381ec553afe0c5268c45b45af1c9cb1635c87"
     },
     {
       "path": "hotdrinks/Flavoured.html",
-      "sha256": "5efc8c13370149029277725f8cf12ba9461e3a6987891500cf305b0651c3d743"
+      "sha256": "644ff57588428c9dd5f6a73f5d1441f55bcaf48d2f341abd4a322283b564a981"
     },
     {
       "path": "hotdrinks/Hot-Chocolate.html",
-      "sha256": "dc7b46aa07f3afd71d25f86ed41c1537095b06123a73106c9b3c139cc0cf5368"
+      "sha256": "dde86eab0206835450f75c5229852b80440b005551e9b75aa5d52c6c2f9bda1c"
     },
     {
       "path": "hotdrinks/Latte.html",
-      "sha256": "ba7c9b53e112bc1581691a7f6c5b6d76dc7b66ebef77e391f00562ab89896da5"
+      "sha256": "65f94f73406809a5ed39e71c8a3450770325a0588737da21ae95d6e1bf12ba29"
     },
     {
       "path": "hotdrinks/Mocha.html",
-      "sha256": "9dc043f4f3c87031a2944d1e8d7b5b716304b5f0165daf6b431f9c6da944ec0a"
+      "sha256": "ab23fa16f6a4efe94f61ccd82b8df7b5c2f9f116532046811bd694733ca5a103"
     },
     {
       "path": "hotdrinks/Tea.html",
-      "sha256": "d8c5cd6914a4b3a6ed409a555c2166b46f5a4d290b027a28d3e02b7cec1dcba2"
+      "sha256": "eb784ae7c4a2c5b6843cd98f4446bdb2f127415334a9aaace9c8bdb93def37e4"
     },
     {
       "path": "hotdrinks/americano.png",
@@ -587,7 +587,7 @@
     },
     {
       "path": "icecream.html",
-      "sha256": "5b8290f6ec375832bbc485af68224472560dd83e17e80c4e4b9f17785a166074"
+      "sha256": "a96f0c3762a5814d913fed3eed05d134308c8aa362fc01506ee5826ecea4557a"
     },
     {
       "path": "images/After-flood.jpeg",
@@ -691,15 +691,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "3fcf1d20b7e95329385c3b45df969b49440e61060aa1f4938125dfead6ebb7a4"
+      "sha256": "8f015a1c477c373bf2776ac498e03ff15d06bb50ad52241fb0499ed6bfd1ba1e"
     },
     {
       "path": "menu.html",
-      "sha256": "eecf732212b05be13b5d454a0786946894a9a2ab3d9a4bcfafb9d39a26c1bed3"
+      "sha256": "ba2a4ef949450006c84d880d822efede58ced3a0e41f029ee4867188ec6d5144"
     },
     {
       "path": "my-list.html",
-      "sha256": "dc365b64a990a762f7e6cf4b69c09ae052e503c4cd400469c762a58118829e3e"
+      "sha256": "d3a7a54003ded3c5e1e8f46a13d4f2747dd56842b504334a44314963d4c88aa5"
     },
     {
       "path": "optimized/Icecream/2019-1star.webp",
@@ -1271,7 +1271,7 @@
     },
     {
       "path": "privacy.html",
-      "sha256": "f6bfba328ba2f622569b4881209163e650c1c3f788982da5757ac29d17949778"
+      "sha256": "b86c553e278c3814d74c56e3a12fc5a80ef8163147ef5ba391ba2ef4e480e56e"
     },
     {
       "path": "product-images/drinks-snacks/cadbury-boost-chocolate-bar-duo-68g.webp",
@@ -1474,6 +1474,10 @@
       "sha256": "fbdf26309b25ff54397d2af712003da771c6e7b6cb9a1c4cb9904e44bacea87d"
     },
     {
+      "path": "product-images/enesco/peter-rabbit-double-oven-glove.webp",
+      "sha256": "a3cd99bbaaa29a91e250f937b40c9143367ea646a7adb206490df23fada8d620"
+    },
+    {
       "path": "product-images/enesco/peter-rabbit-keyring.webp",
       "sha256": "d5e65fcfa1e6ed98b54f7eaa08b81beaf9bf6cb3d9ee68ae0e14dd6763cee995"
     },
@@ -1496,6 +1500,10 @@
     {
       "path": "product-images/enesco/peter-rabbit-small.webp",
       "sha256": "daac2f7a17624e0a161f6c607def27c21e69599b08ef89c9c149b7950a5a65e6"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-spatulas.webp",
+      "sha256": "6557e67c1d07b91114690d7d79ecc6375f7e61b20095d8f519ce6c63b4ba661e"
     },
     {
       "path": "product-images/google-menu/ball.webp",
@@ -1735,623 +1743,623 @@
     },
     {
       "path": "products/affogato/index.html",
-      "sha256": "188081fb7d57501128d97a17b009866a38c27a2946d3cc8950f1c7c8e1a6937d"
+      "sha256": "01aae09118ab6572a17dddfba4e36c221a3393aa6f3da931a84ae9c0d4baa8c2"
     },
     {
       "path": "products/after-dinner-mint-fudge-150g/index.html",
-      "sha256": "1e7c902926b9685308c28d7f55b932c66a9efe0cf05f9d5b11bc7e17658f1a1b"
+      "sha256": "000c0dd09a9924142841c9a7613cefbd39f2b4989395967bb26e396019fb4a8d"
     },
     {
       "path": "products/ball/index.html",
-      "sha256": "0992d3ec1e70c32cce13d9f9e3e2939c1999193db552bcc50b1091a35b7007da"
+      "sha256": "96ba0076d89c109d876f5fc111a0b158fb51096afb6af09831657e042a68925c"
     },
     {
       "path": "products/banoffee-fudge-150g/index.html",
-      "sha256": "96d71bbdd66a8362385e0231dd7bce8f26040238a4194d76544f1c2df663cef3"
+      "sha256": "4efb017438c443f6b50e2e541a67f8ef540af973d85ab8e056f0b6f2a4b22aa9"
     },
     {
       "path": "products/beatrix-potter-stationery-set/index.html",
-      "sha256": "e63d575f13fe11bcccee60491f2bb7290a6f5ec94e826663a0af29df1d1ee62e"
+      "sha256": "b10fe4341b6aeffc5d163f0ccb5e22b806ea00232c790943641e7b3581b110ea"
     },
     {
       "path": "products/benjamin-bunny-large/index.html",
-      "sha256": "11cb787d20e14c257b28c243187e6b299a94eb3ba50362844d46ca941486912e"
+      "sha256": "d52856a9db0c3f0eaa27b545173ca27667ef1c1d46f7f90defa52b04514fbccf"
     },
     {
       "path": "products/benjamin-bunny-plush-keyring/index.html",
-      "sha256": "eb74564e67d31ebc91407245857fb99f5e59a50b54fcc6d7e2498faf81985dd1"
+      "sha256": "6a54299454957ffaeae4a044c4dace749e6240a8d6e65f35a2f43fab61335edf"
     },
     {
       "path": "products/benjamin-bunny-small/index.html",
-      "sha256": "51dfe93f7f086b3afe048abdb0ca548dd869343c21337f16829eb0609bcddd41"
+      "sha256": "317e3a106f76d9a47ead0540a875b5561191eb9f6c19ae32b710d48c0abdbcef"
     },
     {
       "path": "products/brown-kendal-mint-cake-170g/index.html",
-      "sha256": "759c33a17d31929a3efd4a034bb760ff38fcf5de26e975c1f012e4cbe8942073"
+      "sha256": "0c4753e18a5ca6100c3b1233978b5343b838b8e9458a7b3682e9690544bc00dd"
     },
     {
       "path": "products/brown-kendal-mint-cake-85g/index.html",
-      "sha256": "7e8ea66db3070e989f3ce0a05f76c6764903ee19a7f7b2bb1c37072bd3101bef"
+      "sha256": "643d0aa68b6c992e52a7a1c16664d93bdcffcae3e97df58fcbe8f9cff797a5ee"
     },
     {
       "path": "products/butter-fudge-150g/index.html",
-      "sha256": "f3318db22b212837622e962ff4aab43b427bbb39207288f95638f43e187659fd"
+      "sha256": "f2f27126bfe5f0ee954b715b469a6ea7eb6f1d7b8459fda2389869fdc822f851"
     },
     {
       "path": "products/cadbury-boost-chocolate-bar-duo-68g/index.html",
-      "sha256": "8b00cacbfab967ce59aa1b4704d1464cef08a1c8a43a4451ccd8e6f030c5b662"
+      "sha256": "44521a37dbf46c1734cf87003c67fd8bd8c87c90ad65c60a68f36081e67fdab2"
     },
     {
       "path": "products/cadbury-double-decker-duo-chocolate-bar-80g/index.html",
-      "sha256": "a5dfa16ef424220f49c6676c1b2b9cd949da898f4482fc8a06fe6fb88ff294ac"
+      "sha256": "8d304aa97cd3a5d34e2686d823092c2faa9a8a72133a893a9208c17c65baa804"
     },
     {
       "path": "products/cappuccino-fudge-150g/index.html",
-      "sha256": "30d6cdfcc014a59178f18528c6fc6861755fb21ed80bd570b6a7079df6445d67"
+      "sha256": "56f1ce71c74d51558113e480dd380d175bfb34c3b1e957eb3dbc83f940addefc"
     },
     {
       "path": "products/caps-and-hats/index.html",
-      "sha256": "56332c69a1e5af2c61cfedaf7f40a4557a7183db2a85e97b565e8a482eac8a81"
+      "sha256": "9cea3453a354d3729731a6b5e8d7aafeb59ec873c1a0320ac4ab0b49f4deb345"
     },
     {
       "path": "products/car-stickers/index.html",
-      "sha256": "a352c2f6b787f871d4b8655406280206a9eb077bef460a1aee8fb56b6ce8084b"
+      "sha256": "e5d0c0146262937dc4d31a4b28f341d1c73cf774dfc66aae3a0083dd9802e5d4"
     },
     {
       "path": "products/cherry-almond-biscuits-200g/index.html",
-      "sha256": "9440d4167ad1572b41d949e429d2f020ce97c9b911df50598d1e5529b7947cd4"
+      "sha256": "6e86cd4a202612b484ee85786bcdfd73870387df2752bb367d3edd5baadd5fab"
     },
     {
       "path": "products/cherry-bakewell-fudge-150g/index.html",
-      "sha256": "d8de88425e6fecfeafebb5d188a882b5f06ae1ee5fb820760f47238b117d2bb3"
+      "sha256": "c7143e2b1cf2098d5160a0598281cd5f8879fbb7d3eb9d15eb28f6fe2fc7624e"
     },
     {
       "path": "products/choc-chip-orange-biscuits-200g/index.html",
-      "sha256": "248accfa598363ea2742c66f09211a1768232f06125061b79af24bd0ad3a43f7"
+      "sha256": "5784f480a38249a81fc059010954539f4f5ea560ed185111fc933187286dd229"
     },
     {
       "path": "products/chocolate-chip-biscuits-200g/index.html",
-      "sha256": "8fed336381c27c89493c8e7f82015b8a21faef025ca51e8d8ebdac16c0eb4f51"
+      "sha256": "0470b7761837ac481b18b0f3d340e04f4ec586af08c79b3adeb4f6df84eec88d"
     },
     {
       "path": "products/chocolate-coated-cinder-toffee-150g/index.html",
-      "sha256": "7b913a6f88dfeb278c1c755c1e5672fb41bc5c6c8147605e20756af4e0d448d4"
+      "sha256": "59eb4a98f40d23c011d5a2b4cedb804e6503fc8fd7d383e0ba0fb7eec0ff27b3"
     },
     {
       "path": "products/chocolate-covered-kendal-mint-cake-113g/index.html",
-      "sha256": "736fb49a99a8cbef34c6870a6e503567ee9a413fc6bfd0850fe293ff187892b1"
+      "sha256": "f9f6d045c87aa06b41d930f662d48037252e20cd4849586e110f0258e5b368f2"
     },
     {
       "path": "products/chocolate-fudge-150g/index.html",
-      "sha256": "84be8ca586da0263955166462b814e5f786787c6c99dfedbf30a44ac3a7e1688"
+      "sha256": "672981a9e7830771b1bfd6fa85e54792ea8ec8e3ede01c5487df43659f2c3b7c"
     },
     {
       "path": "products/chocolate-orange-fudge-150g/index.html",
-      "sha256": "a2f64afa0b8f1b4f9f6c98f1bfe003900cc78ed2df5b080a289bdce30e3a2ab5"
+      "sha256": "ece71e0408b8aa543c227eba591aadca0db4ea89cde76e01aa2b56da92b022a0"
     },
     {
       "path": "products/cinder-toffee-bag-150g/index.html",
-      "sha256": "85b69e3a93a425526fe1e96cdc399921d9cd371b246a075c65c843d427d4b781"
+      "sha256": "a82f9fd84c46b45c10c8b1601104c4a85d762cdd9b82599250349bc6c5cd2e07"
     },
     {
       "path": "products/clotted-cream-fudge-150g/index.html",
-      "sha256": "28b4bc1abdde629fedf647d0185e4fd354fc128cd1a5783cc1441ff45b3b4fa7"
+      "sha256": "8a6149154e20b56a450a512e00f61d9f027ea1da5d7ae6d96a8eb91f3a64fcfe"
     },
     {
       "path": "products/coca-cola-cherry-500ml/index.html",
-      "sha256": "a579fe7417048d85a7ac27ac2662f24f8f3038dbcc42dcc95e418c241b8e53f8"
+      "sha256": "8ab2ca73a025a096e015baf14f809c0b8994390c8af926e183a625030c0e639e"
     },
     {
       "path": "products/coca-cola-cherry-can-330ml/index.html",
-      "sha256": "e36e90c296805334464b7b25569898e3f6fb94a5e7aa913d4996066f08c8be67"
+      "sha256": "6d8fbc75c8ad133239a7b007347e63399b08461604a100cd550e464830eb7e8f"
     },
     {
       "path": "products/coca-cola-original-can-330ml/index.html",
-      "sha256": "08f52d4384188d27febd277742d9d8986c0812ea8430f33a8b137a7a81097ce0"
+      "sha256": "5082ef477fded6d79780bd87137316dd0aaf21e7aefe7ddf96470682cbe85e1f"
     },
     {
       "path": "products/coca-cola-original-taste-500ml/index.html",
-      "sha256": "77afa1fe4a2f4464728e725f1623f2a4f958fe42ed11ab9af599af0c1d06d420"
+      "sha256": "dd10271b5713b56238c7e0c697ef5ec5f09adc4225eda00e67eb0816a8e0b3db"
     },
     {
       "path": "products/coca-cola-zero-500ml/index.html",
-      "sha256": "bd3c4bcb989f17125f45140e0535c3968372ae1267395734292d77b338d50baa"
+      "sha256": "dcc65883f9849d639821755653d6f71de20c72f435c9196f1eba8f4f98eb098f"
     },
     {
       "path": "products/cointreau-orange-fudge-150g/index.html",
-      "sha256": "4df3685b2e0c8e343cd80402587181dadf62260e46a0b3bd1e89029fea17a8de"
+      "sha256": "1bfaba5a823607827c51984fd5ced144c2052db7651abd27b348ba50960c18e1"
     },
     {
       "path": "products/cumberland-sausage-85g/index.html",
-      "sha256": "30df286cce8d21c80886a7aea63fe1ee65113c3d940238789cc3dabe0b995dfe"
+      "sha256": "078fb8505198343c56fb9242fe7576a7ed1579401edcab9d144985ed53b2ead0"
     },
     {
       "path": "products/diet-coke-500ml/index.html",
-      "sha256": "1ddc3d3f4cb6f91182b715b237956ae24e89cd8bcaf3ab7c341c19c54ff1d450"
+      "sha256": "7024eef0bf005913840190bf87193ad9621f0333be31b30a718774a189a52f40"
     },
     {
       "path": "products/diet-coke-can-330ml/index.html",
-      "sha256": "05a8054828108ca333b574f1b2ab58a093d37e9c8930a7096ab79233ec73124d"
+      "sha256": "ffb778900ef73953c663b0f83a527e9bd71988285d2bf3ae9898d0dca6a9f8ad"
     },
     {
       "path": "products/dr-pepper-500ml/index.html",
-      "sha256": "eca13468b851ccf0aabfa018b70d0933567de7b59e0af832f502048d74793795"
+      "sha256": "4bb053ce5ab629552125328d0ba12882a498576c32a087b7d01ed22fed3edb10"
     },
     {
       "path": "products/dr-pepper-can-330ml/index.html",
-      "sha256": "75a1667463b33049d2d3b015acfb0e3ea342df32154bbc1715e73ebf4a9282aa"
+      "sha256": "4cc7444d6691653005cace222fdda2fbc42dd90dab7ab8d3790750494442b06c"
     },
     {
       "path": "products/dubai-chocolate/index.html",
-      "sha256": "c99fa535cc435cddf729c37a95281d75e9068223ae4f546e382ec203feaa32c4"
+      "sha256": "baf6b11a2f956211a6eba539b598d552871b1cb953d5b330e2c56af985b21162"
     },
     {
       "path": "products/extra-strong-white-kendal-mint-cake-170g/index.html",
-      "sha256": "0de5c0b4ed34067b64c4365c025d65a48b8ea2e986e3bc8f2f2554e3658d25ee"
+      "sha256": "5d80d33e6332d37b02711b212cb92ed6be8fc3e0baa722f4f458b9f69f69b7cb"
     },
     {
       "path": "products/fanta-icy-lemon-500ml/index.html",
-      "sha256": "aaf3badd6bf88bbdeb4ce28d04219971dca30ee751c697b3d0465ef84cc66fab"
+      "sha256": "a43e34d285238ce006e50471d73e496c963f33df70f4304705191e806e131255"
     },
     {
       "path": "products/fanta-lemon-can-gb/index.html",
-      "sha256": "775196dc0d238ed29d7ec12938a00a7b1953ed350a73118c98253d17c05aaadf"
+      "sha256": "9e4d1f83cd911c2438990d25684c347d78b8a036f49049d65d1ebbc1c502eefe"
     },
     {
       "path": "products/fanta-orange-500ml/index.html",
-      "sha256": "efadbb80e577e739139f2c4afd3407d75dca76f6dffea6d1c324097fdf3507b5"
+      "sha256": "7587f9622af923b57fd8e6e803d8e61620b64ea62559f47a143c028b0c46ba0a"
     },
     {
       "path": "products/fanta-orange-can-330ml/index.html",
-      "sha256": "569a44ef51e985726506d9aeb0ad51b8963482171a66317d69e1c76436934778"
+      "sha256": "f4133ed675fb62a71cd572ac56131ff2f8ded2dfb0f6785e30fb8b4f46183e56"
     },
     {
       "path": "products/fanta-zero-orange-500ml/index.html",
-      "sha256": "5f28c4f9d3469285b197e87b3ca32378b6230ce0903a115edc9b6a4a37cbc189"
+      "sha256": "d3762c54bf6763354a72bab98af88e41ae43192b0929e585770c757086dd697f"
     },
     {
       "path": "products/farmhouse-oaties-biscuits-200g/index.html",
-      "sha256": "1b9bced591bb49530880c2fe26e21ce3ab89b3993f3206a994958b2bc84f0285"
+      "sha256": "ab59d5c7edcd317b397cbf3321e914b5f552767b238724d82abb12782f03e3e5"
     },
     {
       "path": "products/fishing-net/index.html",
-      "sha256": "a8afa4ee183c24b8dff88f65c0a0b91ab167ce9bf77aa9998d07fd4f5ba73c8c"
+      "sha256": "8186df1cd082b1e52f59b66290a0742d8383802541727c14c1023922548fc6b1"
     },
     {
       "path": "products/flying-ring/index.html",
-      "sha256": "5b545efcbf330d89061923bfe8cfc66b1ad1063226c517086e05325d6dadf9de"
+      "sha256": "e7a9fde2b8a6dfccca14b0d5ffad5a4bb15f093e9881c0b8cd47a65d71625648"
     },
     {
       "path": "products/fridge-magnet/index.html",
-      "sha256": "8485aec63e5da892c6b951c14358bb27633c968ce768607016e446b022ce0807"
+      "sha256": "c857fe2b6e75b2df44109eebe74106332f5062ceda2b3abad3608f910b8c3925"
     },
     {
       "path": "products/fun-kandy-mallow-sheep-35g/index.html",
-      "sha256": "bb003e88a0ae249876eb8d4422eb69830d3679e3ef96dd1bf264629fd9cc7fb0"
+      "sha256": "4a434e5aa21a3eaa813d302587b98a575fec085ae6d630fb9ba20ea39ca30b59"
     },
     {
       "path": "products/giant-choc-chip-cookie-250g/index.html",
-      "sha256": "9a2b4166ebe45a2c7dc0c15fb0ebf37f006c7a63da8ce9722770d7750929eceb"
+      "sha256": "f3d0fd8dd8d3944ba3b5f370b3f510089b5111910dd923447a9ce0d978761b35"
     },
     {
       "path": "products/giant-ginger-lemon-cookie-250g/index.html",
-      "sha256": "b1e185a28319d84310e7a55b9fd56e1ee76914eacc0f99903bf3b9f97c109196"
+      "sha256": "47b843e814fb7fd43564f9922f3dbc02948ab1965549a6ba8a0dbd2124eb2dec"
     },
     {
       "path": "products/giant-shortbread-cookies/index.html",
-      "sha256": "a078e7cc87b4d86081a786cf794f5e8a3d09c39d29f17a307fc3db033786bdaa"
+      "sha256": "a85386304f5c9ff339488b937ded61f4bfba472f7cf363e5bd6632436be77b95"
     },
     {
       "path": "products/gift-box-assorted-fudge-200g/index.html",
-      "sha256": "f76fc8a89b002387cec17eefaed2b8299ced9ab232d67383fbc271328b055c9f"
+      "sha256": "04b0fc3ed3b77230bc21ccfcd966577f75d0018440f4898524875ceae74fe07c"
     },
     {
       "path": "products/gift-box-assorted-toffee-200g/index.html",
-      "sha256": "a8abc92d9d79219627091929cefc85af83d14e0414fda918e4c4ded094ece876"
+      "sha256": "b5be04e95623b1d54b6a111c75c21cd80af670699f8c215865e3ff0e316d2f9d"
     },
     {
       "path": "products/gift-box-clotted-cream-fudge-200g/index.html",
-      "sha256": "027ab65ce16adc1a1529be72fd525420f5bfff1f1da23161697d1dd389451bd7"
+      "sha256": "13a4a6c0225864aa7f492aedad5d4225f3dfeb54f6a244e2dba25995e88b8801"
     },
     {
       "path": "products/gift-box-mint-cake-200g/index.html",
-      "sha256": "de5206f773e314356b44a046faafef1ce34cff1f710f5c46d0e56bbf0875c94e"
+      "sha256": "0780f1b1314fafa1836ae3e4b027709dc73bbd78ae80d98907efbdbd717418c1"
     },
     {
       "path": "products/ginger-biscuits-200g/index.html",
-      "sha256": "18586f426fe67f8785cced6b2c074bf7b8f51a4ba37a5faf156edb1aceadb8a1"
+      "sha256": "f613e3f62eacc96c4813700a84697e7567df940fe79c49432431db70df24f5ba"
     },
     {
       "path": "products/ginger-fudge-150g/index.html",
-      "sha256": "4d3379964368a04369308851d727c62b8edb3210c0fb89723881d74607c99d9b"
+      "sha256": "d70f9ac27e8eb6580813f6ce7704225b4548475a1ea335381654bb829f017e35"
     },
     {
       "path": "products/golden-crunch-biscuits-200g/index.html",
-      "sha256": "dbebe837d4ead221f84b9cbb29df9fb14cca7a11a1b52921af2b41814e262517"
+      "sha256": "d0f54ff71772a7769888c6bcc16551f40451c7b94bd029cf23aa4c9b7bbb278e"
     },
     {
       "path": "products/harrogate-spring-bottled-water-500ml/index.html",
-      "sha256": "6514b6ef41a088b546d7c7c5eef5541beaf8f60458cacb24a7273780f3f2f2f7"
+      "sha256": "035a736f7a060b6bdd461ba4da091d40084bd8487d9dd4f5299df46a1ab1b970"
     },
     {
       "path": "products/harrogate-spring-sparkling-water-500ml/index.html",
-      "sha256": "acd1c2ade59961af754947996442ccc6ebef75308d8c9870f3f605ca3f24434e"
+      "sha256": "4b3c5fb14d74386dbc1088d45e99c8eae6d6ee272819e06605865cee70d4432c"
     },
     {
       "path": "products/honey-fudge-150g/index.html",
-      "sha256": "0d1e1b7967e681e2b77b6250b519a3132aeb0e4b3d430542eec0aff92349950e"
+      "sha256": "dea5d1f59a6836934bc7aecefafaa79d5ecfda2475451e3e235705594d738aca"
     },
     {
       "path": "products/irn-bru-500ml/index.html",
-      "sha256": "a53d855a72bd386c2bdcd5e589bfcdbbb50421c3f95aaeed03b172becd504972"
+      "sha256": "c6c1dd7621c0d8238a791ed89c6c5b86e2009513169e5603361112295577d30e"
     },
     {
       "path": "products/jemima-puddle-duck-keyring/index.html",
-      "sha256": "07880f3335a3931244f9ecf39d96e869081b6bcd8bd5df78736782d19bdba60d"
+      "sha256": "d42b32d8b5bc637b1a3635af2dacf756bf1cda8e1d4ea2f36f29f9e5e8fda7e9"
     },
     {
       "path": "products/jemima-puddle-duck-large/index.html",
-      "sha256": "fa964b2ad52119595f40e4375baf65e58e40e80aad24acac587c9e3367ebdc05"
+      "sha256": "7cf070918377f2ea044b8bc626e0aaa133fd23bb47f34c0cea000b658df8242a"
     },
     {
       "path": "products/jemima-puddle-duck-small/index.html",
-      "sha256": "81e433438614d76829b705e7f8e5c73872d014dd8b5502d0ebbbdfd34088d307"
+      "sha256": "9c038195e7a46eb1bf808bd37c2e8a7ab511c236ef90256afe7062371558ae2c"
     },
     {
       "path": "products/kendal-mint-cake-170g/index.html",
-      "sha256": "d2f120c87f6c66ef7e0940f9a10c4756b47605fa6ed21baebb6e46cfef918777"
+      "sha256": "65065c0301a8c4156541f5e395bbe8826a2c137548a65afc872883d39d0c7935"
     },
     {
       "path": "products/keyrings/index.html",
-      "sha256": "620b42118e9c1cbd125ab6db522753b9816d773456543021352e23c9ab321866"
+      "sha256": "ed20b7e93f3e7c7991b30999993da87788f03f6175f912c325fb14ba955dcf85"
     },
     {
       "path": "products/lake-district-calendar-2026/index.html",
-      "sha256": "348dbb0c6248e5d6fc328d6071a3b0e712d39772ebc97ce555d566bf3664b880"
+      "sha256": "b15d2b215bbf2806fc91b0068464176cef7ad28e8424a8b2a1bcd312d0fa5bb2"
     },
     {
       "path": "products/lake-district-coaster/index.html",
-      "sha256": "bc899bcda507bbdad9cb6eee52c4a9e4f19293d237705a5f32b57ea258d0acbc"
+      "sha256": "3856278228c1b3f926ed8250923d8b64e81038bb250793fdb6f645ed99916a97"
     },
     {
       "path": "products/lake-district-collectors-pin/index.html",
-      "sha256": "32f3dbf1a5dc09daca0e329643710295c3ef7de36d8fadb2c71dd47939851830"
+      "sha256": "113ecb4a7fc3210b67b151b08728f0664871ad5d705c2598ed706c6b46ac973e"
     },
     {
       "path": "products/lake-district-embroidered-badge/index.html",
-      "sha256": "c94582aefe7840d2f3fe1992b92ccf4c591793fb1ada476cee98eb58c5cea247"
+      "sha256": "3f24bbd52f84929eb6624265f40eea958342fcd374082464f969ab6ac87724bb"
     },
     {
       "path": "products/lake-district-mug/index.html",
-      "sha256": "4daa9a448510cd477d7574d258feec1f60f13a2e0ba1701c5111f13b2424444b"
+      "sha256": "718d9ac3e6f1eea7a55fdba4c0dc381956043faefc60d8e6cd82bf91c594a55a"
     },
     {
       "path": "products/lake-district-notebook/index.html",
-      "sha256": "8d1f727627651655ef3e20d15023c6aab66d60ef66f30c6dc026e2c7a149f939"
+      "sha256": "ec8480fb610b4e461ad4edee3d533e0776f8a02c3cad4dd1603f293e78221e48"
     },
     {
       "path": "products/lake-district-pen/index.html",
-      "sha256": "a0d653e852d3317b430ee6d37438215f6c742c69502406cca74de2357c658d18"
+      "sha256": "13467e028568a5911bf8f2ad513250993e3a6dee6c185db8ada842f3f998ad6b"
     },
     {
       "path": "products/lake-district-shot-glasses/index.html",
-      "sha256": "f69fdbd69aaac556348074dcd093873102541f21f4f8f0d33cca765952daf5ce"
+      "sha256": "3715ee5e9567b9392262a8cd374797470bcb35bd4d0400dade4e23b1b10d28b0"
     },
     {
       "path": "products/lake-district-teaspoons/index.html",
-      "sha256": "04fcd30d8d9364ce276b67c641f9b5feebad086aae8aa9de8cce76a81527aed2"
+      "sha256": "a4cee1014c532ab9d899edac63a55cd3a74f612c884c69d98ba3f4f88d0b52ec"
     },
     {
       "path": "products/lakeland-rock/index.html",
-      "sha256": "8dad0e0b69cd794c58f5e854a558a63b7bceb33fd79f26cf3e68b33c3254e24a"
+      "sha256": "f1873e27ab920855751fa044a7d75ca97ae028273818c620b2096a709c94d9cf"
     },
     {
       "path": "products/lovely-liquorice-walker-s-nonsuch-toffee-bar-50g/index.html",
-      "sha256": "af7bf291d504817687c87f97baac72e1bcb929b065b03bee5bf0edb0d3d95875"
+      "sha256": "f4cc4fadff90be5715d0615f0c87a77ba892fac8f807475522447567c09e93b8"
     },
     {
       "path": "products/lucozade-sport-orange-500ml/index.html",
-      "sha256": "fe4362cf8f30f1eda4c56bd1b3d309a7bef6d2aaad6ce4d642ccc6a0fa52d480"
+      "sha256": "1e09301f5f1974e4d49ce4a76d8429c5f77690df9434f5f2bca1ba10f40f8da8"
     },
     {
       "path": "products/lucozade-sport-raspberry-500ml/index.html",
-      "sha256": "55b9128115a34f0444fc7ea18a99fc84e047c1acfabcae51b19ef66deb51158c"
+      "sha256": "2f8696734cbb569c9f554bcd3ba579b03456889048330f3609a5445727a519d2"
     },
     {
       "path": "products/lying-peter-rabbit-large/index.html",
-      "sha256": "4a8844e8b577ae38c8db5b8475a9dec0b98b711febe4d43f375f6e55b3260b84"
+      "sha256": "c627a3b59b57b8c297de8e8a9c0bf971fcbdbc9544a8e794d270ed7126d22402"
     },
     {
       "path": "products/mars-duo-chocolate-bar-78-8g/index.html",
-      "sha256": "c7d86fb1bbccf23d6647b67281eb3fedc266580d5943d29348f86bb913d91c84"
+      "sha256": "714e18e82d521924f289174576945b84d54ac1b302de9004ebd8329f0df054ac"
     },
     {
       "path": "products/mrs-rabbit-peter-bauble/index.html",
-      "sha256": "ab40a57c2ce05ed21179b2f18b4fffff7e4c1c591dd689c63475f5bec1e4b5a8"
+      "sha256": "6eb90830676a6d6be04ed0434313d491cc6b6626e6a0c8715e526e43905cd18d"
     },
     {
       "path": "products/oasis-citrus-punch-500ml/index.html",
-      "sha256": "c123c47c1c18e863c78a10cae2d3d4d5bdb8a7f025c3c8541b47e07fb24abafd"
+      "sha256": "285434b69ace91cacf0dfb3ceaf74c5c49459e435bf55f88519e6a9d502a73aa"
     },
     {
       "path": "products/oasis-summer-fruits-500ml/index.html",
-      "sha256": "04c799f4863ecca4f9f7ee97b3838d5b8a36ef29ab88e77b000048e515a5e571"
+      "sha256": "58e8fbc65463629c1a35f07d67584f457d46501f57675aae693ba96c3d0adb90"
     },
     {
       "path": "products/os-ol6-map/index.html",
-      "sha256": "069753267ef9519262747c3e68e104549b1eb20d4b2aa3a25a65522e3f63305f"
+      "sha256": "9b4e4f87410863070ec3d70950eab132c2f384c9f7a8584dc9ca3889aed64868"
     },
     {
       "path": "products/os-ol7-map/index.html",
-      "sha256": "d06851822f82b8504fe51080ee8c584769c101a7f3024d2e0111a75178b7c086"
+      "sha256": "061f9b0fb1cd7b90b3a085c0aa2ff6f7a38a0ad6f31e4c1f8168b6b383661719"
     },
     {
       "path": "products/peanut-brittle-bar-100g/index.html",
-      "sha256": "46a48b522bd62fd4a90f250d79dff77d278a4e7181c4b236aa0eddf9bacc1b0c"
+      "sha256": "515e2add043b8207682214f65ad7782a0c4bab2b9d0019788d181f52eacb5af7"
     },
     {
       "path": "products/peter-and-flopsy-bauble/index.html",
-      "sha256": "e8f128347346f52fa1c850f824bda4b5471c3ecfacbdf3445714a7e9525f986d"
+      "sha256": "874520eaff92f0d06b9c864458e2200c975b98c9910fee3d8fcca73638fd9b77"
     },
     {
       "path": "products/peter-my-1st-christmas-bauble/index.html",
-      "sha256": "f657ee7757753e98cdb7f7bc1b771d11209df4560818f694e2020cafce71d628"
+      "sha256": "9284ad7196fbeac3ed1a84038a0aecb0a61bdb695eb89a00b582056e64ee5563"
     },
     {
       "path": "products/peter-rabbit-christmas-bauble/index.html",
-      "sha256": "e76016cf766033337b50dc01a4dd94470f2752c06deb354bd23ff818ec866b35"
+      "sha256": "56a45095156b1cf7f1c8af6ae764111bebbd6c632627daf87943c38f2268c12f"
     },
     {
       "path": "products/peter-rabbit-double-oven-glove/index.html",
-      "sha256": "57e2fae1cd3ede1eacb595c0c988291fcc6b269ee14432b58a2cc70ced888f50"
+      "sha256": "354c4c4f4e169d75e21e8f68b8ca57832c33b63973ad7e0d23d82d5521c28b5c"
     },
     {
       "path": "products/peter-rabbit-ho-set-of-4/index.html",
-      "sha256": "3c1df75c09b798b696b3e1fed43f45022171ace6f5793b35de00ec23a3149d34"
+      "sha256": "48d63e53586ab66a28f935e68b23b07b466f9f01ba0b75f563b9baee2f465923"
     },
     {
       "path": "products/peter-rabbit-image-tray/index.html",
-      "sha256": "bd821db3a9443164ec88d81e09f028684ee63e4270edcead4540bac088dae358"
+      "sha256": "799c7fe2d35c3959ae848664111104fee9558c7fa4aa7712365f7720ff0b0c0a"
     },
     {
       "path": "products/peter-rabbit-in-gift-bag/index.html",
-      "sha256": "fe1c5c05d524fc75fc1e4c1632e4d4d627f83d4501b6620b44ab32ff1f5f02b4"
+      "sha256": "9daa6e8cac30801990639d677934e026a23a3a70b17436c975708c31920285d5"
     },
     {
       "path": "products/peter-rabbit-keyring/index.html",
-      "sha256": "06d6a5cea54886163abfac756dd44e1c8b1f511200abfbb6904e418350415e7c"
+      "sha256": "070bd2c9ce98bb6db8a2eb7c48a9b596e8d650a4d47e4d5c735fc0c99b161a4b"
     },
     {
       "path": "products/peter-rabbit-large/index.html",
-      "sha256": "1670f24cae497f127efe085c8bdb5a1fa5942f04144513e3d3268e2cab2e2233"
+      "sha256": "38ed73506548a8d3a02e835c0c63f6438469c968b5f49c55003912e338a679d6"
     },
     {
       "path": "products/peter-rabbit-medium/index.html",
-      "sha256": "0c2639f8a9c57ad00c2eea29a6223244bb81c1818bc6fe8a42a878296c56f96a"
+      "sha256": "fec806caad3693cf5d194916b89a2a21af81d2e6cb07dfc17a07f4aed548fd8e"
     },
     {
       "path": "products/peter-rabbit-mug/index.html",
-      "sha256": "70c7e9d27870f4cc44199bab72a15f3a69f7043fa47cb41a4b01dc8de47b1df6"
+      "sha256": "493ef867473abd52cafac8967718b751e9d5573c1edc16dd6f86a126a6955c22"
     },
     {
       "path": "products/peter-rabbit-mugs/index.html",
-      "sha256": "b1b947d2ac7c98fe358352e4f033daf34bf71c07afd2cda2c46c4abeff91d9ae"
+      "sha256": "66dde3eca442fde957ca0cbd75d60f1fd9874b646d5cf2ead6eab1aba170217b"
     },
     {
       "path": "products/peter-rabbit-notepad-set/index.html",
-      "sha256": "fe440e0bc0b6c81c2eff3dade799710711e0450176bc011384ece9a377f450b5"
+      "sha256": "415ac2a22e89ab3b6aa5e65c44d6bfd5f35c81810c2de5f7007d9c28677d8010"
     },
     {
       "path": "products/peter-rabbit-playing-cards/index.html",
-      "sha256": "0c98344f93945d56295901f0d691ce9b43dbf0532847eb48144ac4b8a4d9629d"
+      "sha256": "34726edb44f4d6c191fd52f75580b654562d8f34e953e4276590a1ad87652059"
     },
     {
       "path": "products/peter-rabbit-small/index.html",
-      "sha256": "1b0b60a598439cbf9727980ea60409932218c5f56269441b2ae7643c7577f95b"
+      "sha256": "640dbd65951b92c03ab9b01a11c43372733265ebebd2c5a21c2258b8cace5ee5"
     },
     {
       "path": "products/peter-rabbit-spatulas/index.html",
-      "sha256": "36cd77097f21642571c112c0b6d82292201753c9aff59e600d22f8057daa8ee1"
+      "sha256": "2af66cb319679ae64d623dd8d8441a43fc19a3c840743c351dab673e77337e69"
     },
     {
       "path": "products/peter-rabbit-tea-tray/index.html",
-      "sha256": "d8fcacf84014833f67261c706fb20f99aa95531b24a4ce947a818437524e6d25"
+      "sha256": "de6e573b45e481462a0ff3e5b45953435a106eca1c81d149fdea326eb4201eb2"
     },
     {
       "path": "products/peter-rabbit/index.html",
-      "sha256": "fc8ac3bdfd8c41db2f08b76655778740485e81c4712aa476b3afb8be383cf054"
+      "sha256": "a30000551ae787ba5669bfa3ae0894429b7564ee5dc7ec1c6e18685d4687793c"
     },
     {
       "path": "products/pink-white-nougat-bar-120g/index.html",
-      "sha256": "62c42c4dc9b4e52926b9cdb9efbaa7e3e675f71ac859510d0c7309f968d595d5"
+      "sha256": "79f8b257611f95242aa795b8702e90f270bc1d793715b05c505c64f719c388e1"
     },
     {
       "path": "products/plush-soft-toys/index.html",
-      "sha256": "f11457e16b75c51c0a5fe5b8d56ca079f34dd29d767be2051d25d10797492928"
+      "sha256": "4a1460041ac7911778ca7d23c5a9a3ddd0bce39f0b9b4cc1a70a0bdb94a5c7c1"
     },
     {
       "path": "products/pocket-money-toys/index.html",
-      "sha256": "014eeb5c62b7959fa924e4201485d3da5144fded86c6be3acc7aee32b802a924"
+      "sha256": "589ca1533ceaa17352cdf2cd6fb47e6f8953b10a54d3bd19c563c365bdb0876f"
     },
     {
       "path": "products/postcard/index.html",
-      "sha256": "4b0d569581181aeca2cb1913532f3a2a4c2be53df45f0cce4d4a6a04817238a4"
+      "sha256": "2aa175855ae8645568f80943c1d4ed7ec5e519235bb0c6c5e683ee9caed226d6"
     },
     {
       "path": "products/r-whites-lemonade-cans/index.html",
-      "sha256": "ea51557ef2fd1c6df5cc694651aefd091c41d581ad0f6de538097648e357868c"
+      "sha256": "7e68dc4c6f7a42bf5467a919017d9db56cca217f266465c482a1a0b31b510891"
     },
     {
       "path": "products/red-bull-energy-drink-250ml/index.html",
-      "sha256": "86a02c86033f032b2e45d57988e816d510b53dc8b6ba86d266466260e8c171a2"
+      "sha256": "d6919642414138eda9e4ef974fb3c7246cb03af41799fd8b5680bafefb4f8a94"
     },
     {
       "path": "products/reduced-books-sale/index.html",
-      "sha256": "6aad8a7c2ba2385b1350f0b2f8889a3fcb6cb67a2b34879753cdbf6a57ab823a"
+      "sha256": "ff0c45f3bbe2e2a81f0778b0e1f16c9a23bd24f4665727513a43db754763d720"
     },
     {
       "path": "products/ribena-blackcurrant-500ml/index.html",
-      "sha256": "fa88fa47bd58c2df04176bf1637d704eb82d8d6cb0f962bbcb23a5ffcc649165"
+      "sha256": "7cc94579dc7a7ee12b7512ae5a9be4126457b083781bc2dc510ab2d1819f32a3"
     },
     {
       "path": "products/robinsons-fruit-shoot-apple-blackcurrant-275ml/index.html",
-      "sha256": "f7f26da8d4e4e791fd520d234906bcaaef2c73fc84f8cdf67d328484ef59ca51"
+      "sha256": "a09317b8e326c08ea417f515a0110b85e89b8c1e90ddcee8d250d019c562fc02"
     },
     {
       "path": "products/robinsons-fruit-shoot-orange-juice-275ml/index.html",
-      "sha256": "eafb4cfc6a500484544b023fcd3b1171832bc05da447ef9441e8d3a31a0a0ef4"
+      "sha256": "e7459bb9d0fe6ff2c1361143ee6dd7264581f22fff7b4eaa80a5d94c8d7d2690"
     },
     {
       "path": "products/romney-s-kendal-mint-cake-85g-bar/index.html",
-      "sha256": "2ba332c2a7a025dd9289185c97bc1e24555cfeab47d5bc360abf697dce660741"
+      "sha256": "66f0baf1b84898c3826dbd5743b5dc203745f127d22fe971ce158cf89f41e6dc"
     },
     {
       "path": "products/romney-s-sherbet-flyer-75g/index.html",
-      "sha256": "c604eb1e1a6d1b8cb2041f0f1e5014ade27aaefdc78668b89574dd6c915af45b"
+      "sha256": "016467b72bad4c31b8d9775e8341ba7c3cb6e0fc46040d12b2a0edc0ecad9721"
     },
     {
       "path": "products/romney-s-strawberry-bon-bons/index.html",
-      "sha256": "5eb4abc70dc3a7aa008a95b1d6202b91c98865a1742bf183614dec23311086ac"
+      "sha256": "66a5134373e5b838e037ad12fc867d9c01ed238ecd199a464b85f1d9cf32cf26"
     },
     {
       "path": "products/romney-s-sweet-bag/index.html",
-      "sha256": "f4a9ff0c0aa02ff6c10bea1c3ef0042c6643a02d5a44915669c079dfaf5ddde3"
+      "sha256": "5e01edf027ff59ca731567e1a7557a2e87d98e0e7f79a2bf29442b97edf8129c"
     },
     {
       "path": "products/romneys-kendal-mint-cake-giant-white-480g/index.html",
-      "sha256": "24b6dcd72bf52e6f64ca54368c0ac7bd08b5238f80bfe9bea1a6563366ed75f5"
+      "sha256": "9329f26d138c8ed3ae6c9ad9c4f168b4f5012166ea0d1f2ff0c85df4f0a88db8"
     },
     {
       "path": "products/rum-raisin-fudge-150g/index.html",
-      "sha256": "0c554c2c62d5d7b343b9cde71f7fdf270ed9a6cac689b98b2bf3c7eafa8a07d3"
+      "sha256": "b3e34f6db56bbf7e23ba8b17777487ae43b2b819d4669e34b67b3a321742c110"
     },
     {
       "path": "products/salted-caramel-fudge-150g/index.html",
-      "sha256": "7335776134103fb33c810b23661fce2383f782d2c047f92eb3e4e8fe8c39608b"
+      "sha256": "ed5696fa79a9fffc2b0db420523d713f5f1539b5df6b0684690add7d642757bf"
     },
     {
       "path": "products/self-adhesive-stickers/index.html",
-      "sha256": "4bed1f75e85b749a173f0b37757fcf8a502cd52e8572adc13c808a0ddc0529f4"
+      "sha256": "178af3a35a5f30d5abb48ce2bbd41002260c23e8fee406a1994a1909e78d44ae"
     },
     {
       "path": "products/set-of-4-hanging-ornaments/index.html",
-      "sha256": "45734fedccee7616f37743d7181dbb8ea93a8295162603bbc710a6002ec89985"
+      "sha256": "fd7a04e13332470c1245ec0bd33cea375db4701fe78eff2aaf02b7a5fdcda4c9"
     },
     {
       "path": "products/shortcake-biscuits-200g/index.html",
-      "sha256": "a994bf2734ab71398272c2fcaebe9fe74401a48804af6aa732719423b141e9d2"
+      "sha256": "6fae44b6ceea4957ae2ace88a1350cf32dbfa3d90f78be6f44b7727bd9b2d351"
     },
     {
       "path": "products/snickers-duo-bar-83-4g/index.html",
-      "sha256": "88fb0337ec0b9df59646f021cc177c5df3d774dcb7544e725ee6b12278d44676"
+      "sha256": "35215a2b7699eecb3eb7c3bb545a850963fb3e0d2f09588523e0f2d3d12bb80b"
     },
     {
       "path": "products/soft-toy/index.html",
-      "sha256": "8446ee95f4310228e80e6b0bb5dfd57d5a46e89162c5d17220d2b0fafe3b4c27"
+      "sha256": "3d79332d2f20765ff136d8de1164cf196f7a88e67d29b181d10b4e8d721e9455"
     },
     {
       "path": "products/sprite-original-500ml/index.html",
-      "sha256": "3da9749a5d8cb4ff6e29e441251d918b4b78246f84a2845633f61dab342d80bd"
+      "sha256": "996a0b654d02ce81a0123c21aae90e63cb70218c10824648e7bb17532fcf9881"
     },
     {
       "path": "products/squares-cheese-onion-crisps-72g/index.html",
-      "sha256": "639425e03be96f8e6c5faada5f0c2e2fe51d01b1c292360e26d6a031991c9a16"
+      "sha256": "12ac5d0da54faa9c755de32402cd94b0ae1c4593e867ecec4b7fe6307976df8a"
     },
     {
       "path": "products/sun-cream/index.html",
-      "sha256": "fd58cdbcaee8407c9b8d38f37b8e5d9af88eae957fb953eb36df1e9273afce54"
+      "sha256": "1419b7c20a30bd4583a0f280e11c4e8a6ab86905ed8a3ceaeb8a145087e12892"
     },
     {
       "path": "products/sunglasses/index.html",
-      "sha256": "07c6b9bec52125a08c7109bc3592a00b72f8528c7808174a733c6a8ba44b5fb4"
+      "sha256": "92c28a998d30b0cb1e94b2847ab8187331ddbb2676cb7d0d149c51eb5c579e8d"
     },
     {
       "path": "products/tango-orange-500ml/index.html",
-      "sha256": "b0971aba6ca38ec20fad67b4694e9f3857a8d4cae8db1fdd6aa64dab5cd3313d"
+      "sha256": "e1e3f14b794f292bdf036db9dd2c83338aad5cb7277c553e02b7377488b49127"
     },
     {
       "path": "products/tea-towel/index.html",
-      "sha256": "874bdf07f32cae8557a8235004183c23f504e5966f2a1a1681ab712a7b4e5273"
+      "sha256": "0cf1c2b94bb1601b78daf30d141b36957ba39420934b358eab583e801f17aa37"
     },
     {
       "path": "products/tennis-ball/index.html",
-      "sha256": "8afcc165329c2fe542881088bf15bfcac6fb7351b2036ab4937f9a2c59fe69e9"
+      "sha256": "a130bcf87fd4d7a17f42bc364b69b111a3330b5841b3b3e6b461f94b6c0664ad"
     },
     {
       "path": "products/thank-ewe-novelty-box-300g/index.html",
-      "sha256": "3701bfc92b64291b08ee383ca3a6d9be07695e2a622797dc30dda6e8648904db"
+      "sha256": "efafe67e9eed00faca0e09b100166960cfa29fd1f0c801f42497dc29cb8270c0"
     },
     {
       "path": "products/thank-you-cat-novelty-box-300g/index.html",
-      "sha256": "3227356cba0cc9b0755d2e5256f175399d43bf5d70b846c51a91dc4b251a483a"
+      "sha256": "9625451ab07b5a3617a01a170b642bc8f60a8b5958bb870eea2d554f1f89fce4"
     },
     {
       "path": "products/thank-you-dog-novelty-box-300g/index.html",
-      "sha256": "e571a58d47cfe96bfc2629b153e7031e235b08d98be7e4b34a09f6a9976caf30"
+      "sha256": "6db3acb8d0f9392e99e2b837e2d46c0192d71417e8e3c711be333c3cbd2af01d"
     },
     {
       "path": "products/the-lake-district-notepad-pen-set/index.html",
-      "sha256": "1b7fd67f169dbc59d08827dfe486fdf8dd81524bb208432960d5c8a230ed336b"
+      "sha256": "5305f2c47644d25d967b6a82b94aa20751ef7a960787a91ffc9aa7a29044ffc9"
     },
     {
       "path": "products/top-10-walks/index.html",
-      "sha256": "57800dcfc5a4b8e39d664aea65cd78d267d67c5eb8e94d8a658d01872cda5ac2"
+      "sha256": "9b7eb328d8b95f3d82f0eb2cf705167d5330f32f5103516d364ce5e56c5c1d58"
     },
     {
       "path": "products/tote-bag/index.html",
-      "sha256": "8075581565a715ce358b6df751cd43c018a2ae80e78c72e3706afe395a92e6ee"
+      "sha256": "55b97def770cbdb2c047ccfec9885b4b3a45c5d588e768a17a291aa2b470db7d"
     },
     {
       "path": "products/triple-choc-fudge-150g/index.html",
-      "sha256": "0e4d54a5ab620d43030edc0cf4d1549503a986622f4143b0d1a65d166081cda2"
+      "sha256": "9f8521845f0d7d4380c807b5b04246453523d849c1b48accb878c6e56d1712ad"
     },
     {
       "path": "products/triple-pack-kendal-mint-cake-227g/index.html",
-      "sha256": "a3b370a9bd3942a5d6333121d224d4196c49b4dbb8d7f7c2c299b01a2d073b4e"
+      "sha256": "507de8dc06e02f6921d9cc42d7a79a0fbbbb26b30f91c01d45b84e11cc62c954"
     },
     {
       "path": "products/vanilla-fudge-150g/index.html",
-      "sha256": "c965245f9b0c17e58c2ee50d4c9a0146d7859bd3c870577f4e20d701545e2462"
+      "sha256": "fc726845933d0dff15bdaba820ed04073f5e9b11597772a8decad900a2f871c4"
     },
     {
       "path": "products/vanilla-fudge-bar-110g/index.html",
-      "sha256": "f1ba7c3b35f36a9cf0d79f3c03bceb51ddcc190323e859da5fc97914884170dd"
+      "sha256": "e3557c685d9c2570bbeb14bc63627359054f1f3963f6fb3af5bd2cc18fb75187"
     },
     {
       "path": "products/vimto-fizzy-500ml/index.html",
-      "sha256": "2409135b55bbec6ff55e87ec2373b4aa326c3bf2d8465433fb24ce98f2016504"
+      "sha256": "80588405236c0e7dab692db6182607110f2d6305b651aabd45f4577088bae3a0"
     },
     {
       "path": "products/walkers-cheese-onion-32-5g/index.html",
-      "sha256": "c631be6129b2f82eb8242faed323dce087bc631e843ea47de2e273bc36f8f8eb"
+      "sha256": "ef67761887adbcf3ceb728057311467f78c57cdf99919845454a4a78046ffd01"
     },
     {
       "path": "products/walkers-original-dreamy-creamy-toffee-50g/index.html",
-      "sha256": "25caf458d1cec63560c482c3dafd8c2213ca2ef0d9eeb1038ddb3cb98db51685"
+      "sha256": "f5e436caee9890433f98ee288d429bdd187005335625d89c9fcd82dd0ebbad8e"
     },
     {
       "path": "products/walkers-ready-salted-32-5g/index.html",
-      "sha256": "9fe3bc0ec59d048c134ea408a4dbede69f52f0c1101a4bf90b500b40e1580779"
+      "sha256": "1c6c886c364fca9e67aab4f2ed05ee9d1d45e4c3242aca8a88c49f5ed88b68bd"
     },
     {
       "path": "products/walkers-roast-chicken-32-5g/index.html",
-      "sha256": "8778c8055cc5bb697ad26eb2952163931ea69fae6987a344daded8d9d19c3cd3"
+      "sha256": "abc078089cb2889eafdc68508863605f28cb6cca44d220e4c9e83b6a612022eb"
     },
     {
       "path": "products/walkers-salt-vinegar-32-5g/index.html",
-      "sha256": "bf7a710833d0487f278fd702240eedf2648fca83bf2cce718bd92bfd7400b323"
+      "sha256": "6c88ab63d4e02b4958fed4a152307c2edb7f007c7c749b91b368ae64be45b5c8"
     },
     {
       "path": "products/walkers-tomato-ketchup-32-5g/index.html",
-      "sha256": "d9e847b4fec3e64458ce6aaf7020e128f4ea0497697a612deeabec17158f33b1"
+      "sha256": "bb6fe4f3a52a094f26be64b54bbb4970ad45a2a7db9dcb7b7d8b33f129ac942a"
     },
     {
       "path": "products/walks-around-ambleside/index.html",
-      "sha256": "415c9dcea9842d5418bf0950c0bfa0dffb2ff160222c109ab0fe6ee8b108c865"
+      "sha256": "0330f651e8e3575fc2dfb6f5851abc410f699a9d4b9ac5dea4c8e13a77e670b0"
     },
     {
       "path": "products/white-choc-fudge-150g/index.html",
-      "sha256": "e27b7657b01db88928c8a866fe7517ff939911579cb748d2aa9fe5965b66f720"
+      "sha256": "704a15aee6ac85d28e94a5ceb3b1e625cf4772f585b8cc211cce7ddbbb76e97c"
     },
     {
       "path": "robots.txt",
@@ -2359,11 +2367,11 @@
     },
     {
       "path": "romneys.html",
-      "sha256": "8318afc553723c056122818deaaa78097418b8a9d3c20695bd1ff7e8b6371977"
+      "sha256": "aa0e3f55d697c495b76a7dd2498d07a74cd705b402878944bd09f11a39406d01"
     },
     {
       "path": "services.html",
-      "sha256": "00c8aee7c99906d82ef91c4edd965beb5bb143da59e560ec0e60d4d762c88c56"
+      "sha256": "494d0812bd730de6f3587108717dd993b34435504294f326b9a6bbf03e67f77b"
     },
     {
       "path": "site.css",
@@ -2371,7 +2379,7 @@
     },
     {
       "path": "site.js",
-      "sha256": "17ece9b54e7301a80ce6cb104d50b2f9dad6947b2ab28def81294603f96aa322"
+      "sha256": "772de4c4d848fe0fd535bffd041f1a16884559e7de8404f814cdd5af4015747b"
     },
     {
       "path": "sitemap.xml",
@@ -2379,11 +2387,11 @@
     },
     {
       "path": "souvenirs.html",
-      "sha256": "04bfba9db1bcf4fe10aa0be388a69bd65d129e2d87c749057c077afdb1f2c719"
+      "sha256": "52cedbe9c16903307e97c51288253f5159171ddf86e438003de624104a6343f1"
     },
     {
       "path": "to-do.html",
-      "sha256": "886e250ed42530d77106669f758f9e681efb2771b569f2e7ddaf7fbf0e709577"
+      "sha256": "08efbd96caad8cbb6be65d1c76bfbce07db7c8b171110c4fa3cf8560aca010f8"
     },
     {
       "path": "to-do/Ambleside.jpeg",
