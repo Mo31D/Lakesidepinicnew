@@ -1006,29 +1006,24 @@ function ProductPage({ id }: { id: string }) {
         </nav>
         <div className="product-detail-grid">
           {p.gallery?.length ? (
-            <div className="detail-gallery">
-              <div className={detailImageClass}>
-                <Photo
-                  src={p.gallery[0].src}
-                  alt={p.gallery[0].alt || p.imageAlt || p.name}
-                  priority
-                />
+            <div
+              className="detail-gallery"
+              aria-label={p.name + " product images"}
+            >
+              <div className="detail-gallery-track">
+                {p.gallery.map((image, index) => (
+                  <div
+                    className={"detail-gallery-slide " + detailImageClass}
+                    key={image.src}
+                  >
+                    <Photo
+                      src={image.src}
+                      alt={image.alt || p.imageAlt || p.name}
+                      priority={index === 0}
+                    />
+                  </div>
+                ))}
               </div>
-              {p.gallery.length > 1 && (
-                <div
-                  className="detail-gallery-secondary"
-                  aria-label="More product images"
-                >
-                  {p.gallery.slice(1).map((image) => (
-                    <div className={detailImageClass} key={image.src}>
-                      <Photo
-                        src={image.src}
-                        alt={image.alt || p.imageAlt || p.name}
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
             </div>
           ) : (
             <div className={detailImageClass}>

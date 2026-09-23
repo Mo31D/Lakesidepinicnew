@@ -3174,20 +3174,24 @@ button:disabled {
 
 .detail-gallery {
   min-width: 0;
-  display: grid;
-  gap: 14px;
+  overflow: hidden;
 }
-.detail-gallery-secondary {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 14px;
+.detail-gallery-track {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
 }
-.detail-gallery-secondary .detail-image {
-  height: 240px;
-  padding: 20px;
+.detail-gallery-track::-webkit-scrollbar {
+  display: none;
 }
-@media (max-width: 760px) {
-  .detail-gallery-secondary .detail-image {
-    height: 220px;
-  }
+.detail-gallery-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  min-width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
