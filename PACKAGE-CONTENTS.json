@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "705eca19933ed4ea0c0f87161a005f6fbf562967",
+  "sourceCommit": "3cb695aedac1f99d7981623228c13d702666ae10",
   "sourceDirectory": "src",
   "catalogueRevision": 11,
   "files": [
@@ -1475,7 +1475,7 @@
     },
     {
       "path": "product-images/enesco/peter-rabbit-ceramic-hanging-ornaments-set-of-4.webp",
-      "sha256": "fea8a7639cf1382a34ae728dce566aac22a2855f5996b2514eda378fd60ae29b"
+      "sha256": "c9eedca2e9365c2989cf7e91ba890dbbf6deb048ec3d85d84775d649b72fdd96"
     },
     {
       "path": "product-images/enesco/peter-rabbit-double-oven-glove.webp",
