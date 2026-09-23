@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 13,
+  "revision": 14,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2704,20 +2704,23 @@
       "id": "peter-rabbit-in-gift-bag",
       "name": "Peter Rabbit in Gift Bag",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/peter-rabbit-in-gift-bag.webp",
+      "description": "A beautifully soft Peter Rabbit plush toy dressed in his signature blue jacket, just as illustrated by Beatrix Potter, and presented in an adorable branded gift bag. Suitable from age 1+, hand washable and CE marked. Approx. H 16 × L 6 × W 8 cm.",
+      "image": "/product-images/enesco/peter-rabbit-in-gift-bag.webp",
       "path": "",
       "price": 14.95,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
+      "sourceNote": "Product identity, SKU, dimensions, age guidance, care and CE marking verified against the official Enesco product page. Lakeside Picnic price (£14.95) matches Enesco SRP.",
       "imageMode": "cutout",
-      "imageAlt": "Peter Rabbit in Gift Bag"
+      "imageAlt": "Peter Rabbit soft toy in branded gift bag wearing his blue jacket",
+      "manufacturerSku": "A30807",
+      "material": "Soft plush fabric",
+      "packaging": "Branded gift bag"
     },
     {
       "id": "lying-peter-rabbit-large",
