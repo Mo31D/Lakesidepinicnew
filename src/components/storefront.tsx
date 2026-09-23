@@ -985,6 +985,12 @@ function ProductPage({ id }: { id: string }) {
   const info = ice ? iceCreamInfo[p.id] : undefined;
   const nutrition = ice ? nutritionRows(p.nutrition) : [];
   const url = categoryURL(p.category);
+  const detailImageClass =
+    "detail-image category-" +
+    p.category +
+    " " +
+    (ice ? "ice-detail" : "") +
+    (p.imageMode ? " image-mode-" + p.imageMode : "");
   const related = publicProducts(data)
     .filter((x) => x.category === p.category && x.id !== p.id)
     .slice(0, 4);
@@ -999,24 +1005,43 @@ function ProductPage({ id }: { id: string }) {
           <span>{p.name}</span>
         </nav>
         <div className="product-detail-grid">
-          <div
-            className={
-              "detail-image category-" +
-              p.category +
-              " " +
-              (ice ? "ice-detail" : "") +
-              (p.imageMode ? " image-mode-" + p.imageMode : "")
-            }
-          >
-            {p.image ? (
-              <Photo src={p.image} alt={p.imageAlt || p.name} priority />
-            ) : (
-              <div className="detail-typography">
-                <Gift size={48} />
-                <p>{p.name}</p>
+          {p.gallery?.length ? (
+            <div className="detail-gallery">
+              <div className={detailImageClass}>
+                <Photo
+                  src={p.gallery[0].src}
+                  alt={p.gallery[0].alt || p.imageAlt || p.name}
+                  priority
+                />
               </div>
-            )}
-          </div>
+              {p.gallery.length > 1 && (
+                <div
+                  className="detail-gallery-secondary"
+                  aria-label="More product images"
+                >
+                  {p.gallery.slice(1).map((image) => (
+                    <div className={detailImageClass} key={image.src}>
+                      <Photo
+                        src={image.src}
+                        alt={image.alt || p.imageAlt || p.name}
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className={detailImageClass}>
+              {p.image ? (
+                <Photo src={p.image} alt={p.imageAlt || p.name} priority />
+              ) : (
+                <div className="detail-typography">
+                  <Gift size={48} />
+                  <p>{p.name}</p>
+                </div>
+              )}
+            </div>
+          )}
           <div className="detail-copy">
             <p className="eyebrow">
               {ice

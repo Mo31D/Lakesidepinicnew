@@ -112,7 +112,11 @@ export function structuredData(c: Catalogue, page: PageInfo) {
           : undefined,
       category: product.category,
       description: product.description || page.description,
-      image: product.image ? origin + optimizedImage(product.image) : undefined,
+      image: product.gallery?.length
+        ? product.gallery.map((item) => origin + optimizedImage(item.src))
+        : product.image
+          ? origin + optimizedImage(product.image)
+          : undefined,
       brand: product.supplier
         ? { "@type": "Brand", name: product.supplier }
         : undefined,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 9,
+  "revision": 10,
   "updatedAt": "2026-09-23",
   "categories": [
     {
@@ -2447,22 +2447,35 @@
     },
     {
       "id": "set-of-4-hanging-ornaments",
-      "name": "Set of 4 Hanging Ornaments",
+      "name": "Peter Rabbit Hanging Ornaments (Set of 4)",
       "category": "peter-rabbit",
-      "description": "",
-      "image": "/product-images/google-menu/set-of-4-hanging-ornaments.webp",
+      "description": "A set of four Peter Rabbit winter hanging ornaments, each hand-painted and finished with a red hanging ribbon. The four festive scenes show Peter at a post box, carrying presents, holding a snowball and riding a sledge. Each ornament is approx. 9cm high and the set is presented together in a branded gift box. A decorative collectible rather than a toy.",
+      "image": "/product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4.webp",
       "path": "",
-      "price": null,
+      "price": 24.95,
       "unit": "each",
       "available": true,
       "visible": true,
       "featured": false,
-      "supplier": "",
+      "supplier": "Peter Rabbit",
       "ingredients": "",
       "nutrition": "",
-      "sourceNote": "Google menu captured 6 September 2026; prices and stock are subject to confirmation in store.",
-      "imageMode": "photo",
-      "imageAlt": "Set of 4 Hanging Ornaments photographed in the Lakeside Picnic shop"
+      "sourceNote": "Product identity, SKU and 9cm height verified against the Enesco Beatrix Potter catalogue; material, red ribbons and branded gift-box presentation corroborated by product listings. Lakeside Picnic price (£24.95) owner-confirmed; stock is subject to confirmation in store.",
+      "imageMode": "cutout",
+      "imageAlt": "Four Peter Rabbit winter hanging ornaments with red ribbons",
+      "manufacturerSku": "A29927",
+      "material": "Cast stone",
+      "packaging": "Branded gift box",
+      "gallery": [
+        {
+          "src": "/product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4.webp",
+          "alt": "Four Peter Rabbit winter hanging ornaments with red ribbons"
+        },
+        {
+          "src": "/product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4-box.webp",
+          "alt": "Peter Rabbit Hanging Ornaments Set of 4 in the Winter Collection gift box"
+        }
+      ]
     },
     {
       "id": "peter-rabbit-medium",

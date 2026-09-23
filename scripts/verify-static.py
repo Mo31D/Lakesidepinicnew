@@ -89,6 +89,9 @@ for p in data['products']:
  if p['category']=='sandwiches':check(not p['visible'] and not p['available'],'Unavailable sandwiches exposed')
  for field in ['image']:
   if p[field]:check((ROOT/p[field].lstrip('/')).is_file(),f'{p["id"]}: missing original image')
+ for gallery_image in p.get('gallery',[]):
+  src=gallery_image.get('src','')
+  if src:check((ROOT/src.lstrip('/')).is_file(),f'{p["id"]}: missing gallery image {src}')
 visible_drinks=(ROOT/'drinks.html').read_text().split('<script type="application/json"')[0]
 check('Sandwiches temporarily unavailable' in visible_drinks and 'supply issues' in visible_drinks,'Missing sandwich information')
 print(json.dumps({'pages':len(page_paths),'records':len(data['products']),'publicProducts':len(products),'drinksSnackImages':sum(bool(p['image']) for p in products if p['category'] in {'drinks','snacks'}),'checks':checks,'errors':errors},indent=2))
