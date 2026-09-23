@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "4f8f3415d3efa018aaf823cd8fe1c2906ff71524",
+  "sourceCommit": "6434c97c4ce55443803bb3421f217b63e6c3c88f",
   "sourceDirectory": "src",
   "catalogueRevision": 16,
   "files": [
@@ -1524,6 +1524,10 @@
     {
       "path": "product-images/enesco/peter-rabbit-playing-cards.webp",
       "sha256": "2e766f0c22654f67568b55421c227a475144904237256172cfa41c002dc751b9"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-scatter-tray.webp",
+      "sha256": "7008825806a43488cae70b02bf81b11dd0a7874752e95929581df1504a780636"
     },
     {
       "path": "product-images/enesco/peter-rabbit-small.webp",
