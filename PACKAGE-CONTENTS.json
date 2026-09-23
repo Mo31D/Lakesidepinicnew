@@ -1,7 +1,7 @@
 {
   "version": 6,
   "variant": "source-driven-static",
-  "sourceCommit": "864caa3d7b6fcd2707a13ea18e91e6fcd9b2a6b6",
+  "sourceCommit": "b8cf92fb8152bae4a379f2347a3e18af53050509",
   "sourceDirectory": "src",
   "catalogueRevision": 9,
   "files": [
@@ -1476,6 +1476,14 @@
     {
       "path": "product-images/enesco/peter-rabbit-double-oven-glove.webp",
       "sha256": "a3cd99bbaaa29a91e250f937b40c9143367ea646a7adb206490df23fada8d620"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4-box.webp",
+      "sha256": "399c0a71d2118e3dc2fc394c294583603c340a7018860d4a58668b86152a922d"
+    },
+    {
+      "path": "product-images/enesco/peter-rabbit-hanging-ornaments-set-of-4.webp",
+      "sha256": "7503eb5f90535e7c4d052c06e06041f8d1dae51433e6332b9357ae79245a2276"
     },
     {
       "path": "product-images/enesco/peter-rabbit-keyring.webp",
