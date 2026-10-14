@@ -7,6 +7,7 @@ import {
   optimizedImage,
 } from "./catalogue";
 import type { PageInfo } from "./routes";
+import { businessLocation } from "./business";
 export const origin = "https://www.lakesidepicnic.co.uk";
 
 export function structuredData(c: Catalogue, page: PageInfo) {
@@ -29,15 +30,15 @@ export function structuredData(c: Catalogue, page: PageInfo) {
       postalCode: c.settings.postcode,
       addressCountry: "GB",
     },
-    geo: { "@type": "GeoCoordinates", latitude: 54.4329, longitude: -2.9614 },
+    geo: { "@type": "GeoCoordinates", latitude: businessLocation.latitude, longitude: businessLocation.longitude },
     areaServed: [
       "Waterhead, Ambleside",
       "Ambleside",
       "Lake Windermere",
       "Lake District",
     ].map((name) => ({ "@type": "Place", name })),
-    hasMap:
-      "https://www.google.com/maps/search/?api=1&query=Lakeside+Picnic+Waterhead+Ambleside+LA22+0ES",
+    hasMap: businessLocation.mapsURL,
+    sameAs: [businessLocation.mapsURL],
   };
   const graph: Record<string, unknown>[] = [
     store,
@@ -88,53 +89,59 @@ export function structuredData(c: Catalogue, page: PageInfo) {
     });
   }
   if (product) {
+    const brand = product.brand ||
+      (product.supplier !== "Prepared at Lakeside Picnic" ? product.supplier : "");
     const price =
       product.category === "ice-cream"
         ? (c.settings.singlePrice ?? product.price)
         : product.price;
-    graph.push({
-      "@type": "Product",
-      "@id": origin + page.path + "#product",
-      name: product.name,
-      sku: product.id,
-      mpn: product.manufacturerSku,
-      material: product.material,
-      additionalProperty:
-        product.diameterCm || product.packaging
-          ? [
-              ...(product.diameterCm
-                ? [{ "@type": "PropertyValue", name: "Diameter", value: product.diameterCm, unitCode: "CMT" }]
-                : []),
-              ...(product.packaging
-                ? [{ "@type": "PropertyValue", name: "Packaging", value: product.packaging }]
-                : []),
-            ]
+    // Ask-in-store pages stay indexable; do not emit incomplete rich-result markup.
+    if (price !== null) {
+      graph[2].mainEntity = { "@id": origin + page.path + "#product" };
+      graph.push({
+        "@type": "Product",
+        "@id": origin + page.path + "#product",
+        name: product.name,
+        sku: product.id,
+        mpn: product.manufacturerSku,
+        material: product.material,
+        additionalProperty:
+          product.diameterCm || product.packaging
+            ? [
+                ...(product.diameterCm
+                  ? [{ "@type": "PropertyValue", name: "Diameter", value: product.diameterCm, unitCode: "CMT" }]
+                  : []),
+                ...(product.packaging
+                  ? [{ "@type": "PropertyValue", name: "Packaging", value: product.packaging }]
+                  : []),
+              ]
+            : undefined,
+        category: product.category,
+        description: product.description || page.description,
+        image: product.gallery?.length
+          ? product.gallery.map((item) => origin + optimizedImage(item.src))
+          : product.image
+            ? origin + optimizedImage(product.image)
+            : undefined,
+        brand: brand
+          ? { "@type": "Brand", name: brand }
           : undefined,
-      category: product.category,
-      description: product.description || page.description,
-      image: product.gallery?.length
-        ? product.gallery.map((item) => origin + optimizedImage(item.src))
-        : product.image
-          ? origin + optimizedImage(product.image)
-          : undefined,
-      brand: product.supplier
-        ? { "@type": "Brand", name: product.supplier }
-        : undefined,
-      offers:
-        price !== null
-          ? {
-              "@type": "Offer",
-              price: String(price),
-              priceCurrency: "GBP",
-              availability: product.available
-                ? "https://schema.org/InStock"
-                : "https://schema.org/OutOfStock",
-              url: origin + page.path,
-              seller: { "@id": origin + "/#store" },
-              availableAtOrFrom: { "@id": origin + "/#store" },
-            }
-          : undefined,
-    });
+        offers:
+          price !== null
+            ? {
+                "@type": "Offer",
+                price: String(price),
+                priceCurrency: "GBP",
+                availability: product.available
+                  ? "https://schema.org/InStoreOnly"
+                  : "https://schema.org/OutOfStock",
+                url: origin + page.path,
+                seller: { "@id": origin + "/#store" },
+                availableAtOrFrom: { "@id": origin + "/#store" },
+              }
+            : undefined,
+      });
+    }
   }
   if (page.kind === "catalogue") {
     const items = categoryProducts(c, page.category).sort(

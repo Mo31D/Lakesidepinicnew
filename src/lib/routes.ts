@@ -1,5 +1,5 @@
 import type { Catalogue } from "./catalogue";
-import { productURL, publicProducts } from "./catalogue";
+import { currency, productURL, publicProducts } from "./catalogue";
 export type PageKind =
   | "home"
   | "catalogue"
@@ -46,7 +46,7 @@ export function resolvePage(
     "/hotdrinks.html": {
       kind: "catalogue",
       category: "coffee",
-      title: "Coffee, Tea & Hot Chocolate",
+      title: "Coffee & Hot Drinks in Waterhead, Ambleside",
       description:
         "Coffee, tea and hot chocolate at Lakeside Picnic in Waterhead, Ambleside by Lake Windermere.",
     },
@@ -67,7 +67,7 @@ export function resolvePage(
     "/souvenirs.html": {
       kind: "catalogue",
       category: "gifts",
-      title: "Lake District Gifts & Souvenirs",
+      title: "Lake District Gifts & Souvenirs in Ambleside",
       description:
         "Browse Peter Rabbit gifts, Lake District souvenirs, maps, books and keepsakes at Lakeside Picnic in Waterhead, Ambleside.",
     },
@@ -157,7 +157,7 @@ export function resolvePage(
   };
   if (routes[p])
     return { ...routes[canonical[p] || p], path: canonical[p] || p };
-  const product = publicProducts(catalogue).find((x) => productURL(x) === p);
+  const product = publicProducts(catalogue).find((x) => productURL(x).replace(/\/$/, "") === p);
   if (product)
     return {
       kind: "product",
@@ -168,12 +168,12 @@ export function resolvePage(
           : product.name,
       description:
         product.id === "thunder"
-          ? "Thunder & Lightning by Lakes Ice Cream: chocolate sauce and crunchy cinder toffee. Discover the flavour at Lakeside Picnic, Waterhead, Ambleside."
+          ? `Thunder & Lightning by Lakes Ice Cream, with chocolate sauce and cinder toffee. Scoops from ${currency(catalogue.settings.singlePrice)} at Waterhead, Ambleside.`
           : product.id === "jersey"
-            ? "Double Jersey by Lakes Ice Cream: rich Jersey double cream, whole milk and butter. Explore scoops at Lakeside Picnic in Waterhead, Ambleside."
-            : product.description ||
+            ? `Double Jersey by Lakes Ice Cream, with Jersey double cream, milk and butter. Scoops from ${currency(catalogue.settings.singlePrice)} at Waterhead, Ambleside.`
+            : product.seoDescription || product.description ||
               product.name + " at Lakeside Picnic, Waterhead, Ambleside.",
-      path: p,
+      path: productURL(product),
     };
   return null;
 }

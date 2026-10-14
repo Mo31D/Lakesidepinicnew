@@ -1,4 +1,5 @@
 "use client";
+import { responsiveImages } from "@/lib/responsive-images";
 import {
   useEffect,
   useMemo,
@@ -136,13 +137,18 @@ export function Photo({
   priority?: boolean;
 }) {
   const basePath = useContext(BasePathContext);
+  const optimized = optimizedImage(src);
+  const responsive = responsiveImages[optimized];
+  const actualSrc = responsive?.fallback || optimized;
   return (
     <img
-      src={siteURL(optimizedImage(src), basePath)}
+      src={siteURL(actualSrc, basePath)}
+      srcSet={responsive?.candidates.map(([url, width]) => `${siteURL(url, basePath)} ${width}w`).join(", ")}
+      sizes={responsive?.sizes}
       alt={alt}
       className={className}
-      width={imageDimensions[optimizedImage(src)]?.[0]}
-      height={imageDimensions[optimizedImage(src)]?.[1]}
+      width={imageDimensions[actualSrc]?.[0]}
+      height={imageDimensions[actualSrc]?.[1]}
       loading={priority ? "eager" : "lazy"}
       decoding="async"
       fetchPriority={priority ? "high" : undefined}

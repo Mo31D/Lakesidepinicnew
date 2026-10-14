@@ -10,7 +10,7 @@ data=json.loads((ROOT/'src/catalogue.json').read_text())
 categories={c['id'] for c in data['categories'] if c['visible']}
 products=[p for p in data['products'] if p['visible'] and p['category'] in categories]
 gifts={'souvenirs','traditional','peter-rabbit','toys','sunny-days','maps-books'}
-product_by_path={(p['path'] or '/products/'+p['id']):p for p in products}
+product_by_path={(p['path'] or '/products/'+p['id']).rstrip('/'):p for p in products}
 
 def check(ok,message):
  global checks
@@ -67,10 +67,20 @@ for path in page_paths:
  graph=json.loads(schema)['@graph'];types=[n['@type'] for n in graph]
  check('WebSite' in types and 'WebPage' in types,f'{label}: missing website graph')
  cp=urlsplit(canonical).path
- product=product_by_path.get(cp)
+ product=product_by_path.get(cp.rstrip('/'))
  if product:
   node=next((n for n in graph if n['@type']=='Product'),{})
+  price=data['settings']['singlePrice'] if product['category']=='ice-cream' else product['price']
+  if price is None:
+   check(not node,f'{label}: unpriced product must not claim Google Product eligibility')
+   continue
   check(node.get('sku')==product['id'],f'{label}: product identity')
+  check(not cp.startswith('/products/') or cp.endswith('/'),f'{label}: directory canonical must be final URL')
+  offer=node.get('offers',{})
+  if offer:check(offer.get('availability')==('https://schema.org/InStoreOnly' if product['available'] else 'https://schema.org/OutOfStock'),f'{label}: incorrect in-store availability')
+  check('review' not in node and 'aggregateRating' not in node,f'{label}: unsupported product reviews')
+  check('shippingDetails' not in offer and 'hasMerchantReturnPolicy' not in offer,f'{label}: unsupported online policies')
+  if product.get('brand'):check(node.get('brand',{}).get('name')==product['brand'],f'{label}: verified brand missing')
   price=data['settings']['singlePrice'] if product['category']=='ice-cream' else product['price']
   if price is not None:check(float(node.get('offers',{}).get('price',-1))==price,f'{label}: offer price')
   check(bool(p.meta.get('og:image'))==bool(product['image']),f'{label}: unrelated social image')

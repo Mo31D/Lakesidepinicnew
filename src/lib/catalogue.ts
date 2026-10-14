@@ -1,3 +1,4 @@
+import { businessLocation } from "./business";
 export type Category = {
   id: string;
   name: string;
@@ -21,6 +22,8 @@ export type Product = {
   visible: boolean;
   featured: boolean;
   supplier: string;
+  brand?: string;
+  seoDescription?: string;
   manufacturerSku?: string;
   material?: string;
   diameterCm?: number;
@@ -78,15 +81,15 @@ export const currency = (price: number | null) =>
         style: "currency",
         currency: "GBP",
       }).format(price);
-export const directionsURL =
-  "https://www.google.com/maps/search/?api=1&query=Lakeside+Picnic+Waterhead+Ambleside+LA22+0ES";
+export const directionsURL = businessLocation.mapsURL;
 export const publicProducts = (c: Catalogue) =>
   c.products.filter(
     (p) =>
       p.visible && c.categories.some((x) => x.id === p.category && x.visible),
   );
 export function productURL(p: Product) {
-  return p.path || "/products/" + p.id;
+  const url = p.path || "/products/" + p.id;
+  return url.endsWith(".html") ? url : url.replace(/\/$/, "") + "/";
 }
 export function optimizedImage(src: string) {
   return /^\/(Icecream|Mintcake|hotdrinks|images|to-do)\//.test(src) &&
